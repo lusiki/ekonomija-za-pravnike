@@ -16,9 +16,14 @@
   part-name.update(body)
   pagebreak(weak: true)
   v(3em)
-  context text(font: "Jost", size: 11pt, tracking: 1pt, [DIO #part-count.display("I")])
-  v(1.5em)
-  block(text(font: "Jost", size: 32pt, lower(body)))
+  {
+    show heading: it => {
+      context text(font: "Jost", size: 11pt, tracking: 1pt, [DIO #part-count.display("I")])
+      v(1.5em)
+      block(text(font: "Jost", size: 32pt, it.body))
+    }
+    heading(level: 1, numbering: none, body)
+  }
   v(1em)
   line(length: 100%, stroke: 2.4pt)
   pagebreak()
@@ -42,7 +47,7 @@
       stack(spacing: 2mm, text(font: "Jost", size: 9pt, upper(section-name)), line(length: 100%, stroke: .8pt))))
     v(1em)
   }
-  block(text(font: "Jost", weight: "regular", size: 30pt, if appendix or it.numbering == none { it.body } else { lower(it.body) }))
+  block(text(font: "Jost", weight: "regular", size: 30pt, it.body))
   v(.7em)
   line(length: 100%, stroke: 1.2pt)
 }
@@ -62,5 +67,17 @@
   ])
   #place(bottom, rect(width: 100%, height: 6mm, fill: rgb("#dcf2e7"), stroke: none))
 ]
-#outline(title: [Sadržaj], depth: 2)
+// Na početku knjige vidi se put kroz dijelove i poglavlja. Odsjeci ostaju
+// označeni u tekstu i u knjižnim oznakama PDF-a.
+#{
+  show outline.entry: entry => {
+    if entry.element.numbering == none {
+      v(5pt)
+      text(font: "Jost", weight: "medium", entry)
+    } else {
+      pad(left: 5mm, entry)
+    }
+  }
+  outline(title: [Sadržaj], depth: 1)
+}
 

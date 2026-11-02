@@ -1,25 +1,21 @@
-# Što zapravo kupujemo obveznicom?
+# Dionica ili obveznica?
 
 Poduzeće treba novac i nudi ulagačici izbor između dionice i obveznice. Ako posao krene loše, važna će biti razlika između onoga što posjeduje i onoga što potražuje.
 
-## Uloga i struktura financijskog sustava {#tema-8-1}
+## Kako štednja stiže do poduzeća {#tema-8-1}
 
-- Izravno prema neizravnom financiranju; alokacija kapitala od štediša prema investitorima.
-- Tržište novca (kratkoročno) i tržište kapitala (dugoročno); primarno i sekundarno tržište.
+Štediša može izravno kupiti obveznicu poduzeća ili položiti novac u banku koja odobrava kredite. Pratite posrednika, rok i primatelja svake uplate. Razlikujte tržište novca od tržišta kapitala te početno izdavanje instrumenta na primarnom tržištu od kasnije preprodaje na sekundarnom.
 
-## Vrste financijskih instrumenata i njihova pravna priroda {#tema-8-2}
+## Što ulagač dobiva potpisom? {#tema-8-2}
 
-- Dužnički instrumenti: obveznice (Bonds), nominalna vrijednost, kuponska stopa, prinos do dospijeća ($YTM$).
-- Vlasnički instrumenti: dionice (Shares/Stocks), dividenda, glasačka prava i status dioničara u trgovačkom pravu.
-- Izvedeni financijski instrumenti (derivati): opcije, terminski ugovori (futures) i zamjene (swaps) – zaštita od rizika (hedging) prema špekulaciji.
+Kupac obveznice stječe tražbinu. Razlikujte nominalnu vrijednost, kupon i prinos do dospijeća ($YTM$). Kupac dionice stječe udio u društvu pa njegov položaj određuju, među ostalim, prava na dividendu i glas. Opcije, terminski ugovori i zamjene su **izvedeni financijski instrumenti**. U primjeru uvoznika obrazložite kada služe zaštiti od rizika, a kada preuzimanju dodatnog rizika.
 
-## Procjena vrijednosti imovine i hipoteza o efikasnom tržištu {#tema-8-3}
+**Čitanje portfelja.** U statistici investicijskih fondova pronađite izvještajno razdoblje i kategoriju ulaganja u obveznice. U lancu financiranja razlikujte izdavatelja obveznice, fond koji ulaže u nju i ulagatelja koji kupuje udjel u fondu. Kome izdavatelj obećava isplatu? Gdje biste potražili rok dospijeća pojedine obveznice i prava koja proizlaze iz udjela? [HANFA, statistika financijskih tržišta](https://hanfa.hr/statistika/)
 
-- Vremenska vrijednost novca: diskontiranje i izračun sadašnje neto vrijednosti ($NPV$).
-- Hipoteza o efikasnom tržištu (Efficient Market Hypothesis - EMH).
+## Koliko danas vrijedi sutrašnja isplata? {#tema-8-3}
 
-## Pravni okvir i nadzor financijskih tržišta {#tema-8-4}
+Biste li danas platili 100 eura za pravo na isplatu 100 eura za godinu dana? Diskontiranje svodi buduću isplatu na sadašnju vrijednost. Oduzimanjem početnog ulaganja dobiva se neto sadašnja vrijednost ($NPV$). Pomoću **hipoteze efikasnog tržišta** pitamo koje su informacije već ugrađene u cijenu po kojoj možemo kupiti instrument.
 
-- Sprječavanje trgovanja na temelju povlaštenih informacija (Insider Trading) i manipulacije tržištem (MAR regulativa u EU).
-- Zaštita ulagatelja: MiFID II okvir (Markets in Financial Instruments Directive).
-- Uloga regulatornih tijela: Hrvatska agencija za nadzor financijskih usluga (HANFA) u RH, SEC u SAD-u i ESMA u EU.
+## Tko nadzire financijska tržišta? {#tema-8-4}
+
+U spisu potražite tko je trgovao, kojim instrumentom i kojim je informacijama raspolagao. Za povlaštene informacije i manipuliranje tržištem istražite Uredbu o zlouporabi tržišta (MAR), a za zaštitu ulagatelja pravila MiFID-a II. Razlučite ovlasti hrvatske HANFA-e, europske ESMA-e i američkog SEC-a.

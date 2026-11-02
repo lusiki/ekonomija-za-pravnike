@@ -1,17 +1,17 @@
-# Kad ugovor prati cijene
+# Koliko je život poskupio?
 
-U ugovoru piše da se naknada jednom godišnje usklađuje s inflacijom. Koji će indeks stranke odabrati i koliko njegova košarica nalikuje onome što doista kupuju?
+Na blagajni je račun za isti tjedni popis namirnica viši nego lani. U ugovoru piše da se godišnja naknada usklađuje s inflacijom. Čije kupnje ulaze u indeks po kojem će se naknada promijeniti?
 
-## Bruto domaći proizvod (BDP) {#tema-9-1}
+## Što sve ulazi u BDP? {#tema-9-1}
 
-- Definicija, obuhvat i tri pristupa mjerenju (proizvodni, dohodovni, rashodni).
-- Nominalni prema realnom BDP-u; BDP deflator.
+Kad grad plati novu sudnicu, izdatak grada ujedno je nečiji prihod. **Bruto domaći proizvod** (BDP) možemo mjeriti preko proizvedene dodane vrijednosti, dohodaka ili konačnih izdataka. Razlikujte rast vrijednosti po tekućim cijenama od rasta realne proizvodnje. Njihovu vezu pokazuje deflator BDP-a.
 
-## Mjerenje inflacije i troškova života {#tema-9-2}
+## Kako se mjeri rast cijena? {#tema-9-2}
 
-- Indeks potrošačkih cijena (CPI) i Harmonizirani indeks potrošačkih cijena (HICP).
-- Indeksacija u pravu: prilagodba ugovora, plaća i mirovina stopi inflacije.
+Ugovor se može pozvati na indeks cijena, ali stranke moraju znati koji. Usporedite nacionalni indeks potrošačkih cijena (IPC) i harmonizirani indeks (HIPC). Odredite koja se košarica prati i koja se dva razdoblja uspoređuju. Isti je postupak važan za usklađivanje ugovorene naknade, plaće ili mirovine.
 
-## Ograničenja BDP-a kao mjere blagostanja {#tema-9-3}
+**Od indeksa do ugovora.** U objavi DZS-a pronađite promjenu indeksa potrošačkih cijena prema prethodnom mjesecu i prema istom mjesecu prethodne godine. Zapišite oba početna mjeseca. Koja usporedba odgovara ugovoru kojim se godišnja naknada usklađuje svakog siječnja? Zatim primijenite isti postupak na [dvije naknade iz poglavlja o novcu](15.qmd#tema-15-3). [DZS, indeksi potrošačkih cijena](https://podaci.dzs.hr/hr/podaci/cijene/indeksi-potrosackih-cijena/)
 
-- Siva ekonomija, rad na crno, ekološki troškovi i kvaliteta života.
+## Što BDP prešućuje o životnom standardu? {#tema-9-3}
+
+Rast BDP-a govori o proizvodnji. Za tvrdnju o blagostanju trebaju i podaci o tome tko raspolaže dohotkom, kako se živi i kakva je šteta nastala u okolišu. Razmotrite zašto siva ekonomija i neprijavljeni rad otežavaju mjerenje.

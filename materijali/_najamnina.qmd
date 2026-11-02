@@ -1,5 +1,7 @@
 {{< include ../ucenje/najamnina.md >}}
 
+**Provjera modela.** Usporedite količine pri objema granicama. Koliko bi se stanova nudilo i tražilo pri granici od 500 eura? Obje početne vrijednosti i pravilo promjene nalaze se u tablici i tekstu vježbe.
+
 ::: {.content-visible when-format="html"}
 ::: {.widget-frame data-naslov="Ograničenje najamnine" data-oznaka="02.1 · interaktivno"}
 ::: {.econ-controls}

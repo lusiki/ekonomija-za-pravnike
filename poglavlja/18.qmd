@@ -1,16 +1,15 @@
-# Ugovor u drugoj valuti
+# Račun u dolarima, prihod u eurima
 
 Uvoznik ugovori cijenu u dolarima, naplaćuje robu u eurima i ima mjesec dana do isplate. Što promjena tečaja u tom roku znači za njegov posao?
 
-## Trgovinska i financijska otvorenost {#tema-18-1}
+## Kako tečaj mijenja račun uvoznika {#tema-18-1}
 
-- Nominalni i realni devizni tečaj.
-- Trgovinska bilanca, devizni tečaj i Marshall-Lernerov uvjet (J-krivulja).
+Uvoznik mora kupiti dolare kako bi podmirio račun. Najprije zapišite koliko eura stoji jedan dolar. Taj nominalni tečaj određuje cijenu plaćanja, a za usporedbu konkurentnosti trebaju i razine cijena u objema zemljama. Kod trgovinske bilance usporedite trenutnu promjenu vrijednosti računa s kasnijom prilagodbom količina. Marshall–Lernerov uvjet i J-krivulja pomažu razlikovati ta dva učinka.
 
-## Paritet kamatnih stopa i kretanje kapitala {#tema-18-2}
+## Kada se isplati ulagati u drugoj valuti? {#tema-18-2}
 
-- Povezanost domaćih i stranih kamatnih stopa te tečajnih očekivanja.
+Veća kamatna stopa na dolar ne jamči veći prinos u eurima. Usporedite domaću i stranu kamatu, današnji tečaj i očekivani tečaj pri isplati. **Nepokriveni kamatni paritet** povezuje razliku u kamatnim stopama s očekivanom promjenom tečaja. U toj jednostavnoj usporedbi izostavljamo premiju za rizik.
 
-## Mundell-Flemingov model (IS-LM-IP) {#tema-18-3}
+## Što se mijenja kad je tečaj fiksan? {#tema-18-3}
 
-- Učinkovitost monetarne i fiskalne politike u režimu fiksničkog prema fleksibilnom tečaju.
+U Mundell–Flemingovu modelu (**IS–LM–IP**) usporedite učinak istog povećanja javne potrošnje pri fiksnom i pri promjenjivom tečaju. Zatim ponovite usporedbu za monetarnu politiku. Za svaki slučaj navedite može li kapital prelaziti granicu i kako se održava odabrani tečajni režim.

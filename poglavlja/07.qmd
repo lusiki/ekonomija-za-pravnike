@@ -1,19 +1,19 @@
-# Račun za dim iz tvornice
+# Tko plaća tvornički dim?
 
 Tvornica plaća gorivo, a susjedi češće peru prozore. Kad se odlučuje o još jednom satu proizvodnje, čiji trošak ulazi u računicu?
 
-## Eksternalije i Coaseov teorem {#tema-7-1}
+## Mogu li se tvornica i susjedi dogovoriti? {#tema-7-1}
 
-- Negativne i pozitivne eksternalije (privatni prema društvenim troškovima).
-- Coaseov teorem: alokacija vlasničkih prava, transakcijski troškovi i uloga sudova u mirnom rješavanju sporova.
-- Pigouvi porezi, subvencije i europski sustav trgovanja emisijama (EU ETS).
+Čađa na susjedovu prozoru stvara trošak koji tvornica možda ne uračunava u odluku o proizvodnji. To je negativna **eksternalija**. Kod pozitivne eksternalije drugi primaju korist. Coaseov teorem daje polazište za pitanje kada će pregovori riješiti problem. Usporedite pregovore i provedbu prava pred sudom s drugim mogućnostima, među njima Pigouovim porezom, subvencijom i sustavom trgovanja emisijama EU-a.
 
-## Javna dobra i zajednički resursi {#tema-7-2}
+**Tko bi s kim pregovarao?** Pretpostavite da filtar stoji 600 eura, a šteta od dima jednom susjedu iznosi 900 eura. Ako susjed ima provedivo pravo na čist zrak, koliko bi tvornica bila spremna platiti za dopuštenje da nastavi dimiti kad može ugraditi filtar? Obrnite početno pravo. Koliko bi susjed tada bio spreman platiti tvornici da ugradi filtar? Sada podijelite istih 900 eura štete između devedeset susjeda. Iznos ukupne štete ostaje jednak, ali netko mora okupiti susjede, ugovoriti uplatu i pratiti provedbu. [Ronald Coase (1960), The Problem of Social Cost](https://doi.org/10.1086/466560)
 
-- Kriteriji neisključivosti i nerivalnosti; problem "slobodnog jahača" (Free-rider problem).
-- Tragedija zajedničkog dobra (Tragedy of the Commons) i pravni načini zaštite okoliša.
+## Tko čuva ono što svi koristimo? {#tema-7-2}
 
-## Asimetrične informacije i zaštita ugovornih strana {#tema-7-3}
+Ulično svjetlo može koristiti još jednom prolazniku bez gubitka za prvoga. Riba koju netko ulovi u zajedničkom jezeru više nije dostupna drugom ribaru. Pri razlikovanju **javnih dobara** od zajedničkih resursa važna su dva svojstva. Može li se korisnika isključiti iz korištenja (isključivost)? Umanjuje li njegova uporaba ono što preostaje drugima (rivalnost)? Kako prikupiti priloge za rasvjetu ako i onaj tko ne sudjeluje dobiva jednako svjetla? Taj problem zovemo problemom slobodnog jahača. Za jezero razmotrite pravilo koje bi spriječilo prekomjerni izlov.
 
-- Nepovoljan izbor (Adverse Selection) i moralni hazard (Moral Hazard).
-- Pravni mehanizmi: obvezno objavljivanje informacija, jamstva i obvezno osiguranje.
+## Kad prodavatelj zna više od kupca {#tema-7-3}
+
+Ako jedna strana prije ugovora bolje poznaje kvalitetu, može doći do **nepovoljnog izbora**. Ako nakon ugovora teže nadziremo njezino ponašanje, može se pojaviti **moralni hazard**. Za svaki problem posebno razmotrite obvezu objave podataka, jamstvo ili obvezno osiguranje.
+
+Prodavatelj rabljenog automobila poznaje povijest kvarova. Kupac je prije sklapanja ugovora ne može pouzdano provjeriti pa nudi cijenu koja uzima u obzir i mogućnost skupog kvara. Vlasniku dobro održavanog automobila ponuda može biti toliko niska da povuče oglas. Što se tada događa s prosječnom kvalitetom preostalih vozila? Predložite provjerljiv podatak ili jamstvo koje bi dobrom prodavatelju pomoglo da ostane na tržištu. [George Akerlof (1970), The Market for “Lemons”](https://doi.org/10.2307/1879431)

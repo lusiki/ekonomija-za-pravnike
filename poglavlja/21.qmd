@@ -1,22 +1,27 @@
-# Hrvatska uz bok EU-u i SAD-u
+# Hrvatska, EU i SAD u brojkama
 
 U raspravi o životnom standardu netko predloži da usporedimo BDP po stanovniku. Prije izrade grafa treba odlučiti kako ćemo usporediti dohotke ondje gdje se cijene razlikuju.
 
-## Kretanje i struktura BDP-a {#tema-21-1}
+## Kako usporediti dohodak po stanovniku? {#tema-21-1}
 
-- Proces realne konvergencije Republike Hrvatske prema prosjeku EU (BDP po stanovniku prema paritetu kupovne moći - PPP).
-- Komparativna dinamika rasta: RH prema Eurozoni i SAD-u.
+Za usporedbu Hrvatske s prosjekom EU-a odaberite BDP po stanovniku prema paritetu kupovne moći. Za usporedbu rasta s europodručjem i SAD-om trebate i realne podatke za ista razdoblja. Može li zemlja rasti brže, a još imati niži BDP po stanovniku?
 
-## Inflacijski procesi i tečajne strategije {#tema-21-2}
+## Što se dogodilo s cijenama pri uvođenju eura? {#tema-21-2}
 
-- Analiza inflatornih valova i reakcije ECB-a i američkih Federalnih rezervi (Fed).
-- Put RH od modela upravljanog tečaja kune do uvođenja eura.
+Hrvatska je od upravljanog tečaja kune prešla na euro. Za odabrano razdoblje usporedite kretanje cijena u Hrvatskoj, europodručju i SAD-u te odvojeno pratite odluke ESB-a i američkih Federalnih rezervi. Za procjenu učinka same promjene valute poslužite se Eurostatovom usporedbom u završnom zadatku.
 
-## Tržište rada, nezaposlenost i produktivnost {#tema-21-3}
+## Tko ima posao i koliko proizvede? {#tema-21-3}
 
-- Usporedba stopa nezaposlenosti i fleksibilnosti tržišta rada u RH, EU i SAD-u.
+Odaberite istu definiciju nezaposlenosti u Hrvatskoj, EU-u i SAD-u. Zatim usporedite produktivnost po zaposlenome ili po satu rada. Bi li razlike u radnom vremenu promijenile odgovor? Posebno obrazložite koje bi podatke trebalo prikupiti za usporedbu prilagodljivosti tržišta rada.
 
-## Kretanje javnog duga i uloga fondova EU {#tema-21-4}
+## Kako pratiti javni dug i novac iz fondova EU-a? {#tema-21-4}
 
-- Putanja fiskalne konsolidacije i duga RH u odnosu na pravila EU.
-- Utjecaj instrumenata EU (Mehanizam za oporavak i otpornost – NGEU) na investicije i potencijalni rast.
+Za javni dug usporedite stanje na kraju godine i njegov udio u BDP-u. Za ulaganje financirano sredstvima EU-a, primjerice iz Mehanizma za oporavak i otpornost, razlikujte odobreni iznos, isplatu i dovršeno ulaganje. Koji bi dokazi bili potrebni za procjenu učinka na buduću proizvodnju?
+
+### Tri tvrdnje koje klijent želi provjeriti {#završna-bilješka-klijentu}
+
+Klijent iznosi tri tvrdnje. Za svaku napišite što biste mogli zaključiti iz izvora i koji vam podatak nedostaje.
+
+1. **„Hrvatski životni standard dosegnuo je prosjek Unije.”** Odaberite godinu i usporedite BDP po stanovniku sa stvarnom individualnom potrošnjom po stanovniku, oboje u standardima kupovne moći. Objasnite što izabrani pokazatelj mjeri i zašto bi izbor drugog pokazatelja mogao promijeniti odgovor. [Eurostat, pariteti kupovne moći i pokazatelji](https://ec.europa.eu/eurostat/en/web/purchasing-power-parities/information-data)
+2. **„Sve poskupljenje u siječnju 2023. posljedica je uvođenja eura.”** Eurostat je za Hrvatsku procijenio da je učinak promjene valute na mjesečnu harmoniziranu inflaciju u siječnju iznosio između 0,04 i 0,18 postotnih bodova. U prvom retku tablice 1 pronađite opaženu stopu i procijenjeni raspon bez promjene valute. Objasnite koji od tih brojeva zahtijeva procjenu onoga što bi se dogodilo da je kuna ostala u uporabi. [Eurostat, bilješka o uvođenju eura u Hrvatskoj, tablica 1](https://ec.europa.eu/eurostat/documents/272892/7106809/euro-changeover-note-croatia-2023.pdf/77066723-5f47-c561-e10d-46b7422a2564?t=1698403841492)
+3. **„Fiskalni plan dokazuje da se dug smanjio.”** Vratite se [tablici iz poglavlja o zaduživanju](17.qmd#tema-17-2). Razlikujte cilj rasta rashoda, projekciju udjela duga u BDP-u i naknadno izmjereni udio. Napišite koju biste od tih veličina morali usporediti za dvije završene godine da provjerite tvrdnju o smanjenju udjela duga.

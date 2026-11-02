@@ -1,18 +1,17 @@
-# Što zemlje dijele kad dijele valutu?
+# Jedan euro, različita gospodarstva
 
 Dvije zemlje koriste istu valutu. U jednoj raste potražnja, a u drugoj se zatvaraju pogoni. Kako izgleda odluka o jednoj kamatnoj stopi za obje?
 
-## Teorija optimalnog valutnog područja (OCA) {#tema-20-1}
+## Kada zemljama odgovara zajednička valuta? {#tema-20-1}
 
-- Prednosti i troškovi uvođenja zajedničke valute (Robert Mundell).
+Dvije zemlje mogu dijeliti valutu i imati različite gospodarske potrebe. U teoriji **optimalnog valutnog područja**, povezanoj s Robertom Mundellom, usporedite uštedu pri plaćanju zajedničkom valutom s troškom gubitka zasebnog tečaja. Kako se radnici i poduzeća mogu prilagoditi ako potražnja padne samo u jednoj zemlji?
 
-## Pravno-ekonomski kriteriji konvergencije (Članak 140. UFEU – Maastricht) {#tema-20-2}
+## Kako članica EU-a uvodi euro? {#tema-20-2}
 
-- Stabilnost cijena: Ograničenje inflacije vezano uz tri najuspješnije članice.
-- Održivost javnih financija: Deficit ispod 3% BDP-a i javni dug ispod 60% BDP-a (ili zadovoljavajuća dinamika smanjenja).
-- Tečajna stabilnost: Sudjelovanje u Tečajnom mehanizmu (ERM II) u trajanju od najmanje 2 godine bez potresa.
-- Konvergencija kamatnih stopa: Ograničenje dugoročnih kamatnih stopa.
+Članak 140. UFEU-a postavlja pravni okvir za ocjenu konvergencije. U Ugovoru i pripadajućim protokolima pronađite kriterije koji se odnose na stabilnost cijena, održivost javnih financija, sudjelovanje u tečajnom mehanizmu ERM II i dugoročne kamatne stope. Utvrdite kako se određuje referentna vrijednost za inflaciju, kako se tumače vrijednosti od 3 % BDP-a za deficit i 60 % za dug te pod kojim se uvjetima ocjenjuju najmanje dvije godine sudjelovanja u ERM II.
 
-## Unutarnje tržište EU i četiri temeljne slobode {#tema-20-3}
+**Dvije procjene zajedničke valute.** Vratite se dvjema zemljama iz uvoda. Koje mogućnosti prilagodbe ima poduzeće u zemlji kojoj pada potražnja dok je kamatna politika zajednička? Zatim otvorite članak 140. UFEU-a i članak 1. Odluke Vijeća (EU) 2022/1211. Izdvojite instituciju koja donosi odluku i datum od kojega je Hrvatska uvela euro. Jedan odgovor obrazlažete ekonomskim mehanizmom, a drugi potkrepljujete odredbom. [Paul De Grauwe, Economics of Monetary Union](https://learninglink.oup.com/access/degrauwe15e) · [Odluka Vijeća od 12. srpnja 2022.](https://eur-lex.europa.eu/eli/dec/2022/1211/oj/hrv)
 
-- Sloboda kretanja roba, usluga, kapitala i radnika te Zajednička trgovačka politika EU.
+## Četiri slobode na jednom tržištu {#tema-20-3}
+
+Radnik prihvaća posao u drugoj članici, poduzeće šalje robu preko granice, pravnica pruža uslugu klijentu u drugoj zemlji, a ulagač ondje ulaže kapital. Pridružite svaki primjer jednoj od četiriju sloboda unutarnjeg tržišta. Kada je trgovinski partner izvan Unije, istražite ulogu zajedničke trgovinske politike.

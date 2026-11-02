@@ -1,16 +1,21 @@
-# Od odluke o kamatama do rate kredita
+# Jedna odluka o kamatama, dva kredita
 
 Dva dužnika imaju isti preostali dug, ali samo jedan ima promjenjivu kamatnu stopu. Kojim putem odluka središnje banke može stići do njihova kućnog proračuna?
 
-## Ciljevi i tradicionalni instrumenti monetarne politike {#tema-15-1}
+## Kako odluka središnje banke stiže do dužnika {#tema-15-1}
 
-- Operacije na otvorenom tržištu, obvezne rezerve, eskontne i diskontne stope.
-- Koncepcija neovisnosti središnjih banaka (pravni status HNB-a i ECB-a prema UFEU).
+{{< include ../ucenje/kamate.md >}}
 
-## Nekonvencionalne mjere monetarne politike {#tema-15-2}
+Povežite odluku o ključnoj kamatnoj stopi s operacijama na otvorenom tržištu i obveznim rezervama. Usporedite način financiranja banaka uz diskontnu stopu u udžbeničkom primjeru s konkretnim instrumentom Eurosustava. Za pravni položaj HNB-a, ESB-a i neovisnost središnjih banaka pronađite odgovarajuće odredbe UFEU-a.
 
-- Kvantitativno olakšavanje (Quantitative Easing), negativne kamatne stope i smjernice o budućim namjerama (Forward Guidance).
+## Što središnja banka još može učiniti? {#tema-15-2}
 
-## Pravne implikacije inflacije na ugovorne odnose {#tema-15-3}
+Što središnja banka može učiniti ako uobičajena promjena kamatne stope nije dovoljna? Usporedite kupnju imovine u sklopu kvantitativnog popuštanja, negativne kamatne stope i najave buduće politike. Kod svake mjere navedite čiju odluku može promijeniti i kojim putem.
 
-- Gubitak kupovne moći novca, revalorizacija dugova, zatezne kamate i valutne obveze.
+## Kad inflacija promijeni vrijednost ugovora {#tema-15-3}
+
+Dva poduzeća ugovaraju naknadu od 1 000 eura. U jednoj inačici ugovora iznos je fiksan. U drugoj se pri dospijeću množi omjerom završne i početne vrijednosti ugovorenog indeksa cijena. Ako u ovom primjeru indeks poraste sa 100 na 104, prva naknada ostaje 1 000 eura, a druga iznosi 1 040 eura. Koliko robe iz početne košarice vjerovnik može kupiti za svaki od tih iznosa?
+
+Za pravno obrazloženje pročitajte članke 21. i 23. hrvatskog Zakona o obveznim odnosima o monetarnom nominalizmu i indeksnoj klauzuli. U stvarnom ugovoru utvrdite mjerodavni tekst na dan koji analizirate te ugovoreni indeks i razdoblje. [Narodne novine, ZOO, NN 35/2005, čl. 21. i 23.](https://narodne-novine.nn.hr/clanci/sluzbeni/2005_03_35_707.html) · [Ministarstvo, popis izmjena](https://mpudt.gov.hr/zakon-o-obveznim-odnosima/6623)
+
+Usporedite usklađivanje vrijednosti duga s cijenama, obračun zateznih kamata zbog zakašnjenja i ugovaranje obveze u drugoj valuti. Za svaki slučaj utvrdite koji podatak pokreće novi obračun.

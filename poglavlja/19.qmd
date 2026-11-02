@@ -1,12 +1,13 @@
-# Što carina mijenja na polici?
+# Tko na kraju plaća carinu?
 
 Na granici se razmatra nova carina. Domaći proizvođač, uvoznik i kupac istoga proizvoda imaju različite razloge da prate njezin učinak.
 
-## Teorijski temelji razmjene {#tema-19-1}
+## Zašto trgujemo i kad smo u svemu brži? {#tema-19-1}
 
-- Komparativne prednosti (David Ricardo) i faktorska raspoloživost (Heckscher-Ohlin).
+Jedna zemlja može proizvesti oba dobra s manje sati rada, a ipak imati koristi od trgovine. Za svaku zemlju izračunajte koliko se jednoga dobra odriče radi još jedne jedinice drugoga. Tako se određuje Ricardova **komparativna prednost**. Heckscher–Ohlinov model dodaje pitanje kojim proizvodnim čimbenicima zemlja obiluje.
 
-## Protekcionizam i instrumenti trgovačke politike {#tema-19-2}
+## Carine i kvote na granici {#tema-19-2}
 
-- Ekonomske i pravne posljedice carina, kvota i necarinskih prepreka.
-- Pravni mehanizmi Svjetske trgovinske organizacije (WTO) i rješavanje međunarodnih trgovačkih sporova.
+Carina mijenja trošak uvoza, a kvota ograničava količinu koja smije ući. Usporedite što to znači domaćem proizvođaču, uvozniku i kupcu. Za primjer necarinske prepreke utvrdite koje se pravilo Svjetske trgovinske organizacije primjenjuje i kako bi članice mogle pokrenuti spor.
+
+Uvoznik iz [prethodnog poglavlja](18.qmd#tema-18-1) uspoređuje dvije ponude za istu robu. Odvojeno razmotrite promjenu tečaja dolara i promjenu carine. U profilu EU-a pri Svjetskoj trgovinskoj organizaciji pronađite primijenjenu i obvezujuću carinsku stopu. Za račun konkretnom klijentu trebaju još tarifna oznaka robe, podrijetlo i datum uvoza. Zašto prosjek za cijelu skupinu proizvoda ne može zamijeniti taj podatak? [WTO, tarifni profil Europske unije](https://ttd.wto.org/en/profiles/european-union)

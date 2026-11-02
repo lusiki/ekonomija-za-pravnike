@@ -2,24 +2,20 @@
 
 Drugi opskrbljivač želi ući na tržište vode. Mora li raskopati iste ulice i položiti vlastite cijevi? Trošak mreže daje tom pitanju i ekonomski i pravni smisao.
 
-## Proizvodna funkcija i kratkoročna analiza {#tema-5-1}
+## Još jedan radnik na istom gradilištu {#tema-5-1}
 
-- Inputi i outputi: Odnos ulaza (rad $L$, kapital $K$) i izlaza (količina proizvodnje $Q$).
-- Proizvodni pokazatelji: Ukupni, prosječni ($AP_L$) i granični proizvod rada ($MP_L$).
-- Zakon opadajućih prinosa (Law of Diminishing Returns): Opadanje graničnoga proizvoda uz dodavanje varijabilnog ulaza fiksnom ulazu.
+Graditelj raspolaže istim brojem strojeva, a zaposli još jednog radnika. Koliko dodatnih metara cijevi ekipa može položiti? **Proizvodna funkcija** povezuje rad ($L$) i kapital ($K$) s količinom radova ($Q$). Razlikujte učinak dodatnog radnika ($MP_L$) od prosjeka po radniku ($AP_L$). Ako se radnici počnu izmjenjivati za istim strojem, granični proizvod rada može padati.
 
-## Proizvodnja u dugom roku i prinosi na opseg {#tema-5-2}
+## Što ako udvostručimo sve što ulažemo? {#tema-5-2}
 
-- Izokvante i izotroškovni pravci: Granična stopa tehničke supstitucije ($MRTS$).
-- Prinosi na opseg (Returns to Scale): Konstantni, rastući i opadajući prinosi na opseg u dugome roku.
+U dugom roku graditelj može promijeniti i broj radnika i broj strojeva. Ako udvostruči oba, hoće li položiti dvostruko više cijevi? Odgovor razlikuje rastuće, konstantne i opadajuće **prinose na opseg**. Za istu duljinu cjevovoda usporedite kombinacije rada i strojeva na izokvanti. Izotroškovni pravac pokazuje što poduzeće može platiti, a granična stopa tehničke supstitucije ($MRTS$) koliko se jedan input može nadomjestiti drugim.
 
-## Struktura troškova: Računovodstveni prema ekonomskom pristupu {#tema-5-3}
+## Troškovi kojih nema na računu {#tema-5-3}
 
-- Eksplicitni prema implicitnim troškovima: Oportunitetni trošak i potopljeni troškovi (Sunk Costs) u ugovornom pravu.
-- Klasifikacija troškova: Ukupni ($TC = TFC + TVC$), prosječni ($ATC, AFC, AVC$) i granični troškovi ($MC$).
-- Troškovi u dugom roku: Ekonomija obujma (Economies of Scale) i desekonomija obujma.
+Vlastiti stroj nema račun za najam, ali se njegovom uporabom odričemo prihoda koji bismo ostvarili iznajmljivanjem. Usporedite taj implicitni trošak s izravnim izdacima i s već nepovratno nastalim troškom. Kratkoročno vrijedi $TC = TFC + TVC$. Podjelom s količinom dobivate prosječne troškove ($ATC$, $AFC$, $AVC$). Granični trošak ($MC$) govori koliko košta proizvodnja još jedne jedinice. Dugoročno promatrajte kada širenje posla snizuje, a kada povisuje prosječni trošak.
 
-## Prirodni monopol i pravna regulacija mrežnih djelatnosti {#tema-5-4}
+## Kada jedna mreža može opslužiti cijeli grad? {#tema-5-4}
 
-- Prirodni monopol: Infrastrukturni monopoli (energetika, telekomunikacije, promet) uvjetovani izrazitim ekonomijama obujma.
-- Sektorska regulacija: Uloga i nadležnosti regulatornih agencija u RH (HERA, HAKOM) pri određivanju mrežnih pristupa i cjenovnih stropova.
+Ako jedna vodovodna mreža može opskrbiti sva kućanstva uz manji ukupan trošak od dviju odvojenih mreža, riječ je o **prirodnom monopolu**. Usporedite vodovod s energetskim, prometnim i komunikacijskim mrežama. Za svaku posebno utvrdite tko odlučuje o pristupu mreži i o cijeni te koje ovlasti imaju HERA ili HAKOM.
+
+**Od vodovoda do električne mreže.** Kućanstvo ovaj mjesec potroši jedan kilovatsat manje. Koje izdatke operator mreže i dalje ima? HERA zasebno objavljuje odluke o tarifnim stavkama za distribuciju i prijenos električne energije. Otvorite odluku o distribuciji, zabilježite razdoblje primjene i odaberite jednu stavku. Po kojoj se jedinici ona obračunava? Objasnite koliko iz te stavke možemo saznati o trošku održavanja zajedničke mreže. [HERA, regulirane cijene električne energije](https://www.hera.hr/hr/html/cijene_eenergija.html)

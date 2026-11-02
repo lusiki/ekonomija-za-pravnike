@@ -1,13 +1,11 @@
-# Za pregovaračkim stolom
+# Pregovori o sljedećoj plaći
 
 Sindikat pregovara o novom ugovoru dok poslodavac planira sljedeće zapošljavanje. Koje su mogućnosti otvorene radniku ako pregovori propadnu, a koje poslodavcu?
 
-## Tržište rada i određivanje plaća i cijena {#tema-12-1}
+## Od pregovora o plaći do cijene proizvoda {#tema-12-1}
 
-- Određivanje plaća (kolektivno pregovaranje, sindikati) i određivanje cijena (marže poduzeća).
-- Prirodna stopa nezaposlenosti ($u_n$).
-- Utjecaj Zakona o radu i pravne zaštite zaposlenja (EPL) na fleksibilnost tržišta rada.
+Radnik koji lako može pronaći drugi posao ima drukčiju pregovaračku poziciju od radnika bez druge ponude. Povežite ulogu sindikata i kolektivno pregovaranje s načinom na koji poduzeća određuju cijene i marže. U modelu određivanja plaća i cijena objasnite pojam prirodne stope nezaposlenosti ($u_n$). Za tvrdnju o zaštiti zaposlenja odredite koje pravilo Zakona o radu analizirate.
 
-## Oblici nezaposlenosti {#tema-12-2}
+## Tri razloga za nezaposlenost {#tema-12-2}
 
-- Frikcijska, strukturna i ciklična nezaposlenost.
+Jedna osoba traži posao nakon preseljenja, druga ima zanimanje koje poslodavci više ne traže, a treća čeka da se nakon pada potražnje ponovno otvori pogon. Koji slučaj upućuje na frikcijsku, koji na strukturnu, a koji na cikličku nezaposlenost?

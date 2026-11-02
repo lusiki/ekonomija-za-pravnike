@@ -1,13 +1,11 @@
-# Kad se ulaganje odgodi
+# Kad novi pogon može pričekati
 
 Grad pokreće gradnju, a poduzetnica razmišlja o novom pogonu. Model IS-LM pomaže pratiti što se događa s njihovim odlukama kad se promijene potražnja za dobrima i kamatna stopa.
 
-## Financijska tržišta i ponuda i potražnja za novcem {#tema-11-1}
+## Zašto držimo novac kad možemo zaraditi kamatu? {#tema-11-1}
 
-- Određivanje kamatne stope u kratkom roku.
+Novac na računu olakšava plaćanje. Druga imovina može donositi veću kamatu. Kako taj izbor mijenja potražnju za novcem? U modelu s danom ponudom novca razmotrite koja kamatna stopa u kratkom roku usklađuje ponudu i potražnju.
 
-## Središnji IS-LM model {#tema-11-2}
+## Kako IS–LM povezuje kamatu i ulaganje {#tema-11-2}
 
-- Tržište dobara i IS krivulja; financijska tržišta i LM krivulja.
-- Učinci miksa monetarne i fiskalne politike na proizvodnju i kamatne stope.
-- Efekt istiskivanja privatnih investicija (Crowding-out effect).
+Poduzetnica gleda cijenu financiranja novog pogona i očekivanu prodaju. Krivulja IS povezuje kamatnu stopu i proizvodnju pri ravnoteži na tržištu dobara. Krivulja LM opisuje ravnotežu na novčanom tržištu. U **modelu IS–LM** pratite kako državna potrošnja i monetarna politika mijenjaju zajedničku ravnotežu. Pod kojim bi uvjetima javna narudžba mogla istisnuti dio privatnih ulaganja?

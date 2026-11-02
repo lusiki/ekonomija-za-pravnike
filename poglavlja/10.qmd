@@ -1,11 +1,11 @@
-# Kamo ode novac od javne narudžbe?
+# Kamo stiže novac za obnovu škole?
 
 Grad naruči obnovu škole. Izvođač isplati radnike, a dio njihove plaće završi u lokalnim trgovinama. Koliki se dio početnog izdatka prenosi dalje?
 
-## Sastav BDP-a i agregatna potražnja {#tema-10-1}
+## Tko kupuje ono što proizvedemo? {#tema-10-1}
 
-- Potrošnja ($C$), investicije ($I$), državna potrošnja ($G$), neto izvoz ($NX$).
+Tko je platio obnovu škole, a tko radnicima njihov ručak? U rashodnom prikazu BDP-a razlikujemo osobnu potrošnju ($C$), investicije ($I$), državnu potrošnju ($G$) i neto izvoz ($NX$). Kod uvoznog materijala pratite koji dio izdatka doista odgovara domaćoj proizvodnji.
 
-## Određivanje ravnotežne proizvodnje {#tema-10-2}
+## Kako jedan izdatak pokreće drugi {#tema-10-2}
 
-- Sklonost potrošnji i štednji; multiplikator autonomne potrošnje.
+Radnici mogu potrošiti dio dodatne plaće, a ostatak uštedjeti. Prihod trgovaca zato raste za dio početne isplate. U jednostavnom modelu sa zadanim cijenama **multiplikator** povezuje početnu promjenu autonomne potrošnje s konačnom promjenom ravnotežne proizvodnje. Pratite što se mijenja ako kućanstva veći dio dodatnog dohotka štede.

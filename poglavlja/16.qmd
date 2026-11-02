@@ -1,17 +1,15 @@
-# Tko plaća most i kada?
+# Most danas, porezi sutra?
 
 Most se može financirati porezima ove godine ili zaduživanjem. Gradnja u oba slučaja počinje danas. Kada se iz proračuna plaća račun i tko ga snosi?
 
-## Instrumenti fiskalne politike {#tema-16-1}
+## Porezi, javni radovi i naknade {#tema-16-1}
 
-- Javna potrošnja ($G$), transferna plaćanja i porezni sustav.
-- Diskrecijska fiskalna politika prema automatskim stabilizatorima.
+Kad država naruči gradnju, izravno kupuje radove. Kad isplati transfer kućanstvu, kućanstvo odlučuje kako će ga potrošiti. Usporedite te instrumente fiskalne politike s promjenom poreza. Koji bi se prihodi i izdaci u recesiji promijenili i bez nove odluke vlasti? Tu djeluju automatski stabilizatori.
 
-## Proračunski deficit i dinamika javnog duga {#tema-16-2}
+## Od godišnjeg manjka do javnog duga {#tema-16-2}
 
-- Primarni deficit, kamate i održivost javnog duga.
-- Opasnosti od krize javnog duga (Sovereign Debt Crisis) i neizvršenja obveza (Default).
+Deficit mjerimo tijekom godine, a dug na određeni dan. Za most financiran zaduživanjem odvojite primarni saldo proračuna od izdataka za kamate. Pratite kako rast gospodarstva i trošak kamata utječu na teret duga te kada postaje upitna sposobnost države da podmiri dospjele obveze.
 
-## Ricardijanska jednakost (Ricardian Equivalence) {#tema-16-3}
+## Štedimo li danas za sutrašnji porez? {#tema-16-3}
 
-- Ponašanje potrošača u uvjetima zaduživanja države umjesto oporezivanja.
+Kućanstvo danas plaća manji porez jer se država zadužila. Hoće li razliku potrošiti ili je sačuvati za budući porez? **Ricardijanska jednakost** opisuje uvjete pod kojima zamjena današnjeg poreza dugom ne mijenja potrošnju. Razmislite što se događa ako kućanstvu novac treba odmah, a ne može se zadužiti.

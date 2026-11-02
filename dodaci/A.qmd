@@ -1,5 +1,7 @@
-# Kako čitati ekonomski graf
+# Kako pročitati graf
 
-Funkcije, nagib, elastičnost i mjerne jedinice.
+Na slici uz [vježbu o najamnini](../poglavlja/02.qmd#tema-2-2) duljina stupca predstavlja broj stanova. Najprije pročitajte oznaku skupine: jedan stupac pokazuje koliko stanova vlasnici nude, a drugi koliko ih kućanstva žele unajmiti. Obje vrijednosti pripadaju istoj mjesečnoj najamnini.
 
-*Dodatak je predviđen planom knjige i čeka autorsku obradu.*
+Pri granici od 400 eura očitajte 40 ponuđenih i 80 traženih stanova. Razlika od 40 stanova mjeri višak potražnje. Pri granici od 800 eura tržišna najamnina ostaje 600 eura i oba stupca imaju duljinu koja odgovara 60 stanova. Viša dopuštena cijena vlasnicima dopušta, ali im ne jamči, da skuplje iznajme stan.
+
+**Pokušajte sami.** Pomaknite granicu na 500 eura ili u tiskanom izdanju krenite od retka s granicom od 400 eura. Za svakih 100 eura više vlasnici nude još 10 stanova, a kućanstva žele 10 manje. Skicirajte oba stupca, označite jedinicu i napišite rečenicu o razlici. Provjera računa daje 50 ponuđenih i 70 traženih stanova.

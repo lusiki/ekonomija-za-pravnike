@@ -1,18 +1,17 @@
-# Što grad bira kad gradi sud?
+# Sudnica ili škola?
 
-Grad ima dovoljno novca za novu sudnicu ili za obnovu škole. U proračunu piše koliko sudnica stoji. Gdje se vidi vrijednost onoga čega se grad odrekao?
+Grad ima dovoljno novca za novu sudnicu ili za obnovu škole. U proračunu piše koliko sudnica stoji. Kako procijeniti ono čega se grad odrekao?
 
-## Problem oskudnosti i ekonomski izbor {#tema-1-1}
+## Čega se grad odriče kad bira? {#tema-1-1}
 
-- Oskudnost resursa, neograničene potrebe i oportunitetni trošak.
-- Granica proizvodnih mogućnosti (PPF) u javnom i privatnom sektoru.
-- Tri temeljna ekonomska pitanja: Što, kako i za koga proizvoditi?
+Oskudnost se u gradskom proračunu vidi i bez formule. I sudnica i škola traže radnike, zemljište i novac. Ako grad izabere sudnicu, korist od najbolje propuštene mogućnosti, ovdje obnove škole, njezin je **oportunitetni trošak**. Granica proizvodnih mogućnosti (PPF) pokazuje koje su kombinacije dvaju dobara dostižne uz raspoložive resurse. I poduzeće i grad moraju odlučiti što proizvesti, kako i za koga.
 
-## Ekonomska analiza prava (Law and Economics) {#tema-1-2}
+## Kako pravilo mijenja ponašanje {#tema-1-2}
 
-- Pravni sustav kao institucionalna pretpostavka funkcioniranja tržišta.
-- Uloga prava u smanjenju transakcijskih troškova i definiranju vlasničkih prava.
+Vlasnik će lakše iznajmiti stan ako može provjeriti tko smije sklopiti ugovor i kako naplatiti dug. Utvrđivanje prava vlasništva, pregovaranje i provedba ugovora traže vrijeme i novac. **Ekonomska analiza prava** pita kako pravila utječu na te transakcijske troškove i na odluke ugovornih strana.
 
-## Pozitivna prema normativnoj ekonomiji u stvaranju pravnih propisa {#tema-1-3}
+## Što očekujemo od propisa, a što želimo postići? {#tema-1-3}
 
-- Procjena učinaka propisa (RIA – Regulatory Impact Assessment).
+Pri procjeni učinaka propisa jedno pitanje glasi koliko bi ljudi promijenilo ponašanje kad bi pravilo stupilo na snagu. To je pitanje pozitivne ekonomije. Drugo glasi koliku važnost pridajemo koristi jedne skupine i trošku druge. To je normativni sud.
+
+Za prijedlog izgradnje sudnice napišite dvije rečenice. U prvoj predvidite kako bi dodatna sudnica utjecala na čekanje na raspravu i navedite podatak potreban za provjeru. U drugoj obrazložite zašto biste prednost dali sudnici ili školi. Za prvu rečenicu trebate znati gdje danas nastaju zastoji. Za drugu morate kazati koliko vam je važno ono čega se grad odriče. O odlukama ljudi pod različitim pravilima vidi [Cooter i Ulen, Law and Economics, 6. izd., pogl. 1](https://lawcat.berkeley.edu/record/1127400?v=pdf).

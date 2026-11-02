@@ -21,13 +21,14 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: 1.9.38
+      - run: python3 urednistvo/provjeri-pokrivenost.py
       - run: quarto render --to all
       - name: Provjeri izlaze
         run: |
           test -s _book/index.html
           test -s _book/ekonomija-za-pravnike.pdf
           test -s _book/ucenje/mentor.md
-          test -s _book/ucenje/najamnina.md
+          for file in ucenje/*.md; do cmp "$file" "_book/$file"; done
           grep -q 'id="granica"' _book/poglavlja/02.html
       - name: Provjeri kodiranje mrežnog i tiskanog izdanja
         run: |
