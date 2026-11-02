@@ -6,7 +6,6 @@ project:
 lang: hr
 book:
   title: Osnove ekonomije za pravnike
-  author: Radno izdanje za nastavu
   subtitle: Teorija, regulacija i politike
   output-file: ekonomija-za-pravnike
   chapters:
@@ -58,13 +57,5 @@ format:
     toc: true
   typst:
     papersize: iso-b5
-    toc: true
-    fontsize: 11pt
-    margin:
-      left: 23mm
-      right: 23mm
-      top: 20mm
-      bottom: 23mm
-
-
-
+    template-partials:
+      - tisak/typst-show.typ
