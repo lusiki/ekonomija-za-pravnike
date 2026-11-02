@@ -9,6 +9,10 @@ Otvorite [tablicu pokrivenosti](pokrivenost.tsv). Svaki redak prati jedan odsjek
 5. **Zabilježite provjeru.** Ekonomski recenzent ponavlja račun i provjerava zaključak. Pravni recenzent provjerava mjerodavnost i doseg izvora. Student prve godine rješava završni zadatak i tumači sliku bez upute autora. U retku upišite ishod, što još nedostaje i datum zadnje sadržajne provjere. Razlikujte radne oznake „Plan”, „Ogledni tekst za provjeru” ili „Zadatak za provjeru”, „Na recenziji” i „Odobreno”. Pri djelomičnoj obradi zadržite popis preostalih tema.
 6. **Pregledajte oba izdanja.** Izgradite HTML i B5 PDF, otvorite promijenjene slike, tablice i poveznice te preuzmite vježbu kako bi je student dobio. Na početku sljedećeg izdanja obnovite aktualne serije i provjerite važeće propise. Povijesne primjere zadržite vezane uz tadašnje pravo i podatke.
 
+## Kako nasloviti novi tekst
+
+U sadržaju čitatelju najprije pokažite odluku, osobu ili predmet koji će susresti u poglavlju. „Most danas, porezi sutra?” vodi do pitanja tko snosi trošak zaduživanja. U odsjeku donesite precizan pojam čim postane potreban za odgovor. Tako student susreće Ricardijansku jednakost uz odluku kućanstva o štednji. Izmjenjujte pitanja i kratke naslovne rečenice. Stručni naziv teme iz nastavnog plana i dalje se vodi u stupcu „Tema”, a broj odsjeka i sidro u rukopisu povezuju ga s naslovom za čitatelja.
+
 ## Primjer preuzimanja građe za odsjek 2.2
 
 **Zadatak.** Student u bilješci vijeću računa manjak stanova i razlikuje tvrdnje koje može braniti modelom, presudom i istraživanjem. Redak 2.2 već sadrži ogledni tekst. Nakon predavanja dopišite stvarnu oznaku snimke, početak i kraj ulomka te zabilježite je li predavanje obuhvatilo minimalnu plaću i poreznu incidenciju.

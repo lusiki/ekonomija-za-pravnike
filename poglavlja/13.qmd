@@ -1,11 +1,11 @@
-# Koliko sutra vrijedi dogovorena plaća?
+# Ista plaća, skuplja košarica
 
 Kolektivni ugovor određuje plaću za sljedeću godinu. Obje strane danas moraju procijeniti kakve će tada biti cijene. Što se mijenja ako njihovo očekivanje promaši?
 
-## Phillipsova krivulja i inflacijska očekivanja {#tema-13-1}
+## Očekivana inflacija i Phillipsova krivulja {#tema-13-1}
 
-- Odnos između inflacije i nezaposlenosti u kratkom i dugom roku.
+Ako cijene porastu više nego što su pregovarači očekivali, dogovorena plaća kupuje manje od planiranog. Pomoću **Phillipsove krivulje** usporedite vezu nezaposlenosti i inflacije u kratkom roku s onom nakon što se inflacijska očekivanja prilagode.
 
-## Model agregatne ponude (AS) i agregatna potražnje (AD) {#tema-13-2}
+## Kako se proizvodnja i cijene prilagođavaju? {#tema-13-2}
 
-- Prijelaz s kratkog na srednji rok i mehanizmi prilagodbe cijena.
+Ako narudžbe iznenada porastu, poduzeće može povećati proizvodnju ili promijeniti cijene. U modelu agregatne ponude i potražnje (**AS–AD**) pratite prve reakcije te kasniju prilagodbu nadnica i cijena. Zapišite što držite nepromijenjenim u kratkom, a što se može promijeniti u srednjem roku.

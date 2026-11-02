@@ -1,4 +1,4 @@
-### Koji bi dokaz zatražila pravnica?
+### Kamo su otišli kupci kruha?
 
 U zamišljenom primjeru cijena kruha u pekarnici A poraste s 2,00 na 2,20 eura. Pekarnica B zadrži cijenu, a njezina dnevna prodaja poraste sa 100 na 105 kruhova. Ako ostale okolnosti ostanu jednake, na rast cijene u A od 10 % odgovara rast prodaje u B od 5 %. Omjer tih dviju promjena iznosi 0,5. U ovom računu obje postotne promjene mjerimo prema početnoj vrijednosti.
 

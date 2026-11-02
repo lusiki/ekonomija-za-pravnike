@@ -1,4 +1,4 @@
-### Kada će dužnik osjetiti promjenu?
+### Kojem će dužniku porasti kamata?
 
 Promjena ključne kamatne stope središnje banke utječe na tržišne kamatne stope i na uvjete po kojima banke mogu pribaviti i plasirati novac. Za dva dužnika iz tog podatka još ne možemo izračunati novu ratu. Trebaju nam ugovorena stopa, način i datum njezine promjene te plan otplate. [Europska središnja banka, Transmission mechanism of monetary policy](https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html)
 

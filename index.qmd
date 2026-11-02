@@ -1,8 +1,8 @@
-# O knjizi {.unnumbered}
+# Kako čitati ovu knjigu {#o-knjizi .unnumbered}
 
-Grad želi ograničiti najamninu. Poduzeće želi naplatiti štetu. Dvije stranke žele ugovoriti plaću koja će i sljedeće godine vrijediti jednako. U svakom od tih slučajeva pravnik mora razumjeti što ljudi mogu učiniti kad se pravilo promijeni.
+Ana može izdvojiti 400 eura za stan. Ako grad upravo na taj iznos ograniči najamninu, hoće li Ana lakše naći stan? Za odgovor trebamo znati što mogu učiniti i vlasnici i drugi ljudi koji traže stan. U ovoj knjizi pravo i ekonomija susreću se u takvim pitanjima.
 
-Ovo je radno izdanje. Uz plan predavanja dostupni su ogledni zadaci o najamninama, granicama tržišta i kamatama. Pojedina poglavlja sadrže kraće zadatke uz izvore. Na kraju knjige možete provjeriti kako se čita graf, pronaći članak Ugovora i razjasniti pojam.
+Ovo je radno izdanje. Svako poglavlje donosi uvod u temu. Za samostalan rad počnite vježbom o najamninama, granicama tržišta ili kamatama na kredit. Na kraju knjige možete provjeriti kako se čita graf, pronaći članak Ugovora i razjasniti pojam.
 
 Prije računa pokušajte predvidjeti čiju će odluku pravilo promijeniti. Kad izračunate rezultat, vratite se osobi iz uvodnog slučaja. Možete li joj odgovoriti iz modela ili vam treba podatak o tržištu, odredba ugovora ili obrazloženje suda? Uz izvore u tekstu navedeni su članci, odlomci ili tablice koji pomažu u tom koraku.
 
@@ -14,6 +14,6 @@ Prije računa pokušajte predvidjeti čiju će odluku pravilo promijeniti. Kad i
 Za učenje uz asistenta odaberite jednu vježbu i priložite joj [mentorsku uputu](ucenje/mentor.md).
 
 - [Stan za 400 eura](ucenje/najamnina.md)
-- [Dokazi o granicama tržišta](ucenje/trziste.md)
-- [Dvije kamatne stope](ucenje/kamate.md)
+- [Kamo su otišli kupci kruha?](ucenje/trziste.md)
+- [Kojem će dužniku porasti kamata?](ucenje/kamate.md)
 :::

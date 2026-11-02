@@ -2,14 +2,12 @@
 
 Ana traži stan. Grad razmatra prijedlog da mjesečna najamnina smije iznositi najviše 400 eura. Ana zna koliko bi mogla platiti. Još ne zna hoće li joj itko po toj cijeni ponuditi stan.
 
-## Tržišna ravnoteža i alokativna funkcija cijena {#tema-2-1}
+## Gdje se susreću ponuda i potražnja? {#tema-2-1}
 
 Kućanstva se pri nižoj najamnini češće odluče na samostalan najam. Vlasniku se pri istoj cijeni može više isplatiti da stan upotrijebi drukčije. Zato pri svakoj mogućoj cijeni zasebno brojimo koliko stanova kućanstva žele unajmiti i koliko ih vlasnici žele ponuditi. Ravnotežna je ona cijena pri kojoj se te dvije količine podudaraju. U vježbi možemo promijeniti pravilo o cijeni i pratiti obje skupine.
 
-## Izravna i posredna državna regulacija cijena {#tema-2-2}
+## Kad propis utječe na cijenu {#tema-2-2}
 
 {{< include ../materijali/_najamnina.qmd >}}
 
-- Gornje granične cijene (Price Ceilings): primjeri regulacije najamnina i energenata – pravne namjere prema ekonomskim posljedicama (nestašice, sivo tržište).
-- Donje granične cijene (Price Floors): minimalna plaća – pravni okvir zaštite radnika i ekonomski učinci na zaposlenost.
-- Porezna incidencija: preraspodjela poreznog tereta između kupaca i prodavača.
+Isti postupak možete primijeniti na ograničenje cijene energenta, a zatim preokrenuti pitanje. Što se događa ako propis postavi donju granicu, primjerice minimalnu plaću? Odvojite cilj zaštite radnika od pitanja kako će se promijeniti zaposlenost. Kod poreza posebno istražite kako se teret dijeli između kupca i prodavatelja. Ta se podjela naziva **porezna incidencija**.

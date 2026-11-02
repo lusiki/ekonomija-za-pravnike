@@ -1,12 +1,11 @@
-# Od potpisa do novca na računu
+# Kako kredit postane novac na računu
 
 Banka odobri kredit. Pratite što se nakon potpisa pojavljuje u poslovnim knjigama banke, a što na računu dužnika.
 
-## Priroda, funkcije i vrste novca {#tema-14-1}
+## Za što nam sve služi novac? {#tema-14-1}
 
-- Novac kao medij razmjene, obračunska jedinica i spremište vrijednosti.
+Trgovac u eurima ističe cijenu, kupac njima plaća, a dio novca može sačuvati za sutra. Na novčanici i novcu na računu prepoznajte kako novac služi kao obračunska jedinica, sredstvo razmjene i sredstvo očuvanja vrijednosti.
 
-## Poslovno bankarstvo i proces stvaranja novca {#tema-14-2}
+## Što banka upisuje kad odobri kredit? {#tema-14-2}
 
-- Sustav djelomičnih rezervi i novčani multiplikator.
-- Prudencijalna regulacija banaka i uloga regulatora (Basel III/IV pravila).
+Kad banka odobri kredit i pripiše iznos na račun dužnika, u bilanci iskazuje potraživanje prema dužniku i obvezu po depozitu. Što se događa kad dužnik plati nekome u drugoj banci? Usporedite taj prijenos s pojednostavnjenim modelom djelomičnih rezervi i novčanog multiplikatora. Za stvarnu banku razmotrite ograničenja kapitala i likvidnosti u okviru Basela III i njegovih završnih reformi. [Bank of England, Money creation in the modern economy (2014)](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy)

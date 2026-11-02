@@ -1,11 +1,11 @@
-# Kamo odlaze kupci?
+# Kad kruh poskupi u jednoj pekarnici
 
-Pekarnica povisi cijenu kruha. Dio kupaca prijeđe u susjednu pekarnicu, a dio nastavi dolaziti. Kad pravnica pokušava odrediti granice tržišta, zanima je upravo taj izbor.
+Pekarnica povisi cijenu kruha. Marta prijeđe u pekarnicu preko puta. Filip i dalje dolazi u istu jer mu je usput do posla. Kad pravnica pokušava odrediti granice tržišta, zanima je upravo taj izbor.
 
-## Cjenovna, dohodovna i unakrsna elastičnost potražnje {#tema-3-1}
+## Koliko kupci mijenjaju navike? {#tema-3-1}
 
 Ako cijena kruha u jednoj pekarnici poraste, njezinu vlasnicu zanima koliko će se promijeniti vlastita prodaja. Pravnici koja ispituje tržišno natjecanje važno je i kamo su kupci otišli. Vlastita cjenovna elastičnost povezuje promjenu tražene količine s promjenom cijene istog proizvoda. Unakrsna elastičnost povezuje tu količinu s cijenom drugog proizvoda. Kod dohodovne elastičnosti pitamo se kako kupnja reagira na promjenu dohotka kućanstva. U svakoj usporedbi ostale uvjete držimo jednakima.
 
-## Pravna primjena elastičnosti pri definiranju mjerodavnog tržišta {#tema-3-2}
+## Gdje su granice tržišta? {#tema-3-2}
 
 {{< include ../ucenje/trziste.md >}}

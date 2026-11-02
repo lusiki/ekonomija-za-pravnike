@@ -1,36 +1,25 @@
-# Kad suparnici odrede istu cijenu
+# Ista cijena na dvije benzinske postaje
 
 Na dvjema benzinskim postajama istoga jutra osvane ista cijena. Istražiteljica mora razmotriti barem dva objašnjenja. Jesu li oba poduzeća reagirala na isti trošak ili su se dogovorila?
 
-## Savršena konkurencija kao teorijski ideal {#tema-6-1}
+## Kad nitko ne može diktirati cijenu {#tema-6-1}
 
-- Atomizirano tržište, homogenost proizvoda, slobodan ulazak/izlazak i potpuna informiranost.
-- Pravilo maksimizacije dobiti ($MR = MC$); točka pokrića troškova i točka zatvaranja.
-- Alokativna ($P = MC$) i proizvodna učinkovitost; maksimizacija društvenog probitka.
+U modelu **savršene konkurencije** brojni prodavatelji nude isti proizvod, kupci znaju cijene, a ulazak i izlazak su slobodni. Pojedina benzinska postaja uzima cijenu kao zadanu. Usporedite prihod i trošak dodatne litre ($MR = MC$) pa razlikujte prag pokrića svih troškova od odluke o privremenom zatvaranju. Ispitajte pod kojim uvjetima $P = MC$ donosi alokativnu učinkovitost, a konkurencija i proizvodnu učinkovitost.
 
-## Monopol i monopolistička praksa {#tema-6-2}
+## Kad na tržištu ostane jedan prodavatelj {#tema-6-2}
 
-- Izvori monopolske moći (Lernerov indeks) i pravne prepreke (patenti, koncesije, licenčni režimi).
-- Određivanje cijene i količine u monopolu ($P > MC$) i stvaranje mrtvog tereta (Deadweight Loss).
-- Cjenovna diskriminacija (I., II. i III. stupnja) i njezina pravna dopustivost.
+Monopolist može birati cijenu, ali tada kupci odlučuju koliko će kupiti. Na krivulji potražnje pronađite kako smanjenje količine može podići cijenu iznad graničnog troška ($P > MC$) i ostaviti neke uzajamno korisne razmjene neostvarenima. Taj se gubitak naziva mrtvim teretom. Lernerov indeks mjeri odnos marže i cijene. Razmotrite kako patenti, koncesije ili dozvole utječu na ulazak te razlikujte tri stupnja cjenovne diskriminacije i pitanja njihove pravne dopustivosti.
 
-## Monopolistička konkurencija {#tema-6-3}
+## Zašto kupci biraju baš tu marku? {#tema-6-3}
 
-- Diferencijacija proizvoda i opadajuća krivulja potražnje s kojome se suočava poduzeće.
-- Kratkoročna i dugoročna ravnoteža: ulazak konkurenata i ostvarivanje nulte ekonomske dobiti ($P = ATC$).
-- Postojanje viška kapaciteta i neučinkovitost ($P > MC$) u odnosu na društvene koristi od raznolikosti dobara.
-- Pravna zaštita robnih žigova i robnih marki kao temelj održavanja diferencijacije.
+Dvije knjižare prodaju slične knjige, a ipak mogu zadržati različite kupce. U modelu **monopolističke konkurencije** razlikovanje proizvoda pojedinom prodavatelju daje silaznu krivulju potražnje. Usporedite kratki rok i dugi rok u kojem ulazak konkurenata može svesti ekonomsku dobit na nulu ($P = ATC$), uz višak kapaciteta i $P > MC$. Koju korist kupac ima od raznolikosti i kako zaštita žiga pomaže razlikovanju?
 
-## Oligopol, teorija igara i zabranjeni sporazumi {#tema-6-4}
+## Kako suparnici biraju svoj sljedeći potez {#tema-6-4}
 
-- Strateško ponašanje poduzeća i modeli ponašanja (Cournot, Bertrand, Stackelberg).
-- Teorija igara i Nashova ravnoteža: "Zatvorenikova dilema" (Prisoner's Dilemma).
-- Karteli, tajne dojavne prakse i koncentracije poduzeća (Mergers & Acquisitions - M&A).
+Na tržištu s malo poduzeća, odnosno u **oligopolu**, svako vodi računa o odgovoru suparnika. Usporedite izbor količine kod Cournota, cijene kod Bertranda i prednost prvog poteza kod Stackelberga. Na zatvorenikovoj dilemi objasnite zašto u Nashovoj ravnoteži pojedinac nema poticaj sam promijeniti potez. Kad se dvije cijene podudaraju, koje bi dokaze trebalo prikupiti za tvrdnju o dogovoru ili usklađenom djelovanju? Razlikujte takav predmet od ocjene koncentracije.
 
-## Pravni okvir zaštite tržišnog natjecanja u EU i RH {#tema-6-5}
+## Tko štiti tržišno natjecanje? {#tema-6-5}
 
-- Članak 101. UFEU (zabrana kartela) i Članak 102. UFEU (zlouporaba vladajućeg položaja) / Zakon o zaštiti tržišnog natjecanja RH (ZZTN).
-- Pokajnički program (Leniency Program): pravni mehanizam razbijanja kartela.
-- Ex-ante kontrola koncentracija te uloga Europske komisije (DG COMP) i Agencije za zaštitu tržišnog natjecanja (AZTN).
+Kod mogućeg sporazuma krenite od članka 101. UFEU-a, a kod moguće zlouporabe vladajućeg položaja od članka 102. Za hrvatski predmet pronađite i odgovarajuću odredbu Zakona o zaštiti tržišnog natjecanja. Usporedite postupak otkrivanja kartela, uključujući pokajnički program, s prethodnom ocjenom koncentracije. Utvrdite kada postupa AZTN, a kada Europska komisija.
 
 **Vratite se predmetu Studenac/Pemo.** U [vježbi o granicama tržišta](03.qmd#tema-3-2) birali ste trgovine među kojima kupci mogu prijeći iz jedne u drugu. Sada zamislite da ista dva lanca drže velik dio trgovina u gradu, a malen dio trgovina u županiji. Zašto bi pogrešna geografska granica promijenila sliku o njihovu tržišnom položaju? Objasnite koji još podatak o konkurentima trebate za ocjenu koncentracije.

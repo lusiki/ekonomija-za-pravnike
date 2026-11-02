@@ -2,7 +2,7 @@
 
 [Radna mrežna inačica](https://lusiki.github.io/ekonomija-za-pravnike/) · [Prijelom za tisak](https://lusiki.github.io/ekonomija-za-pravnike/ekonomija-za-pravnike.pdf)
 
-Knjiga prati autorov nacrt u osam dijelova, 21 poglavlju i tri dodatka. Ogledni nastavni materijal razvijen je za najamnine (2.2), mjerodavno tržište (3.2) i kamate (15.1 i 15.3). Drugi odsjeci uz plan predavanja sadrže odabrane zadatke s izvorima. Stupanj obrade prati se po odsjeku.
+Knjiga prati autorov nacrt u osam dijelova, 21 poglavlju i tri dodatka. Ogledni nastavni materijal razvijen je za najamnine (2.2), mjerodavno tržište (3.2) i kamate (15.1 i 15.3). Svaki odsjek ima naslov za čitatelja i kratak uvod ili zadatak. Izvorni stručni naziv nastavne teme i dalje je u tablici pokrivenosti. Stupanj obrade prati se po odsjeku.
 
 Za prvo ili sljedeće predavanje otvorite [postupak obrade s primjerom za 2.2](urednistvo/obrada-predavanja.md), [tablicu pokrivenosti](urednistvo/pokrivenost.tsv) i [registar 30 izvora uz izvornu literaturu](urednistvo/izvori.md).
 

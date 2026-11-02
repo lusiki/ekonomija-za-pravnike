@@ -1,4 +1,4 @@
-# Ekonomsko-pravni pojmovnik
+# Mali rječnik ekonomije i prava
 
 **Gornja granica cijene** (*price ceiling*). Najviša dopuštena cijena. U [primjeru najma](../poglavlja/02.qmd#tema-2-2) granica od 800 eura dopušta sklapanje ugovora po nižoj ravnotežnoj cijeni.
 

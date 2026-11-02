@@ -1,4 +1,4 @@
-# Kako čitati ekonomski graf
+# Kako pročitati graf
 
 Na slici uz [vježbu o najamnini](../poglavlja/02.qmd#tema-2-2) duljina stupca predstavlja broj stanova. Najprije pročitajte oznaku skupine: jedan stupac pokazuje koliko stanova vlasnici nude, a drugi koliko ih kućanstva žele unajmiti. Obje vrijednosti pripadaju istoj mjesečnoj najamnini.
 

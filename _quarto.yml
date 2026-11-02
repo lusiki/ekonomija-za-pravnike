@@ -7,19 +7,24 @@ project:
     - dizajn/fontovi/*
 lang: hr
 language:
+  toc-title-document: "U ovom poglavlju"
+  toggle-section: "Otvori ili zatvori dio knjige"
+  toggle-sidebar: "Otvori ili zatvori sadržaj"
   crossref-fig-title: Slika
   crossref-tbl-title: Tablica
   section-title-appendices: Dodaci
 book:
   title: Osnove ekonomije za pravnike
-  subtitle: Teorija, regulacija i politike
+  subtitle: Od najamnine do javnog duga
   output-file: ekonomija-za-pravnike
+  sidebar:
+    collapse-level: 1
   chapters:
     - index.qmd
-    - part: "Izbor ima cijenu"
+    - part: "Kako biramo"
       chapters:
         - poglavlja/01.qmd
-    - part: "Tržišta i pravila igre"
+    - part: "Cijene, kupci i pravila tržišta"
       chapters:
         - poglavlja/02.qmd
         - poglavlja/03.qmd
@@ -28,29 +33,29 @@ book:
         - poglavlja/06.qmd
         - poglavlja/07.qmd
         - poglavlja/08.qmd
-    - part: "Gospodarstvo pod povećalom"
+    - part: "Od kućnog računa do gospodarstva"
       chapters:
         - poglavlja/09.qmd
         - poglavlja/10.qmd
         - poglavlja/11.qmd
-    - part: "Rad, plaće i cijene"
+    - part: "Posao, plaće i cijene"
       chapters:
         - poglavlja/12.qmd
         - poglavlja/13.qmd
-    - part: "Put novca"
+    - part: "Novac u banci"
       chapters:
         - poglavlja/14.qmd
         - poglavlja/15.qmd
-    - part: "Država kao dužnik"
+    - part: "Država troši i posuđuje"
       chapters:
         - poglavlja/16.qmd
         - poglavlja/17.qmd
-    - part: "Preko granice"
+    - part: "Trgovina preko granice"
       chapters:
         - poglavlja/18.qmd
         - poglavlja/19.qmd
         - poglavlja/20.qmd
-    - part: "Hrvatska u brojkama"
+    - part: "Kako živi Hrvatska?"
       chapters:
         - poglavlja/21.qmd
   appendices:

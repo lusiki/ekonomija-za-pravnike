@@ -1,24 +1,19 @@
-# Koliko vrijedi još jedna kupnja?
+# Knjiga za koju bismo platili više
 
 Kupac je za knjigu spreman dati 30 eura, a knjižara je prodaje za 20. Što je kupac dobio tom razmjenom i koje bismo podatke trebali da utvrdimo koliko je dobila knjižara?
 
-## Preferencije potrošača i teorija korisnosti {#tema-4-1}
+## Koliko vrijedi još jedan primjerak? {#tema-4-1}
 
-- Korisnost i granične veličine: Ukupna i granična korisnost ($MU$); Zakon opadajuće granične korisnosti (Prvi Gossenov zakon).
-- Analiza krivulja ravnodušnosti: Krivulje ravnodušnosti: svojstva, stopa supstitucije i granična stopa supstitucije ($MRS$).
+Čitatelj koji još nema primjerak knjige i čitatelj koji ga već ima mogu različito vrednovati sljedeći primjerak. Dodatnu korist od još jedne jedinice nazivamo **graničnom korisnošću** ($MU$). Prvi Gossenov zakon opisuje njezino opadanje. Krivulja ravnodušnosti spaja košarice koje kupac jednako vrednuje. Njezin nagib pokazuje koliko je jednog dobra spreman zamijeniti drugim (granična stopa supstitucije, $MRS$).
 
-## Proračunsko ograničenje i optimizacija izbora {#tema-4-2}
+## Što stane u kućni proračun? {#tema-4-2}
 
-- Proračunski pravac (Budget Line): Utjecaj promjena dohotka i cijena na izbor potrošača.
-- Potrošačka ravnoteža: Izjednačavanje omjera graničnih korisnosti i cijena dobara ($\frac{MU_A}{P_A} = \frac{MU_B}{P_B}$).
+Ako su knjige skuplje, isti dohodak omogućuje manje kupnji. Nacrtajte proračunski pravac za knjige i drugo dobro. Usporedite kako ga mijenja viša cijena knjige, a kako porast dohotka. Kad kupac bira oba dobra i može prilagoditi njihove količine, u unutarnjem optimumu zadnji euro daje jednaku graničnu korisnost u obje uporabe. Taj uvjet zapisujemo kao $\frac{MU_A}{P_A} = \frac{MU_B}{P_B}$.
 
-## Potrošačev probitak (Consumer Surplus) i pravna zaštita potrošača {#tema-4-3}
+## Koliko je kupac na dobitku? {#tema-4-3}
 
-- Koncept potrošačeva probitka: Potrošački probitak kao razlika između maksimalne spremnosti na plaćanje i stvarne tržišne cijene.
-- Informacijska asimetrija i pravni mehanizmi: Zakon o zaštiti potrošača RH i direktive EU (pravna zaštita od zavaravajućeg oglašavanja, nepoštenih ugovornih odredbi te ugradnja prava na raskid ugovora sklopljenih na daljinu).
+Čitatelj je bio spreman platiti 30 eura, a platio je 20. Razlika od 10 eura njegov je **potrošačev probitak**. Što ako je pri kupnji dobio pogrešnu informaciju o izdanju? Pronađite kako hrvatski Zakon o zaštiti potrošača i relevantne direktive EU-a uređuju zavaravajuće oglašavanje, nepoštene odredbe i raskid ugovora sklopljenog na daljinu.
 
-## Proizvođačev probitak (Producer Surplus) {#tema-4-4}
+## Što od prodaje ostaje knjižari? {#tema-4-4}
 
-- Koncept proizvođačeva probitka: Proizvođačev probitak kao razlika između tržišne cijene dobivene za dobro i graničnih troškova njegove proizvodnje (spremnosti na prodaju).
-- Mjerenje i pravna važnost: Mjerenje probitka putem površine iznad krivulje ponude i ispod linije tržišne cijene. Uloga proizvođačeva probitka u procjeni štete pri povredama ugovora i izračunu izgubljene dobiti (lucrum cessans).
-- Ukupni društveni probitak (Total Surplus): Zbroj potrošačeva i proizvođačeva probitka kao mjera alokativne učinkovitosti slobodnoga tržišta u odsutnosti poremećaja.
+Za probitak knjižare treba nam i trošak prodaje dodatnog primjerka. U modelu je **proizvođačev probitak** za tu jedinicu razlika između cijene i graničnog troška. Na grafu zbroj takvih razlika odgovara površini između krivulje ponude i cijene. Dodajte probitak kupaca da biste dobili ukupni probitak. Kod spora zbog povrede ugovora posebno obrazložite koje biste troškove i prihode uzeli u obzir pri procjeni izmakle koristi (*lucrum cessans*).

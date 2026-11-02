@@ -1,14 +1,13 @@
-# Tko postavlja granice državnom dugu?
+# Koliko se država smije zadužiti?
 
 Prijedlog proračuna sadrži novo zaduženje. Pravnica koja ga pregledava mora ustanoviti koje se pravilo primjenjuje i na koji se pokazatelj ono odnosi.
 
-## Pravna ograničenja državnog zaduživanja {#tema-17-1}
+## Hrvatska pravila zaduživanja {#tema-17-1}
 
-- Ustavne odredbe i Zakon o fiskalnoj odgovornosti u RH.
+Prije ocjene novog zaduženja utvrdite tko se zadužuje i tko odobrava odluku. Potražite mjerodavne ustavne odredbe i odredbe hrvatskog Zakona o fiskalnoj odgovornosti te zabilježite verziju teksta koja vrijedi za promatranu godinu.
 
-## Pakt o stabilnosti i rastu EU (SGP) {#tema-17-2}
+## Kako EU čita državni proračun? {#tema-17-2}
 
-- Preventivni i korektivni mehanizam; Procedura u slučaju prekomjernog deficita (EDP).
-- Novi okvir ekonomskog upravljanja u Europskoj uniji.
+Pakt o stabilnosti i rastu povezuje praćenje javnih financija s postupanjem kada nastane prekomjerni deficit. U reformiranom okviru ekonomskog upravljanja razlikujte preventivni nadzor i korektivni postupak. U svakom koraku provjerite koju veličinu prati Komisija i kakvu odluku donosi Vijeće.
 
 **Što čitamo u proračunskom planu?** U članku 2. Uredbe (EU) 2024/1263 pronađite definiciju neto rashoda. Potom u tablici 1 hrvatskog Nacionalnog srednjoročnog fiskalno-strukturnog plana za 2025.–2028. odaberite jednu godinu. Prepišite naziv retka, jedinicu i stopu rasta. Bilježi li ta tablica ostvarenu potrošnju ili putanju koju je država navela u planu? Odredite koji biste kasniji izvještaj trebali za provjeru ostvarenja. [Uredba (EU) 2024/1263, čl. 2.](https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32024R1263) · [Ministarstvo financija, Nacionalni plan 2025.–2028., tablica 1](https://mfin.gov.hr/UserDocsImages/dokumenti/hr_i_eu/Nacionalni%20srednjoro%C4%8Dni%20fiskalno-strukturni%20plan%20Republike%20Hrvatske.pdf)
