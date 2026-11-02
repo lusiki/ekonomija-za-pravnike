@@ -1,16 +1,12 @@
-# Financijska tržišta i IS-LM model
+# Kad se ulaganje odgodi
 
-*Radni nacrt prema nastavnom planu.*
+Grad pokreće gradnju, a poduzetnica razmišlja o novom pogonu. Model IS-LM pomaže pratiti što se događa s njihovim odlukama kad se promijene potražnja za dobrima i kamatna stopa.
 
 ## Financijska tržišta i ponuda i potražnja za novcem {#tema-11-1}
-
-**Teme iz plana**
 
 - Određivanje kamatne stope u kratkom roku.
 
 ## Središnji IS-LM model {#tema-11-2}
-
-**Teme iz plana**
 
 - Tržište dobara i IS krivulja; financijska tržišta i LM krivulja.
 - Učinci miksa monetarne i fiskalne politike na proizvodnju i kamatne stope.

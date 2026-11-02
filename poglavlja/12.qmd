@@ -1,17 +1,13 @@
-# Tržište rada i prirodna stopa nezaposlenosti
+# Za pregovaračkim stolom
 
-*Radni nacrt prema nastavnom planu.*
+Sindikat pregovara o novom ugovoru dok poslodavac planira sljedeće zapošljavanje. Koje su mogućnosti otvorene radniku ako pregovori propadnu, a koje poslodavcu?
 
 ## Tržište rada i određivanje plaća i cijena {#tema-12-1}
-
-**Teme iz plana**
 
 - Određivanje plaća (kolektivno pregovaranje, sindikati) i određivanje cijena (marže poduzeća).
 - Prirodna stopa nezaposlenosti ($u_n$).
 - Utjecaj Zakona o radu i pravne zaštite zaposlenja (EPL) na fleksibilnost tržišta rada.
 
 ## Oblici nezaposlenosti {#tema-12-2}
-
-**Teme iz plana**
 
 - Frikcijska, strukturna i ciklična nezaposlenost.

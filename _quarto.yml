@@ -16,10 +16,10 @@ book:
   output-file: ekonomija-za-pravnike
   chapters:
     - index.qmd
-    - part: "Uvod u ekonomiju i struktura ekonomske znanosti"
+    - part: "Izbor ima cijenu"
       chapters:
         - poglavlja/01.qmd
-    - part: "Mikroekonomija â€“ potroĹˇaÄŤi, proizvodnja, trĹľiĹˇta i regulacija"
+    - part: "Tržišta i pravila igre"
       chapters:
         - poglavlja/02.qmd
         - poglavlja/03.qmd
@@ -28,29 +28,29 @@ book:
         - poglavlja/06.qmd
         - poglavlja/07.qmd
         - poglavlja/08.qmd
-    - part: "Makroekonomija â€“ mjerenje, kratki rok i modeli ravnoteĹľe"
+    - part: "Gospodarstvo pod povećalom"
       chapters:
         - poglavlja/09.qmd
         - poglavlja/10.qmd
         - poglavlja/11.qmd
-    - part: "Srednji rok â€“ trĹľiĹˇte rada, inflacija i AS-AD model"
+    - part: "Rad, plaće i cijene"
       chapters:
         - poglavlja/12.qmd
         - poglavlja/13.qmd
-    - part: "Monetarna politika, bankarstvo i srediĹˇnje banke"
+    - part: "Put novca"
       chapters:
         - poglavlja/14.qmd
         - poglavlja/15.qmd
-    - part: "Fiskalna politika, javni dug i pravna ograniÄŤenja"
+    - part: "Država kao dužnik"
       chapters:
         - poglavlja/16.qmd
         - poglavlja/17.qmd
-    - part: "Otvoreno gospodarstvo, meÄ‘unarodna trgovina i europska integracija"
+    - part: "Preko granice"
       chapters:
         - poglavlja/18.qmd
         - poglavlja/19.qmd
         - poglavlja/20.qmd
-    - part: "Empirijska analiza i kljuÄŤni pokazatelji: RH, EU i SAD"
+    - part: "Hrvatska u brojkama"
       chapters:
         - poglavlja/21.qmd
   appendices:

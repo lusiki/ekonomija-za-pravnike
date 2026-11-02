@@ -1,10 +1,8 @@
-# Tržišni neuspjesi i pravni instrumenti njihova otklanjanja
+# Račun za dim iz tvornice
 
-*Radni nacrt prema nastavnom planu.*
+Tvornica plaća gorivo, a susjedi češće peru prozore. Kad se odlučuje o još jednom satu proizvodnje, čiji trošak ulazi u računicu?
 
 ## Eksternalije i Coaseov teorem {#tema-7-1}
-
-**Teme iz plana**
 
 - Negativne i pozitivne eksternalije (privatni prema društvenim troškovima).
 - Coaseov teorem: alokacija vlasničkih prava, transakcijski troškovi i uloga sudova u mirnom rješavanju sporova.
@@ -12,14 +10,10 @@
 
 ## Javna dobra i zajednički resursi {#tema-7-2}
 
-**Teme iz plana**
-
 - Kriteriji neisključivosti i nerivalnosti; problem "slobodnog jahača" (Free-rider problem).
 - Tragedija zajedničkog dobra (Tragedy of the Commons) i pravni načini zaštite okoliša.
 
 ## Asimetrične informacije i zaštita ugovornih strana {#tema-7-3}
-
-**Teme iz plana**
 
 - Nepovoljan izbor (Adverse Selection) i moralni hazard (Moral Hazard).
 - Pravni mehanizmi: obvezno objavljivanje informacija, jamstva i obvezno osiguranje.

@@ -1,22 +1,16 @@
-# Monetarna politika i uloga Europske središnje banke (ECB)
+# Od odluke o kamatama do rate kredita
 
-*Radni nacrt prema nastavnom planu.*
+Dva dužnika imaju isti preostali dug, ali samo jedan ima promjenjivu kamatnu stopu. Kojim putem odluka središnje banke može stići do njihova kućnog proračuna?
 
 ## Ciljevi i tradicionalni instrumenti monetarne politike {#tema-15-1}
-
-**Teme iz plana**
 
 - Operacije na otvorenom tržištu, obvezne rezerve, eskontne i diskontne stope.
 - Koncepcija neovisnosti središnjih banaka (pravni status HNB-a i ECB-a prema UFEU).
 
 ## Nekonvencionalne mjere monetarne politike {#tema-15-2}
 
-**Teme iz plana**
-
 - Kvantitativno olakšavanje (Quantitative Easing), negativne kamatne stope i smjernice o budućim namjerama (Forward Guidance).
 
 ## Pravne implikacije inflacije na ugovorne odnose {#tema-15-3}
-
-**Teme iz plana**
 
 - Gubitak kupovne moći novca, revalorizacija dugova, zatezne kamate i valutne obveze.

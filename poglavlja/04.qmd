@@ -1,31 +1,23 @@
-# Ponašanje potrošača, troškovi proizvodnje i teorija blagostanja
+# Koliko vrijedi još jedna kupnja?
 
-*Radni nacrt prema nastavnom planu.*
+Kupac je za knjigu spreman dati 30 eura, a knjižara je prodaje za 20. Što je kupac dobio tom razmjenom i koje bismo podatke trebali da utvrdimo koliko je dobila knjižara?
 
 ## Preferencije potrošača i teorija korisnosti {#tema-4-1}
-
-**Teme iz plana**
 
 - Korisnost i granične veličine: Ukupna i granična korisnost ($MU$); Zakon opadajuće granične korisnosti (Prvi Gossenov zakon).
 - Analiza krivulja ravnodušnosti: Krivulje ravnodušnosti: svojstva, stopa supstitucije i granična stopa supstitucije ($MRS$).
 
 ## Proračunsko ograničenje i optimizacija izbora {#tema-4-2}
 
-**Teme iz plana**
-
 - Proračunski pravac (Budget Line): Utjecaj promjena dohotka i cijena na izbor potrošača.
 - Potrošačka ravnoteža: Izjednačavanje omjera graničnih korisnosti i cijena dobara ($\frac{MU_A}{P_A} = \frac{MU_B}{P_B}$).
 
 ## Potrošačev probitak (Consumer Surplus) i pravna zaštita potrošača {#tema-4-3}
 
-**Teme iz plana**
-
 - Koncept potrošačeva probitka: Potrošački probitak kao razlika između maksimalne spremnosti na plaćanje i stvarne tržišne cijene.
 - Informacijska asimetrija i pravni mehanizmi: Zakon o zaštiti potrošača RH i direktive EU (pravna zaštita od zavaravajućeg oglašavanja, nepoštenih ugovornih odredbi te ugradnja prava na raskid ugovora sklopljenih na daljinu).
 
 ## Proizvođačev probitak (Producer Surplus) {#tema-4-4}
-
-**Teme iz plana**
 
 - Koncept proizvođačeva probitka: Proizvođačev probitak kao razlika između tržišne cijene dobivene za dobro i graničnih troškova njegove proizvodnje (spremnosti na prodaju).
 - Mjerenje i pravna važnost: Mjerenje probitka putem površine iznad krivulje ponude i ispod linije tržišne cijene. Uloga proizvođačeva probitka u procjeni štete pri povredama ugovora i izračunu izgubljene dobiti (lucrum cessans).

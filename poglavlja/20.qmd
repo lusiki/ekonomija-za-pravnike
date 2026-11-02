@@ -1,16 +1,12 @@
-# Europska monetarna unija i Maastrichtski kriteriji
+# Što zemlje dijele kad dijele valutu?
 
-*Radni nacrt prema nastavnom planu.*
+Dvije zemlje koriste istu valutu. U jednoj raste potražnja, a u drugoj se zatvaraju pogoni. Kako izgleda odluka o jednoj kamatnoj stopi za obje?
 
 ## Teorija optimalnog valutnog područja (OCA) {#tema-20-1}
-
-**Teme iz plana**
 
 - Prednosti i troškovi uvođenja zajedničke valute (Robert Mundell).
 
 ## Pravno-ekonomski kriteriji konvergencije (Članak 140. UFEU – Maastricht) {#tema-20-2}
-
-**Teme iz plana**
 
 - Stabilnost cijena: Ograničenje inflacije vezano uz tri najuspješnije članice.
 - Održivost javnih financija: Deficit ispod 3% BDP-a i javni dug ispod 60% BDP-a (ili zadovoljavajuća dinamika smanjenja).
@@ -18,7 +14,5 @@
 - Konvergencija kamatnih stopa: Ograničenje dugoročnih kamatnih stopa.
 
 ## Unutarnje tržište EU i četiri temeljne slobode {#tema-20-3}
-
-**Teme iz plana**
 
 - Sloboda kretanja roba, usluga, kapitala i radnika te Zajednička trgovačka politika EU.

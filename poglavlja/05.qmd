@@ -1,10 +1,8 @@
-# Teorija proizvodnje, troškovi poslovanja i prirodni monopol
+# Jedan grad, dva vodovoda?
 
-*Radni nacrt prema nastavnom planu.*
+Drugi opskrbljivač želi ući na tržište vode. Mora li raskopati iste ulice i položiti vlastite cijevi? Trošak mreže daje tom pitanju i ekonomski i pravni smisao.
 
 ## Proizvodna funkcija i kratkoročna analiza {#tema-5-1}
-
-**Teme iz plana**
 
 - Inputi i outputi: Odnos ulaza (rad $L$, kapital $K$) i izlaza (količina proizvodnje $Q$).
 - Proizvodni pokazatelji: Ukupni, prosječni ($AP_L$) i granični proizvod rada ($MP_L$).
@@ -12,22 +10,16 @@
 
 ## Proizvodnja u dugom roku i prinosi na opseg {#tema-5-2}
 
-**Teme iz plana**
-
 - Izokvante i izotroškovni pravci: Granična stopa tehničke supstitucije ($MRTS$).
 - Prinosi na opseg (Returns to Scale): Konstantni, rastući i opadajući prinosi na opseg u dugome roku.
 
 ## Struktura troškova: Računovodstveni prema ekonomskom pristupu {#tema-5-3}
-
-**Teme iz plana**
 
 - Eksplicitni prema implicitnim troškovima: Oportunitetni trošak i potopljeni troškovi (Sunk Costs) u ugovornom pravu.
 - Klasifikacija troškova: Ukupni ($TC = TFC + TVC$), prosječni ($ATC, AFC, AVC$) i granični troškovi ($MC$).
 - Troškovi u dugom roku: Ekonomija obujma (Economies of Scale) i desekonomija obujma.
 
 ## Prirodni monopol i pravna regulacija mrežnih djelatnosti {#tema-5-4}
-
-**Teme iz plana**
 
 - Prirodni monopol: Infrastrukturni monopoli (energetika, telekomunikacije, promet) uvjetovani izrazitim ekonomijama obujma.
 - Sektorska regulacija: Uloga i nadležnosti regulatornih agencija u RH (HERA, HAKOM) pri određivanju mrežnih pristupa i cjenovnih stropova.

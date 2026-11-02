@@ -1,22 +1,16 @@
-# Makroekonomija otvorenog gospodarstva
+# Ugovor u drugoj valuti
 
-*Radni nacrt prema nastavnom planu.*
+Uvoznik ugovori cijenu u dolarima, naplaćuje robu u eurima i ima mjesec dana do isplate. Što promjena tečaja u tom roku znači za njegov posao?
 
 ## Trgovinska i financijska otvorenost {#tema-18-1}
-
-**Teme iz plana**
 
 - Nominalni i realni devizni tečaj.
 - Trgovinska bilanca, devizni tečaj i Marshall-Lernerov uvjet (J-krivulja).
 
 ## Paritet kamatnih stopa i kretanje kapitala {#tema-18-2}
 
-**Teme iz plana**
-
 - Povezanost domaćih i stranih kamatnih stopa te tečajnih očekivanja.
 
 ## Mundell-Flemingov model (IS-LM-IP) {#tema-18-3}
-
-**Teme iz plana**
 
 - Učinkovitost monetarne i fiskalne politike u režimu fiksničkog prema fleksibilnom tečaju.

@@ -1,3 +1,5 @@
-# Pojmovnik osnovnih ekonomsko-pravnih termina
+# Ekonomsko-pravni pojmovnik
+
+Ekonomski i pravni izrazi iz poglavlja knjige.
 
 *Dodatak je predviđen planom knjige i čeka autorsku obradu.*

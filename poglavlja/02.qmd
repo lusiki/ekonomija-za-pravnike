@@ -1,10 +1,8 @@
-# Osnovna analiza ponude, potražnje i tržišnog mehanizma
+# Stan za 400 eura
 
-*Radni nacrt prema nastavnom planu.*
+Ana traži stan. Grad razmatra prijedlog da mjesečna najamnina smije iznositi najviše 400 eura. Ana zna koliko bi mogla platiti. Još ne zna hoće li joj itko po toj cijeni ponuditi stan.
 
 ## Tržišna ravnoteža i alokativna funkcija cijena {#tema-2-1}
-
-**Teme iz plana**
 
 - Krivulja potražnje i zakon potražnje;
 - Krivulja ponude i zakon ponude.
@@ -13,8 +11,6 @@
 ## Izravna i posredna državna regulacija cijena {#tema-2-2}
 
 {{< include ../materijali/_najamnina.qmd >}}
-
-**Teme iz plana**
 
 - Gornje granične cijene (Price Ceilings): primjeri regulacije najamnina i energenata – pravne namjere prema ekonomskim posljedicama (nestašice, sivo tržište).
 - Donje granične cijene (Price Floors): minimalna plaća – pravni okvir zaštite radnika i ekonomski učinci na zaposlenost.

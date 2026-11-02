@@ -14,7 +14,7 @@
   rail.append(disc);
   const kicker = document.createElement("p");
   kicker.className = "chapter-kicker kicker";
-  kicker.textContent = ["Poglavlje " + number, part].filter(Boolean).join(" Â· ");
+  kicker.textContent = ["Poglavlje " + number, part].filter(Boolean).join(" · ");
   const spacer = header.querySelector("h1 .chapter-number").nextSibling;
   if (spacer?.nodeType === Node.TEXT_NODE) spacer.textContent = spacer.textContent.trimStart();
   title.prepend(rail,kicker);

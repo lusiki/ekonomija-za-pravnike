@@ -1,3 +1,5 @@
-# Ekonomska matematika i interpretacija grafikona za pravnike (funkcije, nagib, elastičnost, mjerne jedinice)
+# Kako čitati ekonomski graf
+
+Funkcije, nagib, elastičnost i mjerne jedinice.
 
 *Dodatak je predviđen planom knjige i čeka autorsku obradu.*

@@ -1,10 +1,8 @@
-# Tržišne strukture/tržišni modeli i pravo zaštite tržišnog natjecanja
+# Kad suparnici odrede istu cijenu
 
-*Radni nacrt prema nastavnom planu.*
+Na dvjema benzinskim postajama istoga jutra osvane ista cijena. Istražiteljica mora razmotriti barem dva objašnjenja. Jesu li oba poduzeća reagirala na isti trošak ili su se dogovorila?
 
 ## Savršena konkurencija kao teorijski ideal {#tema-6-1}
-
-**Teme iz plana**
 
 - Atomizirano tržište, homogenost proizvoda, slobodan ulazak/izlazak i potpuna informiranost.
 - Pravilo maksimizacije dobiti ($MR = MC$); točka pokrića troškova i točka zatvaranja.
@@ -12,15 +10,11 @@
 
 ## Monopol i monopolistička praksa {#tema-6-2}
 
-**Teme iz plana**
-
 - Izvori monopolske moći (Lernerov indeks) i pravne prepreke (patenti, koncesije, licenčni režimi).
 - Određivanje cijene i količine u monopolu ($P > MC$) i stvaranje mrtvog tereta (Deadweight Loss).
 - Cjenovna diskriminacija (I., II. i III. stupnja) i njezina pravna dopustivost.
 
 ## Monopolistička konkurencija {#tema-6-3}
-
-**Teme iz plana**
 
 - Diferencijacija proizvoda i opadajuća krivulja potražnje s kojome se suočava poduzeće.
 - Kratkoročna i dugoročna ravnoteža: ulazak konkurenata i ostvarivanje nulte ekonomske dobiti ($P = ATC$).
@@ -29,15 +23,11 @@
 
 ## Oligopol, teorija igara i zabranjeni sporazumi {#tema-6-4}
 
-**Teme iz plana**
-
 - Strateško ponašanje poduzeća i modeli ponašanja (Cournot, Bertrand, Stackelberg).
 - Teorija igara i Nashova ravnoteža: "Zatvorenikova dilema" (Prisoner's Dilemma).
 - Karteli, tajne dojavne prakse i koncentracije poduzeća (Mergers & Acquisitions - M&A).
 
 ## Pravni okvir zaštite tržišnog natjecanja u EU i RH {#tema-6-5}
-
-**Teme iz plana**
 
 - Članak 101. UFEU (zabrana kartela) i Članak 102. UFEU (zlouporaba vladajućeg položaja) / Zakon o zaštiti tržišnog natjecanja RH (ZZTN).
 - Pokajnički program (Leniency Program): pravni mehanizam razbijanja kartela.

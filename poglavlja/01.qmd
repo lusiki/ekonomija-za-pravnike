@@ -1,10 +1,8 @@
-# Temeljni koncepti ekonomske znanosti i pravni okvir
+# Što grad bira kad gradi sud?
 
-*Radni nacrt prema nastavnom planu.*
+Grad ima dovoljno novca za novu sudnicu ili za obnovu škole. U proračunu piše koliko sudnica stoji. Gdje se vidi vrijednost onoga čega se grad odrekao?
 
 ## Problem oskudnosti i ekonomski izbor {#tema-1-1}
-
-**Teme iz plana**
 
 - Oskudnost resursa, neograničene potrebe i oportunitetni trošak.
 - Granica proizvodnih mogućnosti (PPF) u javnom i privatnom sektoru.
@@ -12,13 +10,9 @@
 
 ## Ekonomska analiza prava (Law and Economics) {#tema-1-2}
 
-**Teme iz plana**
-
 - Pravni sustav kao institucionalna pretpostavka funkcioniranja tržišta.
 - Uloga prava u smanjenju transakcijskih troškova i definiranju vlasničkih prava.
 
 ## Pozitivna prema normativnoj ekonomiji u stvaranju pravnih propisa {#tema-1-3}
-
-**Teme iz plana**
 
 - Procjena učinaka propisa (RIA – Regulatory Impact Assessment).

@@ -1,15 +1,11 @@
-# Tržište dobara i određivanje proizvodnje u kratkom roku
+# Kamo ode novac od javne narudžbe?
 
-*Radni nacrt prema nastavnom planu.*
+Grad naruči obnovu škole. Izvođač isplati radnike, a dio njihove plaće završi u lokalnim trgovinama. Koliki se dio početnog izdatka prenosi dalje?
 
 ## Sastav BDP-a i agregatna potražnja {#tema-10-1}
-
-**Teme iz plana**
 
 - Potrošnja ($C$), investicije ($I$), državna potrošnja ($G$), neto izvoz ($NX$).
 
 ## Određivanje ravnotežne proizvodnje {#tema-10-2}
-
-**Teme iz plana**
 
 - Sklonost potrošnji i štednji; multiplikator autonomne potrošnje.

@@ -1,23 +1,17 @@
-# Mjerenje makroekonomskih agregata i troškova života
+# Kad ugovor prati cijene
 
-*Radni nacrt prema nastavnom planu.*
+U ugovoru piše da se naknada jednom godišnje usklađuje s inflacijom. Koji će indeks stranke odabrati i koliko njegova košarica nalikuje onome što doista kupuju?
 
 ## Bruto domaći proizvod (BDP) {#tema-9-1}
-
-**Teme iz plana**
 
 - Definicija, obuhvat i tri pristupa mjerenju (proizvodni, dohodovni, rashodni).
 - Nominalni prema realnom BDP-u; BDP deflator.
 
 ## Mjerenje inflacije i troškova života {#tema-9-2}
 
-**Teme iz plana**
-
 - Indeks potrošačkih cijena (CPI) i Harmonizirani indeks potrošačkih cijena (HICP).
 - Indeksacija u pravu: prilagodba ugovora, plaća i mirovina stopi inflacije.
 
 ## Ograničenja BDP-a kao mjere blagostanja {#tema-9-3}
-
-**Teme iz plana**
 
 - Siva ekonomija, rad na crno, ekološki troškovi i kvaliteta života.

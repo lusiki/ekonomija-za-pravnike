@@ -1,17 +1,13 @@
-# Financijska tržišta, instrumenti i pravna regulacija financijskog sustava
+# Što zapravo kupujemo obveznicom?
 
-*Radni nacrt prema nastavnom planu.*
+Poduzeće treba novac i nudi ulagačici izbor između dionice i obveznice. Ako posao krene loše, važna će biti razlika između onoga što posjeduje i onoga što potražuje.
 
 ## Uloga i struktura financijskog sustava {#tema-8-1}
-
-**Teme iz plana**
 
 - Izravno prema neizravnom financiranju; alokacija kapitala od štediša prema investitorima.
 - Tržište novca (kratkoročno) i tržište kapitala (dugoročno); primarno i sekundarno tržište.
 
 ## Vrste financijskih instrumenata i njihova pravna priroda {#tema-8-2}
-
-**Teme iz plana**
 
 - Dužnički instrumenti: obveznice (Bonds), nominalna vrijednost, kuponska stopa, prinos do dospijeća ($YTM$).
 - Vlasnički instrumenti: dionice (Shares/Stocks), dividenda, glasačka prava i status dioničara u trgovačkom pravu.
@@ -19,14 +15,10 @@
 
 ## Procjena vrijednosti imovine i hipoteza o efikasnom tržištu {#tema-8-3}
 
-**Teme iz plana**
-
 - Vremenska vrijednost novca: diskontiranje i izračun sadašnje neto vrijednosti ($NPV$).
 - Hipoteza o efikasnom tržištu (Efficient Market Hypothesis - EMH).
 
 ## Pravni okvir i nadzor financijskih tržišta {#tema-8-4}
-
-**Teme iz plana**
 
 - Sprječavanje trgovanja na temelju povlaštenih informacija (Insider Trading) i manipulacije tržištem (MAR regulativa u EU).
 - Zaštita ulagatelja: MiFID II okvir (Markets in Financial Instruments Directive).

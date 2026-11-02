@@ -1,15 +1,11 @@
-# Phillipsova krivulja, AS-AD model i stabilizacijske politike
+# Koliko sutra vrijedi dogovorena plaća?
 
-*Radni nacrt prema nastavnom planu.*
+Kolektivni ugovor određuje plaću za sljedeću godinu. Obje strane danas moraju procijeniti kakve će tada biti cijene. Što se mijenja ako njihovo očekivanje promaši?
 
 ## Phillipsova krivulja i inflacijska očekivanja {#tema-13-1}
-
-**Teme iz plana**
 
 - Odnos između inflacije i nezaposlenosti u kratkom i dugom roku.
 
 ## Model agregatne ponude (AS) i agregatna potražnje (AD) {#tema-13-2}
-
-**Teme iz plana**
 
 - Prijelaz s kratkog na srednji rok i mehanizmi prilagodbe cijena.

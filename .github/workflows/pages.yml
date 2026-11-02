@@ -29,6 +29,11 @@ jobs:
           test -s _book/ucenje/mentor.md
           test -s _book/ucenje/najamnina.md
           grep -q 'id="granica"' _book/poglavlja/02.html
+      - name: Provjeri kodiranje mrežnog i tiskanog izdanja
+        run: |
+          command -v pdftotext >/dev/null || sudo apt-get install -y poppler-utils
+          pdftotext -enc UTF-8 _book/ekonomija-za-pravnike.pdf "$RUNNER_TEMP/knjiga.txt"
+          python3 urednistvo/provjeri-kodiranje.py "$RUNNER_TEMP/knjiga.txt"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _book
