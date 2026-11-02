@@ -1,0 +1,888 @@
+// =====================================================================
+//  _base.scss — tipografski temelj i CSS custom properties
+// =====================================================================
+//  Samo pravila (rules). Tokeni dolaze iz _tokens.scss.
+//
+//  Sustav Zvono. Pravila koja ova datoteka nosi (DESIGN.md, načela):
+//    · oblik nosi značenje: kupola, disk, os, osnovica;
+//    · crte i bjelina umjesto okvira, sjena i zaobljenih kartica;
+//    · mjera od 66 znakova prije svake druge širine;
+//    · brojke uvijek monospace, tabularne i verzalne;
+//    · ligature u kodu isključene.
+// =====================================================================
+
+// Sve komponente (uključujući JS u book-include.html) čitaju dizajn odavde,
+// pa promjena tokena ne traži diranje nijedne komponente.
+:root {
+  --tok-paper:        #{$tok-paper};
+  --tok-paper-soft:   #{$tok-paper-soft};
+  --tok-surface:      #{$tok-surface};
+  --tok-ink:          #{$tok-ink};
+  --tok-ink-soft:     #{$tok-ink-soft};
+  --tok-ink-mute:     #{$tok-ink-mute};
+  --tok-ink-faint:    #{$tok-ink-faint};
+  --tok-rule:         #{$tok-rule};
+  --tok-rule-soft:    #{$tok-rule-soft};
+  --tok-rule-strong:  #{$tok-rule-strong};
+  --tok-shadow:       #{$tok-shadow};
+  --tok-accent:       #{$tok-accent};
+  --tok-accent-deep:  #{$tok-accent-deep};
+  --tok-accent-dark:  #{$tok-accent-dark};
+  --tok-accent-wash:  #{$tok-accent-wash};
+  --tok-on-accent:    #{$tok-on-accent};
+  --tok-concept:      #{$tok-concept};
+  --tok-error:        #{$tok-error};
+  --tok-brand-mustard: #{$tok-brand-mustard};
+  --tok-brand-navy:   #{$tok-brand-navy};
+  --tok-brand-cream:  #{$tok-brand-cream};
+  --tok-brand-red:    #{$tok-brand-red};
+  --tok-brand-ink:    #{$tok-brand-ink};
+  --tok-data-1:       #{$tok-data-1};
+  --tok-data-2:       #{$tok-data-2};
+  --tok-data-3:       #{$tok-data-3};
+  --tok-data-4:       #{$tok-data-4};
+  --tok-data-5:       #{$tok-data-5};
+  --tok-alert:        #{$tok-alert};
+  --tok-font-display: #{inspect($tok-font-display)};
+  --tok-font-serif:   #{inspect($tok-font-serif)};
+  --tok-font-sans:    #{inspect($tok-font-sans)};
+  --tok-font-mono:    #{inspect($tok-font-mono)};
+  --tok-measure:      #{$tok-measure};
+  --tok-radius:       #{$tok-radius};
+  --tok-radius-lg:    #{$tok-radius-lg};
+  --tok-rule-width:   #{$tok-rule-width};
+  --tok-radius-dome:  #{$tok-radius-dome};
+  --tok-definition-width: #{$tok-definition-width};
+  --tok-heading-width: #{$tok-heading-width};
+  --tok-baseline-width: #{$tok-baseline-width};
+  --tok-touch:        #{$tok-touch};
+
+  // Domaće kontrole u widgetima (klizači, kvačice) bez ijednog retka CSS-a.
+  accent-color: $tok-accent;
+}
+
+// --- tijelo ----------------------------------------------------------
+body {
+  font-family: $tok-font-serif;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+// Desni stupac podnožja služi kao Quarto render-dependency za samostalne
+// hubove. `visibility` ga uklanja iz fokusa i stabla pristupačnosti, ali čuva
+// treći stupac pa autorska oznaka ostaje geometrijski centrirana.
+.nav-footer-right {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+// Na telefonu su lijevi i desni stupac samo praznina odnosno skriveni
+// render-dependency. Njihovi grid-redci ne smiju produljiti podnožje.
+@media (max-width: 600px) {
+  .nav-footer-left,
+  .nav-footer-right {
+    display: none;
+  }
+}
+
+::selection { background: $tok-accent-wash; color: $tok-ink; }
+
+main p,
+main li,
+main dd {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  text-align: left;   // ne justify — bolje za dijakritiku i kratke retke
+}
+
+main p { margin: 0 0 $tok-space 0; }
+main p, main li { text-wrap: pretty; }
+
+// Mjera retka. Najvažnije pravilo u knjizi: stupac teksta nikad ne prelazi
+// 66 znakova, bez obzira na širinu prozora. Sve ostalo raste oko njega.
+// Vrijedi za prozu, ne za tablice, grafove i pločice.
+main > section > p,
+main > section > ul,
+main > section > ol,
+main > section > blockquote,
+main > p,
+.page-columns .column-body > p,
+.page-columns .column-body > ul,
+.page-columns .column-body > ol,
+.page-columns .column-body > blockquote {
+  max-width: $tok-measure;
+}
+
+// --- naslovi ---------------------------------------------------------
+// Jost. Displejni registar (rez 400, mala slova) pripada samo otvaranju
+// poglavlja i naslovnoj zoni; naslovi odjeljaka su Jost 500 u rečeničnom
+// pismu, s crtom od 3 px u tinti iznad h2.
+h1, h2, h3, .title {
+  font-family: $tok-font-sans;
+  color: $tok-ink;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+h1, .title {
+  font-family: $tok-font-display;
+  font-weight: 400;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  max-width: 16ch;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin-top: 4.5rem;
+  padding-top: 0.9rem;
+  border-top: $tok-heading-width solid $tok-ink;   // crta, nikad okvir
+  border-bottom: none;                             // poništava Quartovu zadanu crtu
+  padding-bottom: 0;
+  max-width: $tok-measure;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  letter-spacing: 0;
+  margin-top: 2.6rem;
+}
+
+h4, h5, h6 {
+  font-family: $tok-font-sans;
+  font-weight: 500;
+  font-size: 1.0625rem;
+  color: $tok-ink;
+  letter-spacing: 0;
+  margin-top: 2rem;
+}
+
+// Podnaslov poglavlja: kurziv Literate ispod naslova (DESIGN.md, §7).
+#title-block-header .subtitle,
+.quarto-title .subtitle {
+  font-family: $tok-font-serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.35;
+  color: $tok-ink-mute;
+  max-width: 34ch;
+  margin-top: 1rem;
+}
+
+// --- otvaranje poglavlja: disk s brojem, os, naslov malim slovima ----
+// Skriptu u html-filters/systemic-layout.lua dodaje klasu .zv-opener samo
+// numeriranim poglavljima 1–18 i umeće .zv-rail (disk + os) te oznaku dijela.
+#title-block-header.zv-opener {
+  padding-bottom: 1.5rem;
+  border-bottom: $tok-heading-width solid $tok-ink;
+  margin-bottom: 2.5rem !important;
+}
+// Oznaka dijela iznad naslova već kaže gdje smo; putokaz bi je ponovio.
+#title-block-header.zv-opener .quarto-title-breadcrumbs { display: none !important; }
+#title-block-header.zv-opener .quarto-title {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  column-gap: 1.5rem;
+  align-items: start;
+}
+#title-block-header.zv-opener .quarto-title > * { grid-column: 2; }
+#title-block-header.zv-opener .quarto-title > .zv-rail {
+  grid-column: 1;
+  grid-row: 1 / span 4;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.zv-rail__disc {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  background: $tok-ink;
+  color: $tok-paper;
+  font-family: $tok-font-display;
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 1;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.zv-rail::after {
+  content: "";
+  flex: 1 1 auto;
+  min-height: 2.5rem;
+  width: $tok-rule-width;
+  background: $tok-ink;
+}
+#title-block-header.zv-opener h1.title {
+  text-transform: lowercase;
+  margin-top: 0.5rem;
+}
+#title-block-header.zv-opener .chapter-kicker {
+  display: block;
+  margin: 0.4rem 0 0;
+  white-space: normal;
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+  #title-block-header.zv-opener .quarto-title {
+    grid-template-columns: 3.5rem minmax(0, 1fr);
+    column-gap: 1rem;
+  }
+  .zv-rail__disc { width: 3.5rem; height: 3.5rem; font-size: 1.4rem; }
+}
+
+// --- eyebrow: Jost verzal s malim diskom ------------------------------
+// Mali natpis iznad naslova: oznaka dijela na otvaranju poglavlja.
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: $tok-font-sans;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: $tok-ink-mute;
+  margin-bottom: 0.9rem;
+}
+
+// HTML filter izvodi broj iz kanonske izlazne putanje `chapters/NN-*.html` i umeće
+// oznaku neposredno prije naslova, bez dupliciranja teksta u 18 izvora.
+#title-block-header .chapter-kicker {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+// Tracked-caps natpis bez crtice, za pločice i zaglavlja stranica.
+.section-label {
+  font-family: $tok-font-sans;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: $tok-ink-faint;
+}
+
+// --- traka metapodataka otvaranja poglavlja --------------------------
+// U .qmd-u se piše kao obična tablica u divu .chapter-meta; JS iz
+// book-include.html je pretvori u redak, a ovdje je i rezervni izgled
+// ako JS ne odradi posao.
+.chapter-meta {
+  margin: 2.6rem 0 0;
+  padding-top: 1.3rem;
+  border-top: 1px solid $tok-rule;
+  font-family: $tok-font-mono;
+  font-size: 0.75rem;
+  color: $tok-ink-soft;
+}
+.chapter-meta__row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 2.5rem;
+}
+.chapter-meta__row > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.chapter-meta__key {
+  color: $tok-ink-faint;
+  margin-right: 0.6rem;
+}
+.chapter-meta table { border: 0; margin: 0; }
+.chapter-meta table thead th { border: 0; }
+.chapter-meta table tbody td { border: 0; }
+
+@media (max-width: 600px) {
+  .chapter-meta__row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem 1.25rem;
+  }
+
+  .chapter-meta__row > div {
+    line-height: 1.45;
+  }
+
+  .chapter-meta__key {
+    display: block;
+    margin: 0 0 0.2rem;
+  }
+}
+
+// --- poveznice -------------------------------------------------------
+// Oker znači dodir. Tekst poveznice nosi accent-deep (5,2 : 1), a podcrta
+// od 2 px pravi oker; stanje nikad ne ovisi samo o podcrti.
+a {
+  color: $tok-accent-deep;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: $tok-accent;
+}
+a:hover {
+  color: $tok-accent-dark;
+  text-decoration-color: currentColor;
+}
+
+// DOI-jevi i drugi strojno sastavljeni URL-ovi ne smiju širiti stupac ni
+// dokument. `anywhere` djeluje tek kada je raspoloživa širina iscrpljena.
+main a,
+.csl-entry,
+.csl-entry a {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+// --- brojke ----------------------------------------------------------
+// Sve brojke u tablicama, izlazima i legendama su monospace, tabularne,
+// verzalne. `[1 810]{.broj}` u prozi kad se broj mora poravnati sa stupcem.
+.broj, .st-num, .var,
+.numeric, [data-type="numeric"],
+.table-number,
+.cell-output pre {
+  font-family: $tok-font-mono;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+// --- kod -------------------------------------------------------------
+// LIGATURE ISKLJUČENE. JetBrains Mono bi inače R-ov `<-` prikazao kao `←`,
+// a `<=` `>=` `!=` `%>%` kao znakove kojih nema na tipkovnici. Čitatelj bez
+// programerskog iskustva mora moći prepisati svaki znak koji vidi.
+pre, code, kbd, samp, div.sourceCode, .cell-output {
+  font-family: $tok-font-mono;
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0, "calt" 0;
+}
+
+div.sourceCode {
+  background: $tok-paper-soft;
+  border: 0;
+  border-top: $tok-rule-width solid $tok-ink;
+  border-radius: 0;
+  scrollbar-width: thin;
+  scrollbar-color: $tok-ink-mute $tok-paper-soft;
+}
+pre.sourceCode,
+div.sourceCode pre {
+  // Gumb za kopiranje stoji iznad desnog ruba; završetak retka ostaje vidljiv.
+  padding-right: 3.75rem;
+}
+pre code { font-size: 0.8125rem; line-height: 1.6; }
+
+// Komentari su pomoć čitatelju, ne dekoracija, pa moraju ostati čitljivi u
+// oba načina prikaza i ne smiju pasti na najslabiji ton.
+.sourceCode .co {
+  color: $tok-ink-mute !important;
+}
+
+// Kartice R / Python. Aktivna kartica nosi oker donji rub — jedini oker
+// u bloku koda, jer je to jedino što se ondje može dodirnuti.
+.panel-tabset > .nav-tabs {
+  border-bottom: 1px solid $tok-rule;
+  gap: 0.25rem;
+}
+.panel-tabset > .nav-tabs .nav-link {
+  font-family: $tok-font-sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: $tok-ink-mute;
+  background: transparent;
+  border: 0;
+  border-bottom: $tok-heading-width solid transparent;
+  border-radius: 0;
+  padding: 0.5rem 0.875rem;
+}
+.panel-tabset > .nav-tabs .nav-link.active {
+  color: $tok-ink;
+  border-bottom-color: $tok-accent;
+  background: transparent;
+}
+
+// Izvodi i presavijeni kod: mono sažetak s + / –, nikad trokutić.
+details > summary,
+.quarto-title-block details > summary {
+  font-family: $tok-font-sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: $tok-accent-deep;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  list-style: none;
+}
+details > summary::marker,
+details > summary::-webkit-details-marker { display: none; }
+details.code-fold > summary::before,
+details.derivation > summary::before { content: "+ "; }
+details.code-fold[open] > summary::before,
+details.derivation[open] > summary::before { content: "– "; }
+
+// --- tablice ---------------------------------------------------------
+// Bez okomitih linija, bez zebre. Glava u Jostu 500, crta od 2 px u tinti
+// ispod glave i ispod zadnjeg retka. Tekst ostaje u sansu; samo eksplicitno
+// brojčani stupci dobivaju mono i desno poravnanje.
+table,
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-color: #{$tok-ink-soft};
+  --bs-table-striped-bg: transparent;
+  --bs-table-striped-color: #{$tok-ink-soft};
+  --bs-table-hover-bg: transparent;
+  --bs-table-active-bg: transparent;
+  font-family: $tok-font-sans;
+  font-size: 0.875rem;
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  caption-side: top;
+}
+thead th {
+  font-family: $tok-font-sans;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: $tok-ink;
+  border-bottom: $tok-rule-width solid $tok-ink;
+  padding: 0.5rem 0.75rem;
+  vertical-align: bottom;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+tbody td {
+  font-family: $tok-font-sans;
+  border-bottom: 1px solid $tok-rule;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+tbody tr:last-child td { border-bottom: $tok-rule-width solid $tok-ink; }
+
+// Pandoc označava poravnanje stupca inline stilom; za R-ove tablice to je
+// pouzdan signal brojčanih ćelija. Glave ostaju u Jostu.
+tbody td[style*="text-align: right"],
+tbody td[style*="text-align:right"],
+tbody td.text-end,
+tbody td.numeric,
+tbody td[data-type="numeric"] {
+  font-family: $tok-font-mono;
+  font-variant-numeric: tabular-nums lining-nums;
+  text-align: right;
+}
+
+// Bootstrapova zebra nije `background` retka nego golema unutarnja sjena
+// ćelije, pa je treba poništiti na samoj ćeliji.
+.table-striped > tbody > tr:nth-of-type(odd) > *,
+table > tbody > tr:nth-child(odd) > *,
+table > tbody > tr:nth-child(even) > * {
+  --bs-table-color-type: inherit;
+  --bs-table-bg-type: transparent;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+caption,
+.table-caption,
+.quarto-float-tbl > figcaption,
+.quarto-float-tbl .quarto-float-caption {
+  font-family: $tok-font-sans;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: $tok-ink-mute;
+  text-align: left;
+  width: 100%;
+  max-width: 60ch;
+  margin-inline: 0;
+}
+
+// Izlazi iz R-a imaju omotač koji može preuzeti vodoravno pomicanje. To
+// zadržava usporedbu stupaca bez širenja cijele stranice.
+.cell-output-display:has(> table),
+.table-responsive {
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: thin;
+}
+
+.table-scrollable {
+  position: relative;
+  scrollbar-gutter: stable;
+
+  &:focus-visible {
+    outline: $tok-rule-width solid $tok-ink;
+    outline-offset: 3px;
+  }
+
+  table {
+    margin-bottom: 0;
+  }
+
+  th:first-child,
+  td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: $tok-paper;
+    border-right: 1px solid $tok-rule;
+  }
+
+  thead th:first-child {
+    z-index: 2;
+  }
+}
+
+.table-scroll-hint {
+  font-family: $tok-font-mono;
+  font-size: 0.6875rem;
+  line-height: 1.45;
+  letter-spacing: 0.06em;
+  color: $tok-ink-mute;
+  margin: 0.45rem 0 1rem;
+}
+
+// --- citati u bloku --------------------------------------------------
+blockquote {
+  font-family: $tok-font-serif;
+  font-size: 1.0625rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.6;
+  color: $tok-ink-mute;
+  border: 0;
+  border-left: $tok-rule-width solid $tok-ink;
+  padding: 0.2rem 0 0.2rem 1rem;
+  margin: 2rem 0;
+  max-width: $tok-measure;
+}
+
+// --- slike i opisi ---------------------------------------------------
+// Potpis: oznaka u Jostu 500 („Slika 8.5"), zatim rečenica u Jostu 400.
+figure { margin: 3rem 0; }
+figcaption, .figure-caption, .quarto-figure figcaption {
+  font-family: $tok-font-sans;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: $tok-ink-mute;
+  margin-top: 0.875rem;
+  max-width: 60ch;
+}
+figcaption .quarto-float-caption-prefix,
+.figure-caption strong:first-child {
+  font-family: $tok-font-sans;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: $tok-ink;
+}
+
+// Izvor ispod grafa ili tablice: `[Izvor: ESS HR 2023]{.izvor}`
+.izvor {
+  display: block;
+  font-family: $tok-font-mono;
+  font-size: 0.6875rem;
+  color: $tok-ink-faint;
+  margin-top: 0.5rem;
+}
+
+// --- bilješke i marginalni citati ------------------------------------
+.column-margin {
+  font-family: $tok-font-sans;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: $tok-ink-mute;
+  border-top: 1px solid $tok-rule;
+  padding-top: 0.625rem;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.column-margin .footnote-back { display: none; }
+.column-margin:empty {
+  display: none !important;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.column-margin a,
+.column-margin .csl-entry,
+.margin-caption,
+.margin-caption a {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.footnote-ref, .st-sidenote__ref {
+  font-family: $tok-font-mono;
+  font-size: 0.7em;
+  color: $tok-accent-deep;
+  vertical-align: super;
+  text-decoration: none;
+}
+
+// Pri 1 100 px Quarto još pokušava zadržati punih 260 px margine, zbog čega
+// dokument postaje širi od prozora. Ispod desktopne širine bilješka zato
+// postaje sljedeći blok u stupcu teksta.
+@media (max-width: 1199px) {
+  // Quarto proširuje tablične floatove do rubova zaslona. Na širinama bez
+  // pune marginalne mreže float ostaje u stupcu teksta, a sama tablica klizi
+  // unutar svojega omotača.
+  .page-columns .cell[id^="tbl-"].page-full,
+  .page-columns .quarto-float.page-full,
+  .page-columns .quarto-float-tbl.page-full {
+    display: block;
+    grid-column: body-content-start / body-content-end !important;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    margin-inline: 0;
+  }
+
+  .page-columns .column-margin,
+  .page-columns .margin-caption,
+  .page-columns div.aside,
+  .page-columns aside:not(.footnotes):not(.sidebar) {
+    grid-column: body-content-start / body-content-end !important;
+    position: static;
+    width: auto;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    overflow: visible;
+    z-index: auto;
+    border-top: 0;
+    border-left: 2px solid $tok-rule;
+    padding: 0 0 0 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .page-columns .no-row-height.column-margin {
+    height: auto;
+    overflow: visible;
+  }
+}
+
+// Bibliografija ima viseću uvlaku na širokom zaslonu, ali na telefonu ona
+// nepotrebno krade mjeru dugim DOI-jevima.
+@media (max-width: 600px) {
+  #refs.hanging-indent .csl-entry,
+  .hanging-indent .csl-entry {
+    margin-left: 1rem;
+    text-indent: -1rem;
+  }
+
+  // Izravne Pandoc tablice nemaju omotač; na uskom zaslonu same postaju
+  // tipkovnički i dodirno pomičan prostor.
+  main > table,
+  main > section > table,
+  main section > table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: thin;
+  }
+
+  thead th,
+  tbody td {
+    padding-inline: 0.5rem;
+  }
+
+  // U usporednim tablicama riječi ostaju cijele. Ako stupci više ne stanu,
+  // postojeći JS omotač uključuje tipkovnički i dodirno dostupan klizač.
+  .table-keep-words {
+    thead th,
+    tbody td {
+      overflow-wrap: normal;
+      word-break: normal;
+      hyphens: none;
+    }
+  }
+
+  // Pet usporednih procjena moraju ostati poravnate; na telefonu se zato
+  // pomiču kao tablica umjesto da se glave lome usred riječi.
+  .table-comparison-wide table {
+    min-width: 34rem;
+  }
+
+  // `code-overflow: scroll` čuva mogućnost prepisivanja koda. Kratka oznaka
+  // ispod bloka jasno kaže da se nastavak retka nalazi vodoravno.
+  .code-copy-outer-scaffold:has(div.sourceCode)::after {
+    content: "↔ pomaknite za ostatak retka";
+    display: block;
+    font-family: $tok-font-mono;
+    font-size: 0.625rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $tok-ink-mute;
+    margin-top: 0.35rem;
+  }
+}
+
+// --- definicije i teoremi --------------------------------------------
+// Quarto renderira `::: {#def-standardna-pogreska}` kao .definition div i
+// sam ispisuje oznaku „Definicija 1". Ovo su i dalje jedini divovi koje
+// R/build-concept-graph.R uvlači u pojmovnik. Zvono: modra os od 4 px,
+// bez ispune; podebljani pojam u Jostu 500 i modroj.
+.theorem, .definition, .proposition, .lemma, .corollary,
+.example, .exercise {
+  background: transparent;
+  border: 0;
+  border-left: $tok-definition-width solid $tok-concept;
+  border-radius: 0;
+  padding: 0.25rem 0 0.25rem 1rem;
+  margin: 2rem 0;
+  max-width: $tok-measure;
+
+  > *:first-child { margin-top: 0; }
+  > *:last-child  { margin-bottom: 0; }
+}
+.definition strong:first-of-type {
+  font-family: $tok-font-sans;
+  font-weight: 500;
+  color: $tok-concept;
+}
+
+// Oznaka („Definicija 1") ostaje čitačima zaslona, ali se ne prikazuje:
+// definiciju prepoznaje os, kao u tisku.
+.definition .definition-title,
+.theorem.definition .theorem-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.theorem .theorem-title,
+.proposition .proposition-title,
+.lemma .lemma-title,
+.corollary .corollary-title,
+.example .example-title,
+.exercise .exercise-title {
+  display: block;
+  font-family: $tok-font-sans;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $tok-ink;
+  margin-bottom: 0.75rem;
+}
+
+// Propozicije i dokazi su „simple" u _quarto.yml — tinta umjesto modre.
+.proposition, .lemma, .corollary {
+  border-left-color: $tok-ink;
+  border-left-width: $tok-rule-width;
+}
+.proposition .proposition-title,
+.lemma .lemma-title,
+.corollary .corollary-title { color: $tok-ink-mute; }
+
+// --- pojam s definicijom na dodir ------------------------------------
+// [statističko zaključivanje]{.pojam def="…" en="statistical inference" ch="8"}
+// Oblačić gradi book-include.html; ovdje je samo izgled.
+.pojam {
+  position: relative;
+  text-decoration: underline dotted $tok-concept;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  cursor: help;
+  outline: none;
+}
+.pojam:focus-visible {
+  outline: $tok-rule-width solid $tok-ink;
+  outline-offset: 2px;
+}
+.pojam__oblacic {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 10px);
+  z-index: 40;
+  width: 300px;
+  max-width: 78vw;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-3px);
+  transition: opacity 0.13s ease, transform 0.13s ease, visibility 0s 0.13s;
+  background: $tok-surface;
+  color: $tok-ink-soft;
+  font-family: $tok-font-sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  line-height: 1.45;
+  padding: 0.875rem 1rem;
+  border: 1px solid $tok-rule;
+  border-top: $tok-rule-width solid $tok-concept;
+  border-radius: 0;
+  box-shadow: none;
+}
+.pojam:hover .pojam__oblacic,
+.pojam:focus .pojam__oblacic,
+.pojam:focus-within .pojam__oblacic,
+.pojam.je-otvoren .pojam__oblacic {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0s;
+}
+.pojam__glava {
+  display: block;
+  font-family: $tok-font-sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: $tok-concept;
+  margin-bottom: 0.25rem;
+}
+.pojam__en { font-family: $tok-font-serif; color: $tok-ink-faint; font-style: italic; }
+.pojam__pogl {
+  display: block;
+  margin-top: 0.5rem;
+  font-family: $tok-font-mono;
+  font-size: 0.6875rem;
+  color: $tok-ink-faint;
+}
+
+// --- pristupačnost ---------------------------------------------------
+// Fokus je puna crta u tinti: oker na papiru ima samo 1,6 : 1.
+:focus-visible {
+  outline: $tok-rule-width solid $tok-ink;
+  outline-offset: 2px;
+}
+
+// --- traka napretka čitanja (ubacuje je book-include.html) -----------
+// Traka od 3 px, oker: napredak je navigacija, a navigacija je dodir.
+#reading-progress {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  width: 0;
+  background: $tok-accent;
+  z-index: 2000;
+  transition: width 0.08s linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #reading-progress { transition: none; }
+}

@@ -3,6 +3,8 @@
 Ovaj radni nacrt povezuje ekonomske modele s pitanjima o učincima propisa. Osam dijelova prati predloženi plan udžbenika. Većina poglavlja zasad sadrži samo nastavne teme. U drugom poglavlju možete isprobati primjer o ograničenju najamnine.
 
 ::: {.content-visible when-format="html"}
+[Počnite čitati](poglavlja/01.qmd){.btn-knjiga .primarni}
+
 [Preuzmite radni prijelom za tisak (PDF)](ekonomija-za-pravnike.pdf)
 
 Za učenje uz asistenta preuzmite [tekst probne vježbe](ucenje/najamnina.md) i [mentorsku uputu](ucenje/mentor.md). Priložite obje datoteke asistentu kojim se služite.

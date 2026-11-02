@@ -1,6 +1,8 @@
 {{< include ../ucenje/najamnina.md >}}
 
 ::: {.content-visible when-format="html"}
+::: {.widget-frame data-naslov="Ograničenje najamnine" data-oznaka="02.1 · interaktivno"}
+::: {.econ-controls}
 <label for="granica">Gornja granica mjesečne najamnine (€)</label>
 <input id="granica" type="range" min="200" max="900" step="50" value="400">
 <output id="ishod" for="granica" aria-live="polite"></output>
@@ -21,6 +23,8 @@ cap.addEventListener('input', prikazi);
 prikazi();
 </script>
 ```
+:::
+:::
 :::
 
 ::: {.content-visible when-format="typst"}

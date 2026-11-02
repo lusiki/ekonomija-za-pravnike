@@ -1,3 +1,12 @@
+@font-face {font-family:"JetBrains Mono";src:url(fontovi/JetBrainsMono-Bold.ttf) format("truetype");font-weight:700;font-style:normal;font-display:swap;}
+@font-face {font-family:"JetBrains Mono";src:url(fontovi/JetBrainsMono-Regular.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"Jost";src:url(fontovi/Jost-Italic.ttf) format("truetype");font-weight:400;font-style:italic;font-display:swap;}
+@font-face {font-family:"Jost";src:url(fontovi/Jost-Medium.ttf) format("truetype");font-weight:500;font-style:normal;font-display:swap;}
+@font-face {font-family:"Jost";src:url(fontovi/Jost-Regular.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"Literata";src:url(fontovi/Literata-Bold.ttf) format("truetype");font-weight:700;font-style:normal;font-display:swap;}
+@font-face {font-family:"Literata";src:url(fontovi/Literata-BoldItalic.ttf) format("truetype");font-weight:700;font-style:italic;font-display:swap;}
+@font-face {font-family:"Literata";src:url(fontovi/Literata-Italic.ttf) format("truetype");font-weight:400;font-style:italic;font-display:swap;}
+@font-face {font-family:"Literata";src:url(fontovi/Literata-Regular.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap;}
 :root {
   --sheet: #faf9fc;
   --ink: #271c30;
@@ -7,22 +16,13 @@
   --action: #20574e;
   --rule: #c5bdca;
 }
-body {background:var(--sheet);color:var(--ink);}
-main.content p, main.content li {max-width:66ch;}
-main.content p {line-height:1.68;}
-main.content a {color:var(--action);text-underline-offset:.19em;}
-main.content h1, main.content h2, .sidebar-title {font-family:"Segoe UI",Arial,sans-serif;font-weight:750;letter-spacing:-.038em;}
-main.content h2 {border-bottom:1px solid var(--rule);padding-bottom:.35em;}
-#quarto-sidebar {background:#f3f0f5;border-right:1px solid var(--rule);}
-#quarto-sidebar .sidebar-item-text.active {color:var(--plum);font-weight:700;text-decoration:underline;text-underline-offset:.24em;}
-#quarto-sidebar .sidebar-title a {color:var(--plum);}
 #title-block-header .quarto-title:has(.subtitle) {
   display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);column-gap:1rem;
-  background:var(--plum);color:var(--sheet);border-bottom:8px solid var(--action);
+  background:var(--plum);color:var(--sheet);border-bottom:6px solid var(--action);
 }
 #title-block-header .quarto-title:has(.subtitle)::before {
   content:"UDŽBENIK  /  RADNO IZDANJE";grid-column:1;grid-row:1;
-  margin:1.45rem 0 .4rem 1.6rem;font:600 .69rem/1.4 ui-monospace,monospace;letter-spacing:.1em;color:var(--mint);
+  margin:1.45rem 0 .4rem 1.6rem;font:500 .75rem/1.4 Jost,sans-serif;letter-spacing:.1em;color:var(--mint);
 }
 #title-block-header .quarto-title:has(.subtitle)::after {
   content:"";grid-column:2;grid-row:1 / 4;
@@ -33,13 +33,6 @@ main.content h2 {border-bottom:1px solid var(--rule);padding-bottom:.35em;}
   color:inherit;font-size:clamp(2.25rem,4vw,4.35rem);line-height:.98;text-transform:lowercase;
 }
 #title-block-header .subtitle {grid-column:1;grid-row:3;color:var(--mint);margin:0 0 1.6rem 1.6rem;font-size:1rem;}
-h1.title .chapter-number {display:inline-grid;place-items:center;min-width:1.75em;height:1.75em;padding:0 .22em;border-radius:50%;background:var(--lavender);color:var(--plum);font-size:.72em;vertical-align:.12em;}
-main table, main output, main .header-section-number {font-variant-numeric:tabular-nums lining-nums;}
-main td,main output,main .header-section-number {font-family:ui-monospace,monospace;}
-main input[type="range"] {accent-color:var(--action);max-width:100%;}
-main output {display:block;padding:.75rem 1rem;background:var(--mint);border-inline-start:4px solid var(--action);margin:.5rem 0;}
-main a:focus-visible,main input:focus-visible {outline:3px solid var(--action);outline-offset:4px;}
-#ponuda {fill:#38333d;} #potraznja {fill:#817d85;}
 @media(max-width:600px) {
   #title-block-header .quarto-title:has(.subtitle) {grid-template-columns:minmax(0,1fr) minmax(0,.44fr);column-gap:.5rem;}
   #title-block-header .quarto-title:has(.subtitle)::before,
@@ -47,3 +40,18 @@ main a:focus-visible,main input:focus-visible {outline:3px solid var(--action);o
   #title-block-header .quarto-title .subtitle {margin-left:.85rem;}
   #title-block-header .quarto-title:has(.subtitle) h1 {font-size:clamp(1.85rem,7.5vw,2.65rem);}
 }
+
+#title-block-header .quarto-title:has(.subtitle) h1 {font-family:Jost,sans-serif;font-weight:400;letter-spacing:-.01em;}
+#title-block-header .quarto-title:has(.subtitle) .subtitle {color:var(--mint);font-family:Literata,serif;font-style:italic;}
+#title-block-header.zv-opener h1.title .chapter-number {display:none;}
+#title-block-header.zv-opener .quarto-title h1 {grid-row:2;}
+.zv-opener .chapter-kicker {grid-row:1;}
+.widget-frame .econ-controls {padding:1rem 1.5rem;font-family:Jost,sans-serif;}
+.econ-controls input {min-height:44px;display:block;accent-color:var(--action);width:min(100%,24rem);}
+.econ-controls output {display:block;font: .8125rem/1.55 "JetBrains Mono",monospace;}
+.econ-controls svg {display:block;margin-block:1rem;}
+#ponuda {fill:var(--widget-ink);} #potraznja {fill:var(--widget-fill);}
+html {font-size:16px;}
+body {font-size:1.0625rem;line-height:1.62;}
+main section p, main section li {max-width:66ch;}
+.econ-controls svg text {fill:var(--tok-ink);}

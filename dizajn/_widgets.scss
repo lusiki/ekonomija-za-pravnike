@@ -1,0 +1,620 @@
+// =====================================================================
+//  _widgets.scss — okvir za interaktivne grafove (OJS)
+// =====================================================================
+//  Knjiga nosi jedan središnji widget po poglavlju (popis: data/widgets.json).
+//  Svaki se sastoji od upravljačke ploče (Inputs.form) i grafa. Ploču
+//  book-include.html asinkrono omata u sklopivi <details> i dodaje gumb za
+//  povratak na početne vrijednosti, pa .qmd izvor ostaje čist.
+//
+//  Sustav Zvono: widget je ploča paper-soft s osnovicom od 6 px u tinti na
+//  vrhu. Zaglavlje nosi disk s brojem widgeta, naslov i oznaku; gradi ga
+//  book-include.html (.widget-glava), a pseudo-elementi ostaju rezerva bez
+//  JS-a. Kontrole stoje ispod grafa, odvojene vlas linijom — graf je
+//  sadržaj, kontrole su sučelje.
+//
+//  U .qmd-u:
+//    ::: {.widget-frame data-naslov="Stroj za CLT" data-oznaka="Widget 08.1 · interaktivno"}
+//    ```{ojs} … ```
+//    :::
+// =====================================================================
+
+// --- statične figure -------------------------------------------------
+// R uređaj crta prozirno; HTML sloj zato ne smije vratiti bijelu plohu.
+.quarto-figure .figure-img,
+.cell-output-display > img,
+.cell-output-display > svg {
+  background: transparent;
+}
+
+// Statički ggplot ne može promijeniti tintu nakon što je iscrtan. Za tamni
+// način zato se isporučuje pravi drugi asset, nikad blanketna inverzija.
+// Klase rade i na samoj slici i na omotaču; Quarto body-klasu mijenja zajedno
+// s ručnim preklopnikom teme.
+.figure-theme-dark { display: none; }
+
+body.quarto-light {
+  .figure-theme-light { display: block; }
+  .figure-theme-dark { display: none; }
+}
+
+body.quarto-dark {
+  .figure-theme-light { display: none; }
+  .figure-theme-dark { display: block; }
+}
+
+// Na telefonu figura smije upotrijebiti dio bočne bjeline. Time zajednički
+// grafovi dobivaju malo više mjesta, bez izlaska iz vidljivog područja;
+// složeni mali višekratnici i dalje traže vlastiti mobilni raspored.
+@media (max-width: 600px) {
+  .quarto-float.quarto-figure {
+    margin-inline: -0.75rem;
+
+    > figure > figcaption {
+      margin-inline: 0.75rem;
+    }
+  }
+}
+
+// --- okvir grafa -----------------------------------------------------
+.widget-frame {
+  scroll-margin-top: 5rem;
+  // JS i SVG mogu čitati ista semantička imena u oba načina prikaza.
+  --widget-ink: var(--tok-data-1);
+  --widget-ink-secondary: var(--tok-data-2);
+  --widget-fill: var(--tok-data-4);
+  --widget-fill-soft: var(--tok-data-5);
+  --widget-emphasis: var(--tok-accent);
+  --widget-grid: var(--tok-rule);
+
+  background: $tok-paper-soft;
+  color: $tok-ink-soft;
+  border: 0;
+  border-top: $tok-baseline-width solid $tok-ink;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  margin: 3rem 0;
+  min-width: 0;
+  isolation: isolate;
+}
+
+body.quarto-light .widget-frame { color-scheme: light; }
+body.quarto-dark .widget-frame { color-scheme: dark; }
+
+// Rezervno zaglavlje bez JS-a: naslov i oznaka iz atributa.
+.widget-frame::before {
+  content: attr(data-naslov);
+  display: block;
+  font-family: $tok-font-sans;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: $tok-ink;
+  padding: 1.25rem 1.5rem 0;
+}
+.widget-frame[data-oznaka]::after {
+  content: attr(data-oznaka);
+  display: block;
+  font-family: $tok-font-mono;
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  color: $tok-ink-faint;
+  padding: 0.35rem 1.5rem 1.25rem;
+  border-bottom: 1px solid $tok-rule;
+  margin-bottom: 1.5rem;
+}
+.widget-frame.zv-widget-glava::before,
+.widget-frame.zv-widget-glava::after { content: none; }
+
+// Zaglavlje sustava Zvono: disk s brojem, naslov, oznaka desno.
+.widget-glava {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.875rem;
+  padding: 1.25rem 1.5rem !important;
+  margin: 0 0 1.5rem;
+  border-bottom: 1px solid $tok-rule;
+}
+.widget-glava__disk {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: $tok-ink;
+  color: $tok-paper;
+  font-family: $tok-font-mono;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+.widget-glava__naslov {
+  font-family: $tok-font-sans;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: $tok-ink;
+}
+.widget-glava__oznaka {
+  margin-left: auto;
+  font-family: $tok-font-mono;
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  color: $tok-ink-faint;
+}
+
+// Bez oznake zaglavlje i dalje mora imati donju crtu.
+.widget-frame:not([data-oznaka])::before {
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid $tok-rule;
+  margin-bottom: 1.5rem;
+}
+.widget-frame:not([data-naslov])::before { content: none; }
+
+.widget-frame > *:not(details) { padding-left: 1.5rem; padding-right: 1.5rem; }
+.widget-frame > *:last-child { margin-bottom: 1.5rem; }
+.widget-frame .cell,
+.widget-frame .cell-output-display,
+.widget-frame .observablehq {
+  min-width: 0;
+  max-width: 100%;
+}
+
+// Zadržana klasa iz ranijeg kostura: naslov upisan u .qmd-u.
+.widget-frame .widget-naslov {
+  font-family: $tok-font-sans;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $tok-ink;
+  margin-bottom: 0.6rem;
+}
+
+// Podnožje: broj slike i napomena za tisak.
+.widget-foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.875rem 1.5rem;
+  margin: 0;
+  border-top: 1px solid $tok-rule;
+  font-family: $tok-font-mono;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: $tok-ink-mute;
+}
+
+// --- sklopiva ploča --------------------------------------------------
+// Na papirnatoj podlozi, odvojena linijom: kontrole su ispod sadržaja.
+details.ojs-collapsible {
+  border: 0;
+  border-top: 1px solid $tok-rule;
+  border-radius: 0;
+  background: transparent;
+  margin: 1.5rem 0 0;
+}
+
+.ojs-collapsible-summary {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  cursor: pointer;
+  list-style: none;
+  min-height: $tok-touch;
+  padding: 0.5rem 1.5rem;
+  font-family: $tok-font-sans;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: $tok-ink;
+
+  &::-webkit-details-marker { display: none; }
+  &:focus-visible {
+    outline: $tok-rule-width solid $tok-ink;
+    outline-offset: -2px;
+  }
+}
+
+.ojs-collapsible-icon {
+  width: 0; height: 0;
+  border-left: 6px solid $tok-ink;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  transition: transform 0.15s ease;
+}
+details[open] > .ojs-collapsible-summary .ojs-collapsible-icon {
+  transform: rotate(90deg);
+}
+
+.ojs-collapsible-label { font-weight: 500; }
+.ojs-collapsible-hint {
+  color: $tok-ink-mute;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.ojs-collapsible-body { padding: 0 1.5rem 1rem; }
+
+// --- kontrole (Observable Inputs) ------------------------------------
+form[class^="oi-"] {
+  font-family: $tok-font-sans;
+  font-size: 0.82rem;
+  color: $tok-ink-soft;
+  padding: 0.2rem 1.5rem 1rem;
+  max-width: 100%;
+}
+
+// Natpis kontrole: Jost 500, rečenično pismo.
+form[class^="oi-"] label,
+.widget-frame form label {
+  font-family: $tok-font-sans;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: $tok-ink;
+  font-weight: 500;
+}
+
+// Klizač: ispuna trake do trenutne vrijednosti (--fill postavlja JS).
+form[class^="oi-"] input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: min(100%, 24rem);
+  height: 4px;
+  border-radius: 0;
+  // Staza: tinta do vrijednosti, vlas linija poslije. Palac je oker disk
+  // s rubom u on-accent, pa stanje ne ovisi samo o okeru (1,6 : 1).
+  background: linear-gradient(
+    to right,
+    #{$tok-ink} 0%,
+    #{$tok-ink} var(--fill, 0%),
+    #{$tok-rule} var(--fill, 0%),
+    #{$tok-rule} 100%
+  );
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: $tok-accent;
+    border: $tok-rule-width solid $tok-on-accent;
+    box-shadow: none;
+    cursor: pointer;
+  }
+  &::-moz-range-thumb {
+    width: 16px; height: 16px;
+    border-radius: 50%;
+    background: $tok-accent;
+    border: $tok-rule-width solid $tok-on-accent;
+    cursor: pointer;
+  }
+
+  &:focus-visible {
+    outline: $tok-rule-width solid $tok-ink;
+    outline-offset: 6px;
+  }
+}
+
+// Brojčana pločica uz klizač — tabularni mono, kao svaka brojka u knjizi.
+form[class^="oi-"] input[type="number"],
+form[class^="oi-"] input[type="text"] {
+  font-family: $tok-font-mono;
+  font-variant-numeric: tabular-nums lining-nums;
+  font-size: 0.8rem;
+  background: $tok-surface;
+  border: 1px solid $tok-ink-mute;
+  border-radius: 0;
+  color: $tok-ink;
+  padding: 0.1rem 0.35rem;
+
+  &:focus-visible {
+    outline: $tok-rule-width solid $tok-ink;
+    outline-offset: 1px;
+    border-color: $tok-ink;
+  }
+}
+
+form[class^="oi-"] select {
+  font-family: $tok-font-sans;
+  font-size: 0.8rem;
+  background: $tok-surface;
+  border: 1px solid $tok-ink-mute;
+  border-radius: 0;
+  color: $tok-ink;
+  padding: 0.15rem 0.35rem;
+
+  &:focus-visible {
+    outline: $tok-rule-width solid $tok-ink;
+    outline-offset: 1px;
+    border-color: $tok-ink;
+  }
+}
+
+form[class^="oi-"] input[type="checkbox"],
+form[class^="oi-"] input[type="radio"] {
+  accent-color: $tok-accent;
+}
+
+form[class^="oi-"] :disabled {
+  color: $tok-ink-faint;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+// OJS grafovi nasljeđuju semantičke tokene. Opći tekst je sans; samo brojčane
+// oznake osi prelaze u mono, umjesto da svaka riječ u grafu izgleda kao kod.
+.widget-frame svg,
+.observablehq svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+  color: var(--widget-ink, var(--tok-data-1));
+  background: transparent;
+}
+
+.widget-frame canvas,
+.observablehq canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background: transparent;
+}
+
+.widget-frame svg text,
+.observablehq svg text {
+  font-family: $tok-font-sans;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.widget-frame svg .tick text,
+.observablehq svg .tick text,
+.widget-frame svg [aria-label*="axis tick label"] text,
+.observablehq svg [aria-label*="axis tick label"] text,
+.widget-frame .widget-broj {
+  font-family: $tok-font-mono;
+}
+
+.widget-frame svg .domain,
+.observablehq svg .domain {
+  stroke: $tok-ink;
+}
+
+.widget-frame svg .tick line,
+.observablehq svg .tick line,
+.widget-frame svg [aria-label*="grid"] line,
+.observablehq svg [aria-label*="grid"] line {
+  stroke: $tok-rule;
+}
+
+// Autorske klase za običnu oznaku, sekundarnu seriju i namjerni naglasak.
+// Oker se nikad ne dodjeljuje svim markovima samim time što su interaktivni.
+.widget-stroke { stroke: var(--widget-ink); }
+.widget-stroke-secondary { stroke: var(--widget-ink-secondary); }
+.widget-fill { fill: var(--widget-fill); }
+.widget-fill-soft { fill: var(--widget-fill-soft); }
+.widget-emphasis {
+  fill: var(--widget-emphasis);
+  stroke: var(--widget-emphasis);
+}
+
+.observablehq--inspect { font-family: $tok-font-mono; font-size: 0.75rem; }
+
+.ojs-pulse { animation: ojs-pulse 0.4s ease; }
+@keyframes ojs-pulse {
+  0%   { background: $tok-accent-wash; }
+  100% { background: transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ojs-pulse { animation: none; }
+}
+
+// Gumb za povratak na početne vrijednosti (ubacuje ga book-include.html).
+.ojs-reset {
+  display: inline-flex;
+  align-items: center;
+  min-height: $tok-touch;
+  font-family: $tok-font-sans;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: $tok-ink;
+  background: transparent;
+  border: $tok-rule-width solid $tok-ink;
+  border-radius: 0;
+  padding: 0 1.1rem;
+  margin: 0 1.5rem 1rem;
+  cursor: pointer;
+
+  &:hover { background: $tok-accent-wash; }
+  &:focus-visible {
+    outline: $tok-rule-width solid $tok-ink;
+    outline-offset: 2px;
+  }
+}
+
+// Uski ekrani: labela iznad kontrole.
+@media (max-width: 600px) {
+  .widget-frame {
+    margin-block: 2.25rem;
+  }
+
+  .widget-frame::before,
+  .widget-frame[data-oznaka]::after,
+  .widget-frame:not([data-oznaka])::before {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .widget-glava {
+    padding: 1rem !important;
+  }
+
+  .widget-glava__oznaka {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
+
+  .widget-frame > *:not(details) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .ojs-collapsible-summary,
+  .ojs-collapsible-body,
+  form[class^="oi-"] {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .ojs-reset {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  form[class^="oi-"] label {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+  .ojs-collapsible-hint {
+    flex-basis: 100%;
+    padding-left: 1rem;
+  }
+}
+
+// --- „Što isprobati" blok uz graf ------------------------------------
+.ojs-collapsible-prose {
+  background: transparent;
+  border-top: 1px solid $tok-rule;
+  margin: 1.5rem 0 2.5rem;
+
+  .ojs-collapsible-summary { padding-left: 0; padding-right: 0; }
+  .ojs-collapsible-body {
+    padding: 0 0 1rem;
+    font-family: $tok-font-serif;
+    font-size: 0.95rem;
+    color: $tok-ink-soft;
+    max-width: $tok-measure;
+  }
+}
+
+// --- tisak -----------------------------------------------------------
+.widget-first-step {
+  font-family: $tok-font-serif;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  margin: 0 1.5rem 1rem;
+  padding: 0.75rem 1rem !important;
+  border-left: $tok-heading-width solid $tok-ink;
+  background: $tok-accent-wash;
+  strong { font-family: $tok-font-sans; font-weight: 500; }
+}
+.widget-control-cell {
+  details.ojs-collapsible { margin-top: 0; }
+  .widget-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 0.75rem 1.25rem;
+    padding: 0.75rem 0 1rem;
+    > form {
+      flex: 1 1 14rem;
+      display: block;
+      min-width: 0;
+      padding: 0;
+      margin: 0;
+      > label { display: block; width: auto; margin: 0 0 0.4rem; }
+      > div[class$="-input"] {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        width: 100%;
+      }
+      input[type="number"] { flex: 0 0 5rem; width: 5rem; }
+      input[type="range"] { flex: 1 1 auto; width: 100%; min-width: 0; }
+      > select { width: 100%; max-width: 100%; }
+    }
+    > .ojs-reset { margin: 0; }
+  }
+  .ojs-collapsible-summary { padding-inline: 0; }
+}
+.widget-glava { margin-bottom: 1rem; }
+#interakcija-w08 { container-type: inline-size; }
+.widget-frame > .widget-workbench {
+  padding: 0;
+  > .cell { padding-inline: 1.5rem; }
+}
+// The CLT workbench keeps controls and both histograms together when the
+// reading column has room. Equal tracks preserve the chart's existing
+// measurement of the first cell; no statistical or plotting code changes.
+@container (min-width: 520px) {
+  .widget-workbench {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    > .cell { grid-column: 2; min-width: 0; }
+    > .cell:first-child { grid-column: 1; grid-row: 1 / span 10; }
+    > .cell:has(#fig-w08) { grid-column: 2; grid-row: 1; }
+    .widget-controls > form { flex-basis: 100%; }
+  }
+}
+@media (max-width: 600px) {
+  .widget-first-step { margin-inline: 1rem; }
+  .widget-control-cell .widget-controls { gap: 0.75rem; }
+  .widget-frame > .widget-workbench > .cell { padding-inline: 1rem; }
+}
+
+// Widget zamjenjuje statični blizanac (filter chain); kontrole nestaju.
+@media print {
+  .widget-workbench { display: block; }
+  .widget-first-step { display: none; }
+  .ojs-collapsible,
+  .widget-foot,
+  .widget-frame[data-oznaka]::after,
+  .widget-glava__oznaka { display: none; }
+  .widget-frame { border-top: $tok-baseline-width solid $tok-ink; }
+  body.quarto-dark .figure-theme-light,
+  .figure-theme-light { display: block; }
+  body.quarto-dark .figure-theme-dark,
+  .figure-theme-dark { display: none; }
+}
+
+// Predict, explore, explain. Shared by the chapter widgets and landing example.
+.experiment-lesson,.experiment-live,.experiment-actions,.experiment-feedback,.experiment-comparison{margin:1rem 1.5rem}
+.experiment-step{font-family:var(--tok-font-sans);font-size:.75rem;letter-spacing:.06em;color:var(--tok-concept)}
+.experiment-question{font-family:var(--tok-font-sans);font-size:1.1rem;margin:.5rem 0}
+.experiment-lesson label{display:block;font-family:var(--tok-font-sans);font-size:.8rem}
+.experiment-lesson textarea{display:block;width:100%;max-width:40rem;min-height:60px;background:var(--tok-surface);color:var(--tok-ink);border:1px solid var(--tok-rule);padding:.5rem;font:inherit;resize:vertical}
+.experiment-reveal{margin-top:.75rem;border-left:3px solid var(--tok-concept);padding-left:.75rem}
+.experiment-reveal summary{min-height:44px;cursor:pointer;font-family:var(--tok-font-sans)}
+.experiment-reveal p,.experiment-live{font-size:.9rem;max-width:66ch}
+.experiment-live{border-top:1px solid var(--tok-rule);padding-top:1rem}
+.experiment-actions{display:flex;gap:.5rem;flex-wrap:wrap}
+.experiment-actions button{font-family:var(--tok-font-sans);font-size:.85rem;min-height:44px;border:1px solid var(--tok-ink);padding:.5rem .75rem;background:var(--tok-surface);color:var(--tok-ink)}
+.experiment-actions button:hover{background:var(--tok-accent-wash)}
+.experiment-actions button:disabled{opacity:.5}
+.experiment-actions :focus-visible,.experiment-lesson :focus-visible{outline:2px solid var(--tok-ink);outline-offset:3px}
+.experiment-feedback{font-size:.8rem}
+.experiment-share-url{width:90%;margin:0 5%;color:var(--tok-ink);background:var(--tok-surface)}
+.experiment-comparison{border-top:3px solid var(--tok-ink);padding-top:1rem}
+.experiment-comparison>div{padding:1rem 0;border-bottom:1px solid var(--tok-rule)}
+.experiment-comparison h4{font-family:var(--tok-font-sans);font-size:1rem}
+.experiment-comparison p{font-size:.85rem}
+.experiment-comparison svg{display:block;max-width:100%;height:auto}
+.experiment-comparison .landing-bars{height:9rem}
+.landing-distribution .experiment-lesson,.landing-distribution .experiment-live,.landing-distribution .experiment-actions,.landing-distribution .experiment-feedback,.landing-distribution .experiment-comparison{margin:1rem 0}
+@media(max-width:600px){.experiment-lesson,.experiment-live,.experiment-actions,.experiment-feedback,.experiment-comparison{margin-inline:1rem}}
+@media print{.experiment-lesson,.experiment-actions,.experiment-feedback,.experiment-share-url,.experiment-comparison{display:none}}
+
+// Learning prompts and saved plots need the full reading-column width.
+#interakcija-w08 .widget-workbench{display:block}

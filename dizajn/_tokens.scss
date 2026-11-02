@@ -1,0 +1,102 @@
+$tok-paper:       #faf9fc !default;
+$tok-paper-soft:  #ece9ef !default;
+$tok-surface:     #ffffff !default;
+
+// --- tekst -----------------------------------------------------------
+$tok-ink:         #271c30 !default;
+$tok-ink-soft:    #342b38 !default;
+$tok-ink-mute:    #504956 !default;
+$tok-ink-faint:   #605866 !default;
+
+// --- vlas linije -----------------------------------------------------
+// Strukturne, ne izvedene iz tinte: topli papir traži toplu liniju.
+$tok-rule:        #beb7c4 !default;
+$tok-rule-soft:   #dbd7df !default;
+
+// --- akcent: OKER. Samo dodir i navođenje. ----------------------------
+// Na papiru oker ima 1,6 : 1, pa ga uvijek prati tinta, rub ili debljina.
+$tok-accent:      #a1d1bd !default;
+$tok-on-accent:   #19352c !default;
+$tok-accent-deep: #20574e !default;
+$tok-accent-dark: #12372f !default;
+$tok-accent-wash: #dcf2e7 !default;
+
+// --- modra gradi pojam, crvena označava grešku -----------------------
+$tok-concept:     #593666 !default;
+$tok-error:       #a12e63 !default;
+$tok-alert:       #84214e !default;
+
+// --- paleta podataka, poredana po svjetlini --------------------------
+$tok-data-1:      #29242d !default;
+$tok-data-2:      #47404e !default;
+$tok-data-3:      #676370 !default;
+$tok-data-4:      #93909a !default;
+$tok-data-5:      #c3bfca !default;
+
+// --- naslovna zona: iste vrijednosti u obje teme ---------------------
+// _dark.scss ih namjerno ne nadjačava.
+$tok-brand-mustard: #3b1749 !default;
+$tok-brand-navy:    #d7c8ec !default;
+$tok-brand-cream:   #f4fff6 !default;
+$tok-brand-red:     #20574e !default;
+$tok-brand-ink:     #271c30 !default;
+
+// --- izvedene prozirnosti (nikad novi hex) ---------------------------
+$tok-rule-strong: rgba($tok-ink, 0.34) !default;
+$tok-shadow:      rgba($tok-ink, 0.16) !default;
+
+// --- pisma -----------------------------------------------------------
+// Jost displej, naslovi i sučelje · Literata tijelo · JetBrains Mono brojke
+// i kod. Učitava ih styles/head.html.
+$tok-font-display: "Jost", Futura, "Century Gothic", sans-serif !default;            // token-font:display
+$tok-font-serif:   "Literata", Georgia, serif !default;                              // token-font:serif
+$tok-font-sans:    "Jost", Futura, "Century Gothic", sans-serif !default;            // token-font:sans
+$tok-font-mono:    "JetBrains Mono", ui-monospace, SFMono-Regular, monospace !default; // token-font:mono
+
+// --- mjerilo, crte i ritam --------------------------------------------
+$tok-measure:          66ch !default;    // mjera retka — najvažnije pravilo u knjizi
+$tok-radius:           0 !default;       // pravi kut; krug i kupola su oblici
+$tok-radius-lg:        0 !default;
+$tok-radius-dome:      9999px !default;  // kupola: samo gornji (ili samo donji) kutovi
+$tok-rule-width:       2px !default;     // os
+$tok-definition-width: 4px !default;     // lijeva os definicije
+$tok-heading-width:    3px !default;     // crta iznad naslova odjeljka
+$tok-baseline-width:   6px !default;     // osnovica
+$tok-touch:            44px !default;    // najmanja visina kontrole
+$tok-space:            1.15rem !default; // osnovni razmak između pasusa
+
+// --- Bootstrap preslikavanje ----------------------------------------
+// !default da _dark.scss može nadjačati pri tamnom compileu.
+$body-color:             $tok-ink-soft !default;
+$body-bg:                $tok-paper !default;
+$font-family-base:       $tok-font-serif;
+$font-family-serif:      $tok-font-serif;
+$font-family-sans-serif: $tok-font-sans;
+$font-family-monospace:  $tok-font-mono;
+
+$headings-font-family:   $tok-font-sans;
+$headings-font-weight:   500;          // Jost 500; displejni registar je 400
+$headings-color:         $tok-ink !default;
+$headings-line-height:   1.2;
+
+$font-size-base:         1.0625rem;    // 17 px
+$line-height-base:       1.62;
+$h1-font-size:           3.25rem;
+$h2-font-size:           1.75rem;
+$h3-font-size:           1.25rem;
+$h4-font-size:           1.0625rem;
+
+$primary:                $tok-accent-deep !default;
+$secondary:              $tok-ink-mute !default;
+$link-color:             $tok-accent-deep !default;
+$link-hover-color:       $tok-accent-dark !default;
+$border-color:           $tok-rule !default;
+$border-radius:          0;
+$border-radius-sm:       0;
+$border-radius-lg:       0;
+$card-bg:                $tok-surface !default;
+$card-border-color:      $tok-rule !default;
+$code-color:             $tok-ink !default;
+$code-bg:                $tok-accent-wash !default;
+$callout-border-width:   $tok-rule-width;
+$callout-border-radius:  0;

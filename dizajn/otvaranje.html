@@ -1,0 +1,23 @@
+<script>
+(() => {
+  const header = document.querySelector("#title-block-header");
+  const number = header?.querySelector("h1 .chapter-number")?.textContent.trim();
+  if (!/^\d+$/.test(number)) return;
+  const part = header.querySelector(".breadcrumb-item")?.textContent.trim();
+  const title = header.querySelector(".quarto-title");
+  const rail = document.createElement("div");
+  rail.className = "zv-rail";
+  rail.setAttribute("aria-hidden","true");
+  const disc = document.createElement("span");
+  disc.className = "zv-rail__disc";
+  disc.textContent = number.padStart(2,"0");
+  rail.append(disc);
+  const kicker = document.createElement("p");
+  kicker.className = "chapter-kicker kicker";
+  kicker.textContent = ["Poglavlje " + number, part].filter(Boolean).join(" Â· ");
+  const spacer = header.querySelector("h1 .chapter-number").nextSibling;
+  if (spacer?.nodeType === Node.TEXT_NODE) spacer.textContent = spacer.textContent.trimStart();
+  title.prepend(rail,kicker);
+  header.classList.add("zv-opener");
+})();
+</script>

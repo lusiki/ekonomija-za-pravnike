@@ -4,7 +4,12 @@ project:
   resources:
     - ucenje/*.md
     - dizajn/ravnoteza.svg
+    - dizajn/fontovi/*
 lang: hr
+language:
+  crossref-fig-title: Slika
+  crossref-tbl-title: Tablica
+  section-title-appendices: Dodaci
 book:
   title: Osnove ekonomije za pravnike
   subtitle: Teorija, regulacija i politike
@@ -14,7 +19,7 @@ book:
     - part: "Uvod u ekonomiju i struktura ekonomske znanosti"
       chapters:
         - poglavlja/01.qmd
-    - part: "Mikroekonomija – potrošači, proizvodnja, tržišta i regulacija"
+    - part: "Mikroekonomija â€“ potroĹˇaÄŤi, proizvodnja, trĹľiĹˇta i regulacija"
       chapters:
         - poglavlja/02.qmd
         - poglavlja/03.qmd
@@ -23,29 +28,29 @@ book:
         - poglavlja/06.qmd
         - poglavlja/07.qmd
         - poglavlja/08.qmd
-    - part: "Makroekonomija – mjerenje, kratki rok i modeli ravnoteže"
+    - part: "Makroekonomija â€“ mjerenje, kratki rok i modeli ravnoteĹľe"
       chapters:
         - poglavlja/09.qmd
         - poglavlja/10.qmd
         - poglavlja/11.qmd
-    - part: "Srednji rok – tržište rada, inflacija i AS-AD model"
+    - part: "Srednji rok â€“ trĹľiĹˇte rada, inflacija i AS-AD model"
       chapters:
         - poglavlja/12.qmd
         - poglavlja/13.qmd
-    - part: "Monetarna politika, bankarstvo i središnje banke"
+    - part: "Monetarna politika, bankarstvo i srediĹˇnje banke"
       chapters:
         - poglavlja/14.qmd
         - poglavlja/15.qmd
-    - part: "Fiskalna politika, javni dug i pravna ograničenja"
+    - part: "Fiskalna politika, javni dug i pravna ograniÄŤenja"
       chapters:
         - poglavlja/16.qmd
         - poglavlja/17.qmd
-    - part: "Otvoreno gospodarstvo, međunarodna trgovina i europska integracija"
+    - part: "Otvoreno gospodarstvo, meÄ‘unarodna trgovina i europska integracija"
       chapters:
         - poglavlja/18.qmd
         - poglavlja/19.qmd
         - poglavlja/20.qmd
-    - part: "Empirijska analiza i ključni pokazatelji: RH, EU i SAD"
+    - part: "Empirijska analiza i kljuÄŤni pokazatelji: RH, EU i SAD"
       chapters:
         - poglavlja/21.qmd
   appendices:
@@ -54,10 +59,19 @@ book:
     - dodaci/C.qmd
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [default, dizajn/tema.scss]
+      dark: [default, dizajn/tema.scss, dizajn/tamna.scss]
+    include-after-body: dizajn/otvaranje.html
+    grid:
+      sidebar-width: 280px
+      body-width: 680px
+      margin-width: 260px
+      gutter-width: 2.2rem
     css: dizajn/knjiga.css
     toc: true
   typst:
+    font-paths: [dizajn/fontovi]
     papersize: iso-b5
     template-partials:
       - tisak/typst-show.typ
