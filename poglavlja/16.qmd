@@ -1,0 +1,23 @@
+# Mjere fiskalne politike i proračunski mehanizmi
+
+*Radni nacrt prema nastavnom planu.*
+
+## Instrumenti fiskalne politike {#tema-16-1}
+
+**Teme iz plana**
+
+- Javna potrošnja ($G$), transferna plaćanja i porezni sustav.
+- Diskrecijska fiskalna politika prema automatskim stabilizatorima.
+
+## Proračunski deficit i dinamika javnog duga {#tema-16-2}
+
+**Teme iz plana**
+
+- Primarni deficit, kamate i održivost javnog duga.
+- Opasnosti od krize javnog duga (Sovereign Debt Crisis) i neizvršenja obveza (Default).
+
+## Ricardijanska jednakost (Ricardian Equivalence) {#tema-16-3}
+
+**Teme iz plana**
+
+- Ponašanje potrošača u uvjetima zaduživanja države umjesto oporezivanja.

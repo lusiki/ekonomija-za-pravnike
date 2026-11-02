@@ -1,0 +1,16 @@
+# Monetarni sustav i funkcioniranje bankarstva
+
+*Radni nacrt prema nastavnom planu.*
+
+## Priroda, funkcije i vrste novca {#tema-14-1}
+
+**Teme iz plana**
+
+- Novac kao medij razmjene, obračunska jedinica i spremište vrijednosti.
+
+## Poslovno bankarstvo i proces stvaranja novca {#tema-14-2}
+
+**Teme iz plana**
+
+- Sustav djelomičnih rezervi i novčani multiplikator.
+- Prudencijalna regulacija banaka i uloga regulatora (Basel III/IV pravila).

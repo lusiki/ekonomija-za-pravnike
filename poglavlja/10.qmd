@@ -1,0 +1,15 @@
+# Tržište dobara i određivanje proizvodnje u kratkom roku
+
+*Radni nacrt prema nastavnom planu.*
+
+## Sastav BDP-a i agregatna potražnja {#tema-10-1}
+
+**Teme iz plana**
+
+- Potrošnja ($C$), investicije ($I$), državna potrošnja ($G$), neto izvoz ($NX$).
+
+## Određivanje ravnotežne proizvodnje {#tema-10-2}
+
+**Teme iz plana**
+
+- Sklonost potrošnji i štednji; multiplikator autonomne potrošnje.

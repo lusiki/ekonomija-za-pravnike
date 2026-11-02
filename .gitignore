@@ -1,0 +1,11 @@
+/_book/
+/.quarto/
+/privatno/
+*.wav
+*.m4a
+*.mp3
+*.mp4
+*.vtt
+*.srt
+
+**/*.quarto_ipynb

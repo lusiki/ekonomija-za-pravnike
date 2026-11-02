@@ -1,0 +1,17 @@
+# Financijska tržišta i IS-LM model
+
+*Radni nacrt prema nastavnom planu.*
+
+## Financijska tržišta i ponuda i potražnja za novcem {#tema-11-1}
+
+**Teme iz plana**
+
+- Određivanje kamatne stope u kratkom roku.
+
+## Središnji IS-LM model {#tema-11-2}
+
+**Teme iz plana**
+
+- Tržište dobara i IS krivulja; financijska tržišta i LM krivulja.
+- Učinci miksa monetarne i fiskalne politike na proizvodnju i kamatne stope.
+- Efekt istiskivanja privatnih investicija (Crowding-out effect).

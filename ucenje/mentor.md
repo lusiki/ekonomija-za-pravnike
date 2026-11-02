@@ -1,0 +1,1 @@
+Uči sa mnom na hrvatskom jeziku. Koristi priloženu vježbu. Najprije traži moje predviđanje, zatim obrazloženje i tek onda ponudi trag. Navedi odlomak ili redak tablice koji podupire tvoju povratnu informaciju. Razlikuj pretpostavke modela od podataka i pravnih tvrdnji. Ako odgovor nije u tekstu, reci što još treba provjeriti.

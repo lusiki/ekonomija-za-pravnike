@@ -1,0 +1,70 @@
+project:
+  type: book
+  output-dir: _book
+  resources:
+    - ucenje/*.md
+lang: hr
+book:
+  title: Osnove ekonomije za pravnike
+  author: Radno izdanje za nastavu
+  subtitle: Teorija, regulacija i politike
+  output-file: ekonomija-za-pravnike
+  chapters:
+    - index.qmd
+    - part: "Uvod u ekonomiju i struktura ekonomske znanosti"
+      chapters:
+        - poglavlja/01.qmd
+    - part: "Mikroekonomija – potrošači, proizvodnja, tržišta i regulacija"
+      chapters:
+        - poglavlja/02.qmd
+        - poglavlja/03.qmd
+        - poglavlja/04.qmd
+        - poglavlja/05.qmd
+        - poglavlja/06.qmd
+        - poglavlja/07.qmd
+        - poglavlja/08.qmd
+    - part: "Makroekonomija – mjerenje, kratki rok i modeli ravnoteže"
+      chapters:
+        - poglavlja/09.qmd
+        - poglavlja/10.qmd
+        - poglavlja/11.qmd
+    - part: "Srednji rok – tržište rada, inflacija i AS-AD model"
+      chapters:
+        - poglavlja/12.qmd
+        - poglavlja/13.qmd
+    - part: "Monetarna politika, bankarstvo i središnje banke"
+      chapters:
+        - poglavlja/14.qmd
+        - poglavlja/15.qmd
+    - part: "Fiskalna politika, javni dug i pravna ograničenja"
+      chapters:
+        - poglavlja/16.qmd
+        - poglavlja/17.qmd
+    - part: "Otvoreno gospodarstvo, međunarodna trgovina i europska integracija"
+      chapters:
+        - poglavlja/18.qmd
+        - poglavlja/19.qmd
+        - poglavlja/20.qmd
+    - part: "Empirijska analiza i ključni pokazatelji: RH, EU i SAD"
+      chapters:
+        - poglavlja/21.qmd
+  appendices:
+    - dodaci/A.qmd
+    - dodaci/B.qmd
+    - dodaci/C.qmd
+format:
+  html:
+    theme: cosmo
+    toc: true
+  typst:
+    papersize: iso-b5
+    toc: true
+    fontsize: 11pt
+    margin:
+      left: 23mm
+      right: 23mm
+      top: 20mm
+      bottom: 23mm
+
+
+
