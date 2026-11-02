@@ -3,6 +3,7 @@ project:
   output-dir: _book
   resources:
     - ucenje/*.md
+    - dizajn/ravnoteza.svg
 lang: hr
 book:
   title: Osnove ekonomije za pravnike
@@ -54,8 +55,10 @@ book:
 format:
   html:
     theme: cosmo
+    css: dizajn/knjiga.css
     toc: true
   typst:
     papersize: iso-b5
     template-partials:
       - tisak/typst-show.typ
+
