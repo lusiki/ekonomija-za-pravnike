@@ -1,6 +1,6 @@
 # Jedan euro, različita gospodarstva
 
-Dvije zemlje koriste istu valutu. U jednoj raste potražnja, a u drugoj se zatvaraju pogoni. Kako izgleda odluka o jednoj kamatnoj stopi za obje?
+Uvoznik koji prihode prima u eurima zna koliko mu eura treba za podmirenje računa izdanog u istoj valuti. Za račun u dolarima još mora pratiti tečaj. Zajednička valuta mijenja i odluke izvan njegova poduzeća. Kada u jednoj zemlji raste potražnja, a u drugoj se zatvaraju pogoni, obje i dalje dijele istu monetarnu politiku.
 
 ## Kada zemljama odgovara zajednička valuta? {#tema-20-1}
 

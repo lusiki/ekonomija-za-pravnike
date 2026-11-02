@@ -1,6 +1,6 @@
 # Tko na kraju plaća carinu?
 
-Na granici se razmatra nova carina. Domaći proizvođač, uvoznik i kupac istoga proizvoda imaju različite razloge da prate njezin učinak.
+Uvozniku ponovno stiže račun u dolarima. Ovaj put cijena na računu i tečaj ostaju isti, a mijenja se carina. Uvoznik može pokušati dio dodatnog troška prenijeti na kupce. Prije nego što procijenimo koliko će u tome uspjeti, pogledajmo zašto se ta roba uopće isplati uvoziti.
 
 ## Zašto trgujemo i kad smo u svemu brži? {#tema-19-1}
 
@@ -10,4 +10,4 @@ Jedna zemlja može proizvesti oba dobra s manje sati rada, a ipak imati koristi 
 
 Carina mijenja trošak uvoza, a kvota ograničava količinu koja smije ući. Usporedite što to znači domaćem proizvođaču, uvozniku i kupcu. Za primjer necarinske prepreke utvrdite koje se pravilo Svjetske trgovinske organizacije primjenjuje i kako bi članice mogle pokrenuti spor.
 
-Uvoznik iz [prethodnog poglavlja](18.qmd#tema-18-1) uspoređuje dvije ponude za istu robu. Odvojeno razmotrite promjenu tečaja dolara i promjenu carine. U profilu EU-a pri Svjetskoj trgovinskoj organizaciji pronađite primijenjenu i obvezujuću carinsku stopu. Za račun konkretnom klijentu trebaju još tarifna oznaka robe, podrijetlo i datum uvoza. Zašto prosjek za cijelu skupinu proizvoda ne može zamijeniti taj podatak? [WTO, tarifni profil Europske unije](https://ttd.wto.org/en/profiles/european-union)
+Usporedite današnji obračun s [uvoznikovim računom pri promjeni tečaja](18.qmd#tema-18-1). Koja se stavka mijenja u svakome? U profilu EU-a pri Svjetskoj trgovinskoj organizaciji pronađite primijenjenu i obvezujuću carinsku stopu. Za račun konkretnom klijentu trebaju još tarifna oznaka robe, podrijetlo i datum uvoza. Zašto prosjek za cijelu skupinu proizvoda ne može zamijeniti taj podatak? [WTO, tarifni profil Europske unije](https://ttd.wto.org/en/profiles/european-union)

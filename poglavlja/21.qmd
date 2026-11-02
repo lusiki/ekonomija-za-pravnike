@@ -1,6 +1,6 @@
 # Hrvatska, EU i SAD u brojkama
 
-U raspravi o životnom standardu netko predloži da usporedimo BDP po stanovniku. Prije izrade grafa treba odlučiti kako ćemo usporediti dohotke ondje gdje se cijene razlikuju.
+Uvoznik iz svojih računa može razabrati koliko njega stoji jedna pošiljka. Za usporedbu životnog standarda u Hrvatskoj, EU-u i SAD-u moramo prijeći s jednog poduzeća na cijelo gospodarstvo. Krenimo od BDP-a po stanovniku. Isti novčani iznos u različitim zemljama ne kupuje istu količinu dobara.
 
 ## Kako usporediti dohodak po stanovniku? {#tema-21-1}
 

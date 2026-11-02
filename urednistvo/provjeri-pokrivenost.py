@@ -25,6 +25,7 @@ for row in rows:
     keys = row["Javni izvori (oznake)"].split()
     if not keys or set(keys) - set(source_keys):
         raise SystemExit(f"Nepotpuna ili nepoznata uputa na izvor u odsjeku {row['Odsjek']}.")
-    if not all(row[field].strip() for field in ("Stanje", "Zadatak za studenta", "Sljedeći korak")):
-        raise SystemExit(f"Nedostaje stanje, zadatak ili sljedeći korak u odsjeku {row['Odsjek']}.")
+    for field in ("Stanje", "Čitatelj već zna", "Zadatak za studenta", "Što još treba razjasniti", "Sljedeći korak"):
+        if not (row.get(field) or "").strip():
+            raise SystemExit(f"Odsjek {row['Odsjek']}: popunite rubriku „{field}”.")
 print(f"Provjereno: {len(rows)} odsjeka i {len(source_keys)} izvora.")

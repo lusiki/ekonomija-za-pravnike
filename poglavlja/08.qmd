@@ -19,3 +19,5 @@ Biste li danas platili 100 eura za pravo na isplatu 100 eura za godinu dana? Dis
 ## Tko nadzire financijska tržišta? {#tema-8-4}
 
 U spisu potražite tko je trgovao, kojim instrumentom i kojim je informacijama raspolagao. Za povlaštene informacije i manipuliranje tržištem istražite Uredbu o zlouporabi tržišta (MAR), a za zaštitu ulagatelja pravila MiFID-a II. Razlučite ovlasti hrvatske HANFA-e, europske ESMA-e i američkog SEC-a.
+
+Vratimo se ulagačici iz uvoda. U uvjetima izdanja obveznice može pročitati iznos koji joj izdavatelj obećava na dospijeću. Čak i ako iznos primi u cijelosti, ostaje otvoreno koliko će za taj novac tada moći kupiti.

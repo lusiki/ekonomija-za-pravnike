@@ -1,6 +1,6 @@
 ### Hoće li Ana dobiti stan?
 
-Zamislite grad u kojem se pri mjesečnoj najamnini od 600 eura nudi 60 stanova, a kućanstva žele unajmiti upravo 60. Grad razmatra gornju granicu od 400 eura. Prije računanja pokušajte predvidjeti kako će na nižu najamninu reagirati vlasnici, a kako kućanstva.
+Ako dobije stan po 400 eura mjesečno, Ana ga može platiti. Grad razmatra upravo tu gornju granicu. Prije računanja predvidite kako će na nju reagirati vlasnici i druga kućanstva koja traže stan. Usporedite njihove odluke s početnom ravnotežom u kojoj se pri najamnini od 600 eura nudi i traži 60 stanova.
 
 U ovom zamišljenom modelu povećanje mjesečne najamnine za 100 eura povećava ponuđenu količinu za 10 stanova i smanjuje traženu količinu za 10 stanova. Ostali se uvjeti ne mijenjaju. Usporedite dva prijedloga.
 
