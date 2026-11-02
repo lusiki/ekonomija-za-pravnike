@@ -1,6 +1,6 @@
 # Koliko je život poskupio?
 
-Na blagajni je račun za isti tjedni popis namirnica viši nego lani. U ugovoru piše da se godišnja naknada usklađuje s inflacijom. Čije kupnje ulaze u indeks po kojem će se naknada promijeniti?
+Ulagačica je primila obećani iznos. Na blagajni primjećuje da za istu košaricu izdvaja više nego lani. Njezin račun govori o cijenama onoga što ona kupuje. Da bismo procijenili koliko je poskupio život u cijeloj zemlji, moramo obuhvatiti i kupnje drugih kućanstava. Sličan problem nastaje kada poraste vrijednost svega što zemlja proizvede. Koliko se promijenila količina, a koliko cijene?
 
 ## Što sve ulazi u BDP? {#tema-9-1}
 

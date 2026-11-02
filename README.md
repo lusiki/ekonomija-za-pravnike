@@ -9,7 +9,7 @@ Za prvo ili sljedeće predavanje otvorite [postupak obrade s primjerom za 2.2](u
 ## Rad nakon predavanja
 
 1. Snimku, prijepis s vremenskim oznakama i bilješke s ploče pohranite izvan javnog repozitorija. U radnoj tablici koristite interne oznake bez osobnih podataka.
-2. U [tablici pokrivenosti](urednistvo/pokrivenost.tsv) pridružite dijelove predavanja odsjecima. Jedno predavanje može pripadati različitim poglavljima. Ako je tema izostala, označite treba li autorsku dopunu, izvor ili dodatno predavanje.
+2. U [tablici pokrivenosti](urednistvo/pokrivenost.tsv) pridružite dijelove predavanja odsjecima. Pročitajte tri susjedna stupca o predznanju, zadatku i otvorenom pitanju te ih uskladite s prijepisom. Jedno predavanje može pripadati različitim poglavljima. Ako je tema izostala, označite treba li autorsku dopunu, izvor ili dodatno predavanje.
 3. U pripadnom dokumentu u mapi poglavlja razvijte mehanizam kroz pitanje budućeg pravnika. Uvedite intuiciju prije formule i protumačite svaki graf. Za brojke navedite izvor i razdoblje, a za propis nadležnost, službeni izvor i datum provjere.
 4. Nakon stručne i autorske provjere zamijenite natuknice gotovim tekstom i ažurirajte stanje u tablici. Za učenje uz AI odaberite samo javni nastavni tekst. Primjer u ucenje/najamnina.md zajednički je izvor za knjigu i mentorsku vježbu.
 5. Nakon promjene modela usporedite prikaz u pregledniku s tablicom i statičkim grafom u PDF-u. Pri granici od 400 eura model treba dati manjak od 40 stanova, a pri granici od 800 eura manjak od nula stanova.

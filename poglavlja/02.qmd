@@ -1,10 +1,10 @@
 # Stan za 400 eura
 
-Ana traži stan. Grad razmatra prijedlog da mjesečna najamnina smije iznositi najviše 400 eura. Ana zna koliko bi mogla platiti. Još ne zna hoće li joj itko po toj cijeni ponuditi stan.
+Ana otvara oglasnik s jednostavnim pitanjem. Može li za svoj mjesečni proračun pronaći stan? Dok lista oglase, vidi samo cijene i stanove koji se nude. Druge ljude koji upravo traže isto što i ona ne vidi.
 
 ## Gdje se susreću ponuda i potražnja? {#tema-2-1}
 
-Kućanstva se pri nižoj najamnini češće odluče na samostalan najam. Vlasniku se pri istoj cijeni može više isplatiti da stan upotrijebi drukčije. Zato pri svakoj mogućoj cijeni zasebno brojimo koliko stanova kućanstva žele unajmiti i koliko ih vlasnici žele ponuditi. Ravnotežna je ona cijena pri kojoj se te dvije količine podudaraju. U vježbi možemo promijeniti pravilo o cijeni i pratiti obje skupine.
+Kućanstva se pri nižoj najamnini češće odluče na samostalan najam. Vlasniku se pri istoj cijeni može više isplatiti da stan upotrijebi drukčije. Zato pri svakoj mogućoj cijeni zasebno brojimo koliko stanova kućanstva žele unajmiti i koliko ih vlasnici žele ponuditi. Ravnotežna je ona cijena pri kojoj se te dvije količine podudaraju. U našem zamišljenom gradu pri najamnini od 600 eura vlasnici nude 60 stanova, a kućanstva žele unajmiti upravo toliko. Ani za tu najamninu nedostaje 200 eura.
 
 ## Kad propis utječe na cijenu {#tema-2-2}
 

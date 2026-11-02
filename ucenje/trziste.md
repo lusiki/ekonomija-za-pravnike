@@ -2,7 +2,7 @@
 
 U zamišljenom primjeru cijena kruha u pekarnici A poraste s 2,00 na 2,20 eura. Pekarnica B zadrži cijenu, a njezina dnevna prodaja poraste sa 100 na 105 kruhova. Ako ostale okolnosti ostanu jednake, na rast cijene u A od 10 % odgovara rast prodaje u B od 5 %. Omjer tih dviju promjena iznosi 0,5. U ovom računu obje postotne promjene mjerimo prema početnoj vrijednosti.
 
-Pozitivan predznak upućuje na to da kupci mogu zamijeniti jedan kruh drugim. Zamislite sada da se pokraj pekarnice B istoga dana otvorila škola. B prodaje više i ako nijedan dotadašnji kupac pekarnice A ne promijeni trgovinu. Koji biste podatak zatražili da razlikujete ta dva objašnjenja?
+Pozitivan predznak upućuje na to da kupci mogu zamijeniti jedan kruh drugim. Zamislite sada da se pokraj pekarnice B istoga dana otvorila škola. Dodatnih pet kruhova mogli su kupiti učenici na putu do škole. U toj bi priči porast prodaje bio jednak, a zaključak o izboru dotadašnjih kupaca drukčiji. Koji biste podatak zatražili da razlikujete ta dva objašnjenja?
 
 Komisija pri određivanju mjerodavnog tržišta razmatra dokaze o tome kojim se proizvodima kupci mogu okrenuti, uključujući njihovo ponašanje nakon ranijih promjena cijena. Izaberite dvije vrste dokaza iz odjeljka 3.2.1. Obavijesti i objasnite kako biste ih iskoristili u primjeru s kruhom. [Europska komisija, Obavijest o definiciji mjerodavnog tržišta, C/2024/1645](https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:52024XC01645)
 
