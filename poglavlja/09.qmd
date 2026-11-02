@@ -12,6 +12,8 @@ U ugovoru piše da se naknada jednom godišnje usklađuje s inflacijom. Koji će
 - Indeks potrošačkih cijena (CPI) i Harmonizirani indeks potrošačkih cijena (HICP).
 - Indeksacija u pravu: prilagodba ugovora, plaća i mirovina stopi inflacije.
 
+**Od indeksa do ugovora.** U objavi DZS-a pronađite promjenu indeksa potrošačkih cijena prema prethodnom mjesecu i prema istom mjesecu prethodne godine. Zapišite oba početna mjeseca. Koja usporedba odgovara ugovoru kojim se godišnja naknada usklađuje svakog siječnja? Zatim primijenite isti postupak na [dvije naknade iz poglavlja o novcu](15.qmd#tema-15-3). [DZS, indeksi potrošačkih cijena](https://podaci.dzs.hr/hr/podaci/cijene/indeksi-potrosackih-cijena/)
+
 ## Ograničenja BDP-a kao mjere blagostanja {#tema-9-3}
 
 - Siva ekonomija, rad na crno, ekološki troškovi i kvaliteta života.

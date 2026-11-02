@@ -1,5 +1,9 @@
 # Gdje u Ugovoru tražiti pravilo?
 
-Izbor članaka Ugovora o funkcioniranju Europske unije o ekonomskoj politici, tržišnom natjecanju i monetarnoj uniji.
+Pođite od pitanja u spisu. U hrvatskom tekstu Ugovora o funkcioniranju Europske unije (UFEU) pronađite članak i izdvojite stavak koji vam je potreban. [UFEU, pročišćena inačica, SL C 202 od 7. lipnja 2016.](https://eur-lex.europa.eu/eli/treaty/tfeu_2016/oj/hrv)
 
-*Dodatak je predviđen planom knjige i čeka autorsku obradu.*
+- **Dogovaraju li se konkurenti o cijenama?** U članku 101. pročitajte uvjete za primjenu zabrane i okolnosti iz stavka 3. Povežite ih s [raspravom o sporazumima](../poglavlja/06.qmd#tema-6-4).
+- **Kako poduzeće koristi vladajući položaj?** U članku 102. razlučite utvrđivanje položaja od pitanja zlouporabe. Vratite se [poglavlju o monopolu](../poglavlja/06.qmd#tema-6-2).
+- **Koji postupak slijedi zbog prekomjernog deficita?** Pratite uloge Komisije i Vijeća u članku 126. Potom otvorite [primjer hrvatskog plana](../poglavlja/17.qmd#tema-17-2).
+- **Koji je glavni cilj Europskog sustava središnjih banaka?** Potražite ga u članku 127. stavku 1. U [primjeru s kreditima](../poglavlja/15.qmd#tema-15-1) objasnite kako se odluka može prenijeti do kućanstva.
+- **Kako članica uvodi euro?** U članku 140. razlikujte izvješća o konvergenciji od odluke Vijeća. Provjerite kako je taj put izgledao [za Hrvatsku](../poglavlja/20.qmd#tema-20-2).

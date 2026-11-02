@@ -20,3 +20,11 @@ U raspravi o životnom standardu netko predloži da usporedimo BDP po stanovniku
 
 - Putanja fiskalne konsolidacije i duga RH u odnosu na pravila EU.
 - Utjecaj instrumenata EU (Mehanizam za oporavak i otpornost – NGEU) na investicije i potencijalni rast.
+
+### Završna bilješka klijentu
+
+Klijent iznosi tri tvrdnje. Za svaku napišite što biste mogli zaključiti iz izvora i koji vam podatak nedostaje.
+
+1. **„Hrvatski životni standard dosegnuo je prosjek Unije.”** Odaberite godinu i usporedite BDP po stanovniku sa stvarnom individualnom potrošnjom po stanovniku, oboje u standardima kupovne moći. Objasnite što izabrani pokazatelj mjeri i zašto bi izbor drugog pokazatelja mogao promijeniti odgovor. [Eurostat, pariteti kupovne moći i pokazatelji](https://ec.europa.eu/eurostat/en/web/purchasing-power-parities/information-data)
+2. **„Sve poskupljenje u siječnju 2023. posljedica je uvođenja eura.”** Eurostat je za Hrvatsku procijenio da je učinak promjene valute na mjesečnu harmoniziranu inflaciju u siječnju iznosio između 0,04 i 0,18 postotnih bodova. U prvom retku tablice 1 pronađite opaženu stopu i procijenjeni raspon bez promjene valute. Objasnite koji od tih brojeva zahtijeva procjenu onoga što bi se dogodilo da je kuna ostala u uporabi. [Eurostat, bilješka o uvođenju eura u Hrvatskoj, tablica 1](https://ec.europa.eu/eurostat/documents/272892/7106809/euro-changeover-note-croatia-2023.pdf/77066723-5f47-c561-e10d-46b7422a2564?t=1698403841492)
+3. **„Fiskalni plan dokazuje da se dug smanjio.”** Vratite se [tablici iz poglavlja o zaduživanju](17.qmd#tema-17-2). Razlikujte cilj rasta rashoda, projekciju udjela duga u BDP-u i naknadno izmjereni udio. Napišite koju biste od tih veličina morali usporediti za dvije završene godine da provjerite tvrdnju o smanjenju udjela duga.

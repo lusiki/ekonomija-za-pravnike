@@ -10,3 +10,5 @@ Na granici se razmatra nova carina. Domaći proizvođač, uvoznik i kupac istoga
 
 - Ekonomske i pravne posljedice carina, kvota i necarinskih prepreka.
 - Pravni mehanizmi Svjetske trgovinske organizacije (WTO) i rješavanje međunarodnih trgovačkih sporova.
+
+Uvoznik iz [prethodnog poglavlja](18.qmd#tema-18-1) uspoređuje dvije ponude za istu robu. Odvojeno razmotrite promjenu tečaja dolara i promjenu carine. U profilu EU-a pri Svjetskoj trgovinskoj organizaciji pronađite primijenjenu i obvezujuću carinsku stopu. Za račun konkretnom klijentu trebaju još tarifna oznaka robe, podrijetlo i datum uvoza. Zašto prosjek za cijelu skupinu proizvoda ne može zamijeniti taj podatak? [WTO, tarifni profil Europske unije](https://ttd.wto.org/en/profiles/european-union)

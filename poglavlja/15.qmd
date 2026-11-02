@@ -4,6 +4,8 @@ Dva dužnika imaju isti preostali dug, ali samo jedan ima promjenjivu kamatnu st
 
 ## Ciljevi i tradicionalni instrumenti monetarne politike {#tema-15-1}
 
+{{< include ../ucenje/kamate.md >}}
+
 - Operacije na otvorenom tržištu, obvezne rezerve, eskontne i diskontne stope.
 - Koncepcija neovisnosti središnjih banaka (pravni status HNB-a i ECB-a prema UFEU).
 
@@ -12,5 +14,9 @@ Dva dužnika imaju isti preostali dug, ali samo jedan ima promjenjivu kamatnu st
 - Kvantitativno olakšavanje (Quantitative Easing), negativne kamatne stope i smjernice o budućim namjerama (Forward Guidance).
 
 ## Pravne implikacije inflacije na ugovorne odnose {#tema-15-3}
+
+Dva poduzeća ugovaraju naknadu od 1 000 eura. U jednoj inačici ugovora iznos je fiksan. U drugoj se pri dospijeću množi omjerom završne i početne vrijednosti ugovorenog indeksa cijena. Ako u ovom primjeru indeks poraste sa 100 na 104, prva naknada ostaje 1 000 eura, a druga iznosi 1 040 eura. Koliko robe iz početne košarice vjerovnik može kupiti za svaki od tih iznosa?
+
+Za pravno obrazloženje pročitajte članke 21. i 23. hrvatskog Zakona o obveznim odnosima o monetarnom nominalizmu i indeksnoj klauzuli. U stvarnom ugovoru utvrdite mjerodavni tekst na dan koji analizirate te ugovoreni indeks i razdoblje. [Narodne novine, ZOO, NN 35/2005, čl. 21. i 23.](https://narodne-novine.nn.hr/clanci/sluzbeni/2005_03_35_707.html) · [Ministarstvo, popis izmjena](https://mpudt.gov.hr/zakon-o-obveznim-odnosima/6623)
 
 - Gubitak kupovne moći novca, revalorizacija dugova, zatezne kamate i valutne obveze.

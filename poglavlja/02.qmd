@@ -4,9 +4,7 @@ Ana traži stan. Grad razmatra prijedlog da mjesečna najamnina smije iznositi n
 
 ## Tržišna ravnoteža i alokativna funkcija cijena {#tema-2-1}
 
-- Krivulja potražnje i zakon potražnje;
-- Krivulja ponude i zakon ponude.
-- Mehanizam cijena i uspostava tržišne ravnoteže.
+Kućanstva se pri nižoj najamnini češće odluče na samostalan najam. Vlasniku se pri istoj cijeni može više isplatiti da stan upotrijebi drukčije. Zato pri svakoj mogućoj cijeni zasebno brojimo koliko stanova kućanstva žele unajmiti i koliko ih vlasnici žele ponuditi. Ravnotežna je ona cijena pri kojoj se te dvije količine podudaraju. U vježbi možemo promijeniti pravilo o cijeni i pratiti obje skupine.
 
 ## Izravna i posredna državna regulacija cijena {#tema-2-2}
 

@@ -23,3 +23,5 @@ Drugi opskrbljivač želi ući na tržište vode. Mora li raskopati iste ulice i
 
 - Prirodni monopol: Infrastrukturni monopoli (energetika, telekomunikacije, promet) uvjetovani izrazitim ekonomijama obujma.
 - Sektorska regulacija: Uloga i nadležnosti regulatornih agencija u RH (HERA, HAKOM) pri određivanju mrežnih pristupa i cjenovnih stropova.
+
+**Od vodovoda do električne mreže.** Kućanstvo ovaj mjesec potroši jedan kilovatsat manje. Koje izdatke operator mreže i dalje ima? HERA zasebno objavljuje odluke o tarifnim stavkama za distribuciju i prijenos električne energije. Otvorite odluku o distribuciji, zabilježite razdoblje primjene i odaberite jednu stavku. Po kojoj se jedinici ona obračunava? Objasnite koliko iz te stavke možemo saznati o trošku održavanja zajedničke mreže. [HERA, regulirane cijene električne energije](https://www.hera.hr/hr/html/cijene_eenergija.html)

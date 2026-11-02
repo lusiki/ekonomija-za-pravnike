@@ -4,8 +4,8 @@ Pekarnica povisi cijenu kruha. Dio kupaca prijeđe u susjednu pekarnicu, a dio n
 
 ## Cjenovna, dohodovna i unakrsna elastičnost potražnje {#tema-3-1}
 
-- Koncept i mjerenje elastičnosti.
+Ako cijena kruha u jednoj pekarnici poraste, njezinu vlasnicu zanima koliko će se promijeniti vlastita prodaja. Pravnici koja ispituje tržišno natjecanje važno je i kamo su kupci otišli. Vlastita cjenovna elastičnost povezuje promjenu tražene količine s promjenom cijene istog proizvoda. Unakrsna elastičnost povezuje tu količinu s cijenom drugog proizvoda. Kod dohodovne elastičnosti pitamo se kako kupnja reagira na promjenu dohotka kućanstva. U svakoj usporedbi ostale uvjete držimo jednakima.
 
 ## Pravna primjena elastičnosti pri definiranju mjerodavnog tržišta {#tema-3-2}
 
-- Primjena unakrsne cjenovne elastičnosti u praksi tijela za zaštitu tržišnog natjecanja (utvrđivanje stupnja supstitutivnosti dobara i usluga).
+{{< include ../ucenje/trziste.md >}}

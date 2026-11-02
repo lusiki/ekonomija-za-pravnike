@@ -1,5 +1,13 @@
 # Ekonomsko-pravni pojmovnik
 
-Ekonomski i pravni izrazi iz poglavlja knjige.
+**Gornja granica cijene** (*price ceiling*). Najviša dopuštena cijena. U [primjeru najma](../poglavlja/02.qmd#tema-2-2) granica od 800 eura dopušta sklapanje ugovora po nižoj ravnotežnoj cijeni.
 
-*Dodatak je predviđen planom knjige i čeka autorsku obradu.*
+**Indeksna klauzula** (*indexation clause*). Ugovorna odredba kojom se novčani iznos veže uz kretanje indeksa. U [primjeru naknade](../poglavlja/15.qmd#tema-15-3) omjer završnog i početnog indeksa određuje novi iznos.
+
+**Mjerodavno tržište** (*relevant market*). U analizi tržišnog natjecanja određuje se koje proizvode i koje područje treba zajedno promatrati kako bi se ocijenio konkurentski pritisak. [Primjer s pekarnicama i trgovinama](../poglavlja/03.qmd#tema-3-2).
+
+**Postotni bod** (*percentage point*). Jedinica razlike između dviju stopa iskazanih u postocima. Porast stope s 3 % na 4 % iznosi jedan postotni bod. [Primjer s kamatama](../poglavlja/15.qmd#tema-15-1).
+
+**Transakcijski troškovi** (*transaction costs*). Troškovi pronalaženja druge strane, pregovora te praćenja i provedbe dogovora. [Tvornica i susjedi](../poglavlja/07.qmd#tema-7-1).
+
+**Unakrsna cjenovna elastičnost potražnje** (*cross-price elasticity of demand*). Omjer postotne promjene tražene količine jednog proizvoda i postotne promjene cijene drugoga, uz ostale nepromijenjene uvjete. [Račun za dvije pekarnice](../poglavlja/03.qmd#tema-3-2).

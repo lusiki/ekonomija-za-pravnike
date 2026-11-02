@@ -32,3 +32,5 @@ Na dvjema benzinskim postajama istoga jutra osvane ista cijena. Istražiteljica 
 - Članak 101. UFEU (zabrana kartela) i Članak 102. UFEU (zlouporaba vladajućeg položaja) / Zakon o zaštiti tržišnog natjecanja RH (ZZTN).
 - Pokajnički program (Leniency Program): pravni mehanizam razbijanja kartela.
 - Ex-ante kontrola koncentracija te uloga Europske komisije (DG COMP) i Agencije za zaštitu tržišnog natjecanja (AZTN).
+
+**Vratite se predmetu Studenac/Pemo.** U [vježbi o granicama tržišta](03.qmd#tema-3-2) birali ste trgovine među kojima kupci mogu prijeći iz jedne u drugu. Sada zamislite da ista dva lanca drže velik dio trgovina u gradu, a malen dio trgovina u županiji. Zašto bi pogrešna geografska granica promijenila sliku o njihovu tržišnom položaju? Objasnite koji još podatak o konkurentima trebate za ocjenu koncentracije.

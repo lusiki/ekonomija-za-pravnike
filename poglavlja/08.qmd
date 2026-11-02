@@ -13,6 +13,8 @@ Poduzeće treba novac i nudi ulagačici izbor između dionice i obveznice. Ako p
 - Vlasnički instrumenti: dionice (Shares/Stocks), dividenda, glasačka prava i status dioničara u trgovačkom pravu.
 - Izvedeni financijski instrumenti (derivati): opcije, terminski ugovori (futures) i zamjene (swaps) – zaštita od rizika (hedging) prema špekulaciji.
 
+**Čitanje portfelja.** U statistici investicijskih fondova pronađite izvještajno razdoblje i kategoriju ulaganja u obveznice. U lancu financiranja razlikujte izdavatelja obveznice, fond koji ulaže u nju i ulagatelja koji kupuje udjel u fondu. Kome izdavatelj obećava isplatu? Gdje biste potražili rok dospijeća pojedine obveznice i prava koja proizlaze iz udjela? [HANFA, statistika financijskih tržišta](https://hanfa.hr/statistika/)
+
 ## Procjena vrijednosti imovine i hipoteza o efikasnom tržištu {#tema-8-3}
 
 - Vremenska vrijednost novca: diskontiranje i izračun sadašnje neto vrijednosti ($NPV$).

@@ -2,12 +2,18 @@
 
 Grad želi ograničiti najamninu. Poduzeće želi naplatiti štetu. Dvije stranke žele ugovoriti plaću koja će i sljedeće godine vrijediti jednako. U svakom od tih slučajeva pravnik mora razumjeti što ljudi mogu učiniti kad se pravilo promijeni.
 
-Ovo je radno izdanje. Poglavlja zasad donose uvodni slučaj i plan tema. U drugom je poglavlju razrađena vježba o najamninama.
+Ovo je radno izdanje. Uz plan predavanja dostupni su ogledni zadaci o najamninama, granicama tržišta i kamatama. Pojedina poglavlja sadrže kraće zadatke uz izvore. Na kraju knjige možete provjeriti kako se čita graf, pronaći članak Ugovora i razjasniti pojam.
+
+Prije računa pokušajte predvidjeti čiju će odluku pravilo promijeniti. Kad izračunate rezultat, vratite se osobi iz uvodnog slučaja. Možete li joj odgovoriti iz modela ili vam treba podatak o tržištu, odredba ugovora ili obrazloženje suda? Uz izvore u tekstu navedeni su članci, odlomci ili tablice koji pomažu u tom koraku.
 
 ::: {.content-visible when-format="html"}
 [Isprobajte slučaj s najamninom](poglavlja/02.qmd#tema-2-2){.btn-knjiga .primarni}
 
 [Preuzmite radni prijelom za tisak (PDF)](ekonomija-za-pravnike.pdf)
 
-Za učenje uz asistenta preuzmite [tekst probne vježbe](ucenje/najamnina.md) i [mentorsku uputu](ucenje/mentor.md). Priložite obje datoteke asistentu kojim se služite.
+Za učenje uz asistenta odaberite jednu vježbu i priložite joj [mentorsku uputu](ucenje/mentor.md).
+
+- [Stan za 400 eura](ucenje/najamnina.md)
+- [Dokazi o granicama tržišta](ucenje/trziste.md)
+- [Dvije kamatne stope](ucenje/kamate.md)
 :::
